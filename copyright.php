@@ -285,65 +285,6 @@
  </nav>
 </div>   
 
- <section class="design-process-section" id="process-tab">
-  <div class="container">
-    <div >
-      <div class="col-lg-12"> 
-      
-        <ul class="nav nav-tabs process-model more-icon-preocess" role="tablist">
-          <li role="presentation" class="active"><a href="#discover" aria-controls="discover" role="tab" data-toggle="tab" data-target="#discove"><i class="fa fa-search" aria-hidden="true"></i>
-            <p>Discover</p>
-        </a></li>
-        <li role="presentation"><a href="#strategy" aria-controls="strategy" role="tab" data-toggle="tab" data-target="#Strateg"><i class="fa fa-send-o" aria-hidden="true"></i>
-            <p>Strategy</p>
-        </a></li>
-        <li role="presentation"><a href="#optimization" aria-controls="optimization" role="tab" data-toggle="tab" data-target="#optimizatio"><i class="fa fa-qrcode" aria-hidden="true"></i>
-            <p>Optimization</p>
-        </a></li>
-        <li role="presentation"><a href="#content" aria-controls="content" role="tab" data-toggle="tab" data-target="#conten"><i class="fa fa-newspaper-o" aria-hidden="true"></i>
-            <p>Content</p>
-        </a></li>
-        <li role="presentation"><a href="#reporting" aria-controls="reporting" role="tab" data-toggle="tab"data-target="#reportin"><i class="fa fa-clipboard" aria-hidden="true"></i>
-            <p>Reporting</p>
-        </a></li>
-    </ul>
-   
-    <div class="tab-content">
-      <div role="tabpanel" class="tab-pane  show active" id="discove">
-        <div class="design-process-content">
-          <h3 class="semi-bold">Discovery</h3>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
-      </div>
-  </div>
-  <div role="tabpanel" class="tab-pane" id="Strateg">
-    <div class="design-process-content">
-      <h3 class="semi-bold">Strategy</h3>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
-  </div>
-</div>
-<div role="tabpanel" class="tab-pane" id="optimizatio">
-    <div class="design-process-content">
-      <h3 class="semi-bold">Optimization</h3>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
-  </div>
-</div>
-<div role="tabpanel" class="tab-pane" id="conten">
-    <div class="design-process-content">
-      <h3 class="semi-bold">Content</h3>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>              
-  </div>
-</div>
-<div role="tabpanel" class="tab-pane" id="reportin">
-    <div class="design-process-content">
-      <h3>Reporting</h3>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat. </p>
-  </div>
-</div>
-</div>
-</div>
-</div>
-</section>
-
 
 <br><br><br>
 <section id="theory" class="about roomy-100" > 
@@ -548,6 +489,72 @@
       </div> 
     </section> 
 <br><br><br>
+
+        <section class="design-process-section" id="process-tab">
+         <div class="container" >
+          <div class="col-lg-6 col-sm-6"  data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine"style="display: flex;">
+              <img width="100%" src="images1/StepDr870700.jpg" style="display: flex; justify-content: center;align-items: center;">     
+          </div>         
+          <div class="col-lg-6 col-sm-6" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine"> 
+            <h3 class="txtshadow num" >Procedure</h3>
+            <ul class="nav nav-tabs process-model more-icon-preocess" role="tablist">
+             <li role="presentation" class="active"><a href="#discover" aria-controls="discover" role="tab" data-toggle="tab" data-target="#discove"><i class="fa fa-search" aria-hidden="true"></i>
+               <p>Application </p>
+             </a></li>
+             <li role="presentation"><a href="#strategy" aria-controls="strategy" role="tab" data-toggle="tab" data-target="#Strateg"><i class="fa fa-send-o" aria-hidden="true"></i>
+               <p>Opposition</p>
+             </a></li>
+             <li role="presentation"><a href="#optimization" aria-controls="optimization" role="tab" data-toggle="tab" data-target="#optimizatio"><i class="fa fa-qrcode" aria-hidden="true"></i>
+               <p>Acceptance</p>
+             </a></li>
+             <li role="presentation"><a href="#content" aria-controls="content" role="tab" data-toggle="tab" data-target="#conten"><i class="fa fa-newspaper-o" aria-hidden="true"></i>
+               <p>Registration Certificate
+               </p>
+             </a></li>
+         <!-- <li role="presentation"><a href="#reporting" aria-controls="reporting" role="tab" data-toggle="tab"data-target="#reportin"><i class="fa fa-clipboard" aria-hidden="true"></i>
+             <p>Reporting</p>
+           </a></li> -->
+         </ul>
+         
+         <div class="tab-content" style="border: 1px solid #fbb900; ">
+           <div role="tabpanel" class="tab-pane  show active" id="discove">
+             <div class="design-process-content">
+               <h3 class="semi-bold">Application</h3>
+               <p>Preparation of Application for Design Registration and submission along with the necessary documents Attending to the proceedings and obtaining Provisional Papers after necessary follow up Publication in official journal</p>
+             </div>
+           </div>
+           <div role="tabpanel" class="tab-pane" id="Strateg">
+             <div class="design-process-content">
+               <h3 class="semi-bold">Opposition</h3>
+               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
+             </div>
+           </div>
+           <div role="tabpanel" class="tab-pane" id="optimizatio">
+             <div class="design-process-content">
+               <h3 class="semi-bold">Acceptance</h3>
+               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
+             </div>
+           </div>
+           <div role="tabpanel" class="tab-pane" id="conten">
+             <div class="design-process-content">
+               <h3 class="semi-bold">Registration Certificate</h3>
+               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>              
+             </div>
+           </div>
+ <!-- <div role="tabpanel" class="tab-pane" id="reportin">
+     <div class="design-process-content">
+       <h3>Reporting</h3>
+       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat. </p>
+   </div>
+ </div> -->
+</div>
+</div>
+</div>
+</section>
+
+<br><br>   
+
+
 <div class="row">
     <div class="container" style="display: flex; " >
         <!-- <div class="col-lg-6 col-sm-6"></div> -->
@@ -563,7 +570,212 @@
     </div>
 </div>                                                                   
 
+<section  class=""    id="parallex2" style="background-image: url(images1/bk2.jpg); box-shadow: 0 10px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 5%);"  >
 
+         <section class="info">
+            <div class="container">
+                <h2 class="txtshadow num" style="color: #ffb900;text-align: center;" >Awards & Achievement</h2>
+            </div>
+           <!-- <h1>Awards &mdash; Achievments </h1> -->
+         </section>
+         <br>
+         <section class="cards-wrapper">
+           <div class="cardA-grid-space">
+             <!-- <div class="num">LEGAL TEAM</div> -->
+             <a class="cardA" href="#" style="background-image: url(images1/Awards/IndianLaw.jpeg)">
+               <div style="display: flex;">
+                 <!-- <div class="tags"> -->
+                  <img src="images1/Awards/IndianLaw.jpeg" style="border-radius: 0px 20px;" alt="">
+               <!-- <h4 class="tag">Adv. Abbas All Qazi B.Sc.</h4>
+                 <p >A versatile lawyer by profession with more than 25 years of experience In Civil, Criminal and Intellectual property matters. At Flywings he heads the legal department.</p>
+                  <h4>Adv. P. S Joshi (B.Com) LL.M. A</h4>
+                 <p>A dynamic lawyer with more than 10 years of experience specially in IPR Matters and also practicing at High Court in Mumbai. At Flywings he takes care of all IPR related matters. Adv. D.S Shah (M.Com), LL.B., ACS. A dedicated lawyer and also a certified Company Secretary by proffession. At Flywings he takes care of all Company formation matters.
+                 <div class="date">6 Oct 2017</div>
+                 <div class="tags">
+                   <div class="tag">HTML</div>
+                 </div> --> 
+               </div>
+             </a>
+           </div>
+           <div class="cardA-grid-space">
+             <!-- <div class="num">MARKETING & RESEARCH TEAM</div> -->
+             <a class="cardA" href="#" style="background-image: url(images1/Awards/msme.jpg)">
+               <div>
+                <img src="images1/Awards/msme.jpg"style="border-radius: 0px 20px;" alt="">
+                 <!-- <h1>Adv. P. S Joshi (B.Com) LL.M. A</h1>
+                 <p>A dynamic lawyer with more than 10 years of experience specially in IPR Matters and also practicing at High Court in Mumbai. At Flywings he takes care of all IPR related matters. Adv. D.S Shah (M.Com), LL.B., ACS. A dedicated lawyer and also a certified Company Secretary by proffession. At Flywings he takes care of all Company formation matters.</p>
+                 <div class="date">6 Oct 2017</div>
+                 <div class="tags">
+                   <div class="tag">HTML</div>
+                 </div> -->
+               </div>
+             </a>
+           </div>
+           
+           <div class="cardA-grid-space">
+             <!-- <div class="num">03</div> -->
+             <a class="cardA" href="#" style="background-image: url('images1/Awards/Achievers.jpeg')">
+               <div>
+                <img src="images1/Awards/Achievers.jpeg" style="border-radius: 0px 20px;" alt="">
+
+                 <!-- <h1>Links, images and about file paths</h1>
+                 <p>Learn how to use links and images along with file paths…</p>
+                 <div class="date">14 Oct 2017</div>
+                 <div class="tags">
+                   <div class="tag">HTML</div>
+                 </div> -->
+               </div>
+             </a>
+           </div>
+                  <div class="cardA-grid-space">
+                    <!-- <div class="num">LEGAL TEAM</div> -->
+                    <a class="cardA" href="#" style="background-image: url(images1/Awards/award.png)">
+                      <div style="display: flex;">
+                        <!-- <div class="tags"> -->
+                         <img src="images1/Awards/award.png" style="border-radius: 0px 20px;" alt="">
+           <!--         <h4 class="tag">Adv. Abbas All Qazi B.Sc.</h4>
+                        <p >A versatile lawyer by profession with more than 25 years of experience In Civil, Criminal and Intellectual property matters. At Flywings he heads the legal department.</p>
+                         <h4>Adv. P. S Joshi (B.Com) LL.M. A</h4>
+                        <p>A dynamic lawyer with more than 10 years of experience specially in IPR Matters and also practicing at High Court in Mumbai. At Flywings he takes care of all IPR related matters. Adv. D.S Shah (M.Com), LL.B., ACS. A dedicated lawyer and also a certified Company Secretary by proffession. At Flywings he takes care of all Company formation matters.
+                        <div class="date">6 Oct 2017</div>
+                        <div class="tags">
+                          <div class="tag">HTML</div>
+                        </div> --> 
+                      </div>
+                    </a>
+                  </div>
+           <!-- https://images.unsplash.com/photo-1520839090488-4a6c211e2f94?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=38951b8650067840307cba514b554ba5&auto=format&fit=crop&w=1350&q=80 -->
+         </section>
+           <br> <br>
+    <div class="container">
+      <div class="row" >    
+        <div class="col-lg-12" style="display:flex; flex-direction: column; align-items: center;justify-content: center; ">
+          <!-- <h1>What We Do?</h1> -->
+          <!-- Section's title goes here -->
+          <h5 class="txtshadow num" style="color: #ffb900;text-align: center;">DIFFERENT TYPES OF TRADEMARKS THAT CAN BE REGISTERED IN INDIA</h5>
+          <hr class="new1">
+          <!--Simple description for section goes here. -->
+        </div> 
+      </div>
+    </div> 
+
+    <div class="container">
+      <div class="row-fluid">
+                    <!-- <div class="linebtn" > 
+                        <div class="col-lg-12 col-md-8 col-sm-12 ">
+                            <ul>
+                                <li class="list active" data-filter="all"><strong>All</strong></li>
+                                <li class="list" data-filter="2022"><strong>YEAR 2021-22</strong></li>
+                                <li class="list" data-filter="2023"><strong>YEAR 2022-23</strong></li>
+                            </ul>
+                        </div>
+                      </div> -->
+
+
+                     
+
+                        <div class="row line" >
+                            <div class="col-md-3 col-sm-12">
+                                <div class=" card11 text-center">
+                                <a href="http://127.0.0.1/LegalHat15/trademark.php">
+                                    <!-- <div class="oval"><img class="card-img-top" src="images1/isoRg.png" alt=""></div> -->
+                                    <div class="card-body">
+                                        <h3 class="card-title">TRADEMARK REGISTRATION</h3>
+                                        <h6 class="card-title">"Don't let someone else steal your shine - register your trademark today !"</h6>
+
+                                    </div>
+                                </a>
+                                </div>
+                            </div>  
+                            <div class="col-md-3 col-sm-12">
+                                <div class="card11 text-center" >
+
+                                  <!-- <a href="#" target="_blank" style="text-decoration: none;" rel="noopener"> -->
+                                    <a href="http://127.0.0.1/LegalHat15/copyright.php">
+                                    <div class="card-body">
+                                        <h3 class="card-title">COPYRIGHT REGISTRATION</h3>
+                                        <h6 class="card-title">"Protect your creations,Secure your rights, register your copyright."</h6>  
+                                    </div>
+                                    </a>
+                                <!-- <h5 class="txtshadow zoom-in">TRADEMARK REGISTRATION</h5>
+                                <p class="card-text">Nullam quis libero in lorem accumsan sodales. Nam vel nisi
+                                eget.</p> -->
+                                <!-- </a>   -->
+                            </div>
+                        </div>  
+
+
+                        <div class="col-md-3 col-sm-12">
+                            <div class="card11 text-center" >
+                                <a href="http://127.0.0.1/LegalHat15/design-registration.php">
+                                <div class="card-body">
+                                    <h3 class="card-title">DESIGN REGISTRATION</h3>
+                                    <h6 class="card-title">"Safeguard your intellectual property, register your designs."</h6>  
+                                </div>           
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3 col-sm-12">
+                            <div class="card11 text-center" >
+                                <a href="http://127.0.0.1/LegalHat15/patent.php">
+                                <div class="card-body">
+                                    <h3 class="card-title">PATENT REGISTRATION</h3>
+                                    <h6 class="card-title">"Protect your inventions, register your patent"</h6>  
+                                </div>           
+                                </a>
+                            </div>                        
+                        </div>
+
+                        <div class="col-md-3 col-sm-12 txtshadow">
+                            <div class="card11 text-center " >
+                                <a href="http://127.0.0.1/LegalHat15/iso.php">
+                                <div class="card-body ">
+                                    <h3 class="card-title">ISO REGISTRATION</h3>
+                                    <h6 class="card-title">"ISO registration: a sign of quality and excellence"</h6>  
+                                </div>           
+                                </a>
+                            </div>  
+                        </div>
+
+                        <div class="col-md-3 col-sm-12">
+                            <div class="card11 text-center" >
+                                <a href="http://127.0.0.1/LegalHat15/web-services.php">
+                                <div class="card-body">
+                                    <h3 class="card-title">WEB SERVICES</h3>
+                                    <h6 class="card-title">"The web, made easy with our services"</h6>  
+                                </div>           
+                                </a>
+                            </div>  
+                        </div>
+
+                        <div class="col-md-3 col-sm-12">
+                            <div class="card11 text-center" >
+                                <a href="http://127.0.0.1/LegalHat15/private-limited.php">
+                                <div class="card-body">
+                                    <h3 class="card-title">FORMATION OF COMPANIES</h3>
+                                    <h6 class="card-title">"Starting a business? Let us handle the details."</h6>  
+                                </div>           
+                                </a>
+                            </div> 
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="card11 text-center" >
+                                <div class="card-body">
+                                    <h3 class="card-title">BRANDING SERVICES</h3>
+                                    <h6 class="card-title">"Let us help you tell your brand's story."</h6>  
+                                </div>           
+                            </div> 
+                        </div>
+
+                    
+                      </div>
+                    </div>
+                   </div>
+</section>
+
+<br><br>
     <div class="row"style="background-image: url(images1/bkwhite.jpg);">
     <div class="container">
       <div class="row">

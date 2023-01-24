@@ -630,7 +630,7 @@
 <br><br>
 
 
-<section  class=""    id="parallex2" style="background-image: url(images1/bk2.jpg); box-shadow: 0 10px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 5%);padding-bottom: 50PX; "  >
+<section  class=""    id="parallex2" style="background-image: url(images1/bk2.jpg); box-shadow: 0 10px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 5%);"  >
 
          <section class="info">
             <div class="container">
@@ -734,7 +734,7 @@
 
                      
 
-                        <div class="row line" style="margin-bottom: 100px;">
+                        <div class="row line">
                             <div class="col-md-3 col-sm-12">
                                 <div class=" card11 text-center">
                                 <a href="http://127.0.0.1/LegalHat15/trademark.php">

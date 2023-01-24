@@ -2252,7 +2252,9 @@ style="position: sticky; top: 100px;"
     margin: 20px;
     padding: 10px;
     border-radius: 8px;
-    background: #e3edf7;
+/*    background: #e3edf7;*/
+/*    background: #FECE1A;*/
+    background: -webkit-linear-gradient(0deg, rgba(252,200,19,1) 0%, rgba(255,231,93,1) 100%);
     box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
                 -6px -6px 10px -1px rgba(255, 255, 255, 0.7);    
 }

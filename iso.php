@@ -280,69 +280,10 @@
      <ol class="breadcrumb">
        <li class="breadcrumb-item"><a href="#">Home</a></li>
        <!-- <li class="breadcrumb-item"><a href="#">Design Registration</a></li> -->
-       <li class="breadcrumb-item active" aria-current="page">Copyright Registration</li>
+       <li class="breadcrumb-item active" aria-current="page">ISO Registration</li>
    </ol>
 </nav>
 </div>   
-
-<section class="design-process-section" id="process-tab">
-  <div class="container">
-    <div >
-      <div class="col-lg-12"> 
-
-        <ul class="nav nav-tabs process-model more-icon-preocess" role="tablist">
-          <li role="presentation" class="active"><a href="#discover" aria-controls="discover" role="tab" data-toggle="tab" data-target="#discove"><i class="fa fa-search" aria-hidden="true"></i>
-            <p>Discover</p>
-        </a></li>
-        <li role="presentation"><a href="#strategy" aria-controls="strategy" role="tab" data-toggle="tab" data-target="#Strateg"><i class="fa fa-send-o" aria-hidden="true"></i>
-            <p>Strategy</p>
-        </a></li>
-        <li role="presentation"><a href="#optimization" aria-controls="optimization" role="tab" data-toggle="tab" data-target="#optimizatio"><i class="fa fa-qrcode" aria-hidden="true"></i>
-            <p>Optimization</p>
-        </a></li>
-        <li role="presentation"><a href="#content" aria-controls="content" role="tab" data-toggle="tab" data-target="#conten"><i class="fa fa-newspaper-o" aria-hidden="true"></i>
-            <p>Content</p>
-        </a></li>
-        <li role="presentation"><a href="#reporting" aria-controls="reporting" role="tab" data-toggle="tab"data-target="#reportin"><i class="fa fa-clipboard" aria-hidden="true"></i>
-            <p>Reporting</p>
-        </a></li>
-    </ul>
-
-    <div class="tab-content">
-      <div role="tabpanel" class="tab-pane  show active" id="discove">
-        <div class="design-process-content">
-          <h3 class="semi-bold">Discovery</h3>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
-      </div>
-  </div>
-  <div role="tabpanel" class="tab-pane" id="Strateg">
-    <div class="design-process-content">
-      <h3 class="semi-bold">Strategy</h3>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
-  </div>
-</div>
-<div role="tabpanel" class="tab-pane" id="optimizatio">
-    <div class="design-process-content">
-      <h3 class="semi-bold">Optimization</h3>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
-  </div>
-</div>
-<div role="tabpanel" class="tab-pane" id="conten">
-    <div class="design-process-content">
-      <h3 class="semi-bold">Content</h3>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>              
-  </div>
-</div>
-<div role="tabpanel" class="tab-pane" id="reportin">
-    <div class="design-process-content">
-      <h3>Reporting</h3>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat. </p>
-  </div>
-</div>
-</div>
-</div>
-</div>
-</section>
 
 
 <br><br><br>
@@ -506,8 +447,116 @@ documents )
 </div>    
 
 
-
 <br><br><br>
+  
+
+
+        <section class="design-process-section" id="process-tab">
+         <div class="container" >
+          <div class="col-lg-6 col-sm-6"  data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine"style="display: flex;">
+              <img width="100%" src="images1/StpesIso.jpg" style="display: flex; justify-content: center;align-items: center;">     
+          </div>         
+          <div class="col-lg-6 col-sm-6" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine"> 
+            <h3 class="txtshadow num" >Procedure</h3>
+            <ul class="nav nav-tabs process-model more-icon-preocess" role="tablist">
+             <li role="presentation" class="active"><a href="#discover" aria-controls="discover" role="tab" data-toggle="tab" data-target="#discove"><i class="fa fa-search" aria-hidden="true"></i>
+               <p>Application </p>
+             </a></li>
+             <li role="presentation"><a href="#strategy" aria-controls="strategy" role="tab" data-toggle="tab" data-target="#Strateg"><i class="fa fa-send-o" aria-hidden="true"></i>
+               <p>Opposition</p>
+             </a></li>
+             <li role="presentation"><a href="#optimization" aria-controls="optimization" role="tab" data-toggle="tab" data-target="#optimizatio"><i class="fa fa-qrcode" aria-hidden="true"></i>
+               <p>Acceptance</p>
+             </a></li>
+             <li role="presentation"><a href="#content" aria-controls="content" role="tab" data-toggle="tab" data-target="#conten"><i class="fa fa-newspaper-o" aria-hidden="true"></i>
+               <p>Registration Certificate
+               </p>
+             </a></li>
+         <!-- <li role="presentation"><a href="#reporting" aria-controls="reporting" role="tab" data-toggle="tab"data-target="#reportin"><i class="fa fa-clipboard" aria-hidden="true"></i>
+             <p>Reporting</p>
+           </a></li> -->
+         </ul>
+         
+         <div class="tab-content" style="border: 1px solid #fbb900; ">
+           <div role="tabpanel" class="tab-pane  show active" id="discove">
+             <div class="design-process-content">
+               <h3 class="semi-bold">Application</h3>
+               <p>Common, understanding system including consistent and repeatable processes requisite for better establishment.</p>
+             </div>
+           </div>
+           <div role="tabpanel" class="tab-pane" id="Strateg">
+             <div class="design-process-content">
+               <h3 class="semi-bold">Opposition</h3>
+               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
+             </div>
+           </div>
+           <div role="tabpanel" class="tab-pane" id="optimizatio">
+             <div class="design-process-content">
+               <h3 class="semi-bold">Acceptance</h3>
+               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
+             </div>
+           </div>
+           <div role="tabpanel" class="tab-pane" id="conten">
+             <div class="design-process-content">
+               <h3 class="semi-bold">Registration Certificate</h3>
+               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>              
+             </div>
+           </div>
+ <!-- <div role="tabpanel" class="tab-pane" id="reportin">
+     <div class="design-process-content">
+       <h3>Reporting</h3>
+       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat. </p>
+   </div>
+ </div> -->
+</div>
+</div>
+</div>
+</section>
+
+
+
+<section id="about" class="about roomy-100">
+
+    <div class="row">
+        <div class="container" style="display:flex;">
+
+            <div class="col-lg-6 col-sm-12" data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
+                <ul class="accordian">
+                    <li>
+                        <input type="radio" name="accordian" id="first" checked>
+                        <label for="first">Products</label>
+                        <div class="content">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore nam provident fuga.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="accordian" id="second">
+                        <label for="second">Products</label>
+                        <div class="content">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore nam provident fuga.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordian" id="third">
+                        <label for="third">Products</label>
+                        <div class="content">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore nam provident fuga.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-6 col-sm-6" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine">
+                <img src="images1/StpesIso.jpg" style="display: flex; justify-content: center;align-items: center;" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<br>
 <div class="row ">
     <div class="container content1" style="display: flex; " >
         <!-- <div class="col-lg-6 col-sm-6"></div> -->
@@ -523,6 +572,211 @@ documents )
     </div>
 </div>
 
+
+<section  class=""    id="parallex2" style="background-image: url(images1/bk2.jpg); box-shadow: 0 10px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 5%);"  >
+
+         <section class="info">
+            <div class="container">
+                <h2 class="txtshadow num" style="color: #ffb900;text-align: center;" >Awards & Achievement</h2>
+            </div>
+           <!-- <h1>Awards &mdash; Achievments </h1> -->
+         </section>
+         <br>
+         <section class="cards-wrapper">
+           <div class="cardA-grid-space">
+             <!-- <div class="num">LEGAL TEAM</div> -->
+             <a class="cardA" href="#" style="background-image: url(images1/Awards/IndianLaw.jpeg)">
+               <div style="display: flex;">
+                 <!-- <div class="tags"> -->
+                  <img src="images1/Awards/IndianLaw.jpeg" style="border-radius: 0px 20px;" alt="">
+               <!-- <h4 class="tag">Adv. Abbas All Qazi B.Sc.</h4>
+                 <p >A versatile lawyer by profession with more than 25 years of experience In Civil, Criminal and Intellectual property matters. At Flywings he heads the legal department.</p>
+                  <h4>Adv. P. S Joshi (B.Com) LL.M. A</h4>
+                 <p>A dynamic lawyer with more than 10 years of experience specially in IPR Matters and also practicing at High Court in Mumbai. At Flywings he takes care of all IPR related matters. Adv. D.S Shah (M.Com), LL.B., ACS. A dedicated lawyer and also a certified Company Secretary by proffession. At Flywings he takes care of all Company formation matters.
+                 <div class="date">6 Oct 2017</div>
+                 <div class="tags">
+                   <div class="tag">HTML</div>
+                 </div> --> 
+               </div>
+             </a>
+           </div>
+           <div class="cardA-grid-space">
+             <!-- <div class="num">MARKETING & RESEARCH TEAM</div> -->
+             <a class="cardA" href="#" style="background-image: url(images1/Awards/msme.jpg)">
+               <div>
+                <img src="images1/Awards/msme.jpg"style="border-radius: 0px 20px;" alt="">
+                 <!-- <h1>Adv. P. S Joshi (B.Com) LL.M. A</h1>
+                 <p>A dynamic lawyer with more than 10 years of experience specially in IPR Matters and also practicing at High Court in Mumbai. At Flywings he takes care of all IPR related matters. Adv. D.S Shah (M.Com), LL.B., ACS. A dedicated lawyer and also a certified Company Secretary by proffession. At Flywings he takes care of all Company formation matters.</p>
+                 <div class="date">6 Oct 2017</div>
+                 <div class="tags">
+                   <div class="tag">HTML</div>
+                 </div> -->
+               </div>
+             </a>
+           </div>
+           
+           <div class="cardA-grid-space">
+             <!-- <div class="num">03</div> -->
+             <a class="cardA" href="#" style="background-image: url('images1/Awards/Achievers.jpeg')">
+               <div>
+                <img src="images1/Awards/Achievers.jpeg" style="border-radius: 0px 20px;" alt="">
+
+                 <!-- <h1>Links, images and about file paths</h1>
+                 <p>Learn how to use links and images along with file paths…</p>
+                 <div class="date">14 Oct 2017</div>
+                 <div class="tags">
+                   <div class="tag">HTML</div>
+                 </div> -->
+               </div>
+             </a>
+           </div>
+                  <div class="cardA-grid-space">
+                    <!-- <div class="num">LEGAL TEAM</div> -->
+                    <a class="cardA" href="#" style="background-image: url(images1/Awards/award.png)">
+                      <div style="display: flex;">
+                        <!-- <div class="tags"> -->
+                         <img src="images1/Awards/award.png" style="border-radius: 0px 20px;" alt="">
+           <!--         <h4 class="tag">Adv. Abbas All Qazi B.Sc.</h4>
+                        <p >A versatile lawyer by profession with more than 25 years of experience In Civil, Criminal and Intellectual property matters. At Flywings he heads the legal department.</p>
+                         <h4>Adv. P. S Joshi (B.Com) LL.M. A</h4>
+                        <p>A dynamic lawyer with more than 10 years of experience specially in IPR Matters and also practicing at High Court in Mumbai. At Flywings he takes care of all IPR related matters. Adv. D.S Shah (M.Com), LL.B., ACS. A dedicated lawyer and also a certified Company Secretary by proffession. At Flywings he takes care of all Company formation matters.
+                        <div class="date">6 Oct 2017</div>
+                        <div class="tags">
+                          <div class="tag">HTML</div>
+                        </div> --> 
+                      </div>
+                    </a>
+                  </div>
+           <!-- https://images.unsplash.com/photo-1520839090488-4a6c211e2f94?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=38951b8650067840307cba514b554ba5&auto=format&fit=crop&w=1350&q=80 -->
+         </section>
+           <br> <br>
+    <div class="container">
+      <div class="row" >    
+        <div class="col-lg-12" style="display:flex; flex-direction: column; align-items: center;justify-content: center; ">
+          <!-- <h1>What We Do?</h1> -->
+          <!-- Section's title goes here -->
+          <h5 class="txtshadow num" style="color: #ffb900;text-align: center;">DIFFERENT TYPES OF TRADEMARKS THAT CAN BE REGISTERED IN INDIA</h5>
+          <hr class="new1">
+          <!--Simple description for section goes here. -->
+        </div> 
+      </div>
+    </div> 
+
+    <div class="container">
+      <div class="row-fluid">
+                    <!-- <div class="linebtn" > 
+                        <div class="col-lg-12 col-md-8 col-sm-12 ">
+                            <ul>
+                                <li class="list active" data-filter="all"><strong>All</strong></li>
+                                <li class="list" data-filter="2022"><strong>YEAR 2021-22</strong></li>
+                                <li class="list" data-filter="2023"><strong>YEAR 2022-23</strong></li>
+                            </ul>
+                        </div>
+                      </div> -->
+
+
+                     
+
+                        <div class="row line">
+                            <div class="col-md-3 col-sm-12">
+                                <div class=" card11 text-center">
+                                <a href="http://127.0.0.1/LegalHat15/trademark.php">
+                                    <!-- <div class="oval"><img class="card-img-top" src="images1/isoRg.png" alt=""></div> -->
+                                    <div class="card-body">
+                                        <h3 class="card-title">TRADEMARK REGISTRATION</h3>
+                                        <h6 class="card-title">"Don't let someone else steal your shine - register your trademark today !"</h6>
+
+                                    </div>
+                                </a>
+                                </div>
+                            </div>  
+                            <div class="col-md-3 col-sm-12">
+                                <div class="card11 text-center" >
+
+                                  <!-- <a href="#" target="_blank" style="text-decoration: none;" rel="noopener"> -->
+                                    <a href="http://127.0.0.1/LegalHat15/copyright.php">
+                                    <div class="card-body">
+                                        <h3 class="card-title">COPYRIGHT REGISTRATION</h3>
+                                        <h6 class="card-title">"Protect your creations,Secure your rights, register your copyright."</h6>  
+                                    </div>
+                                    </a>
+                                <!-- <h5 class="txtshadow zoom-in">TRADEMARK REGISTRATION</h5>
+                                <p class="card-text">Nullam quis libero in lorem accumsan sodales. Nam vel nisi
+                                eget.</p> -->
+                                <!-- </a>   -->
+                            </div>
+                        </div>  
+
+
+                        <div class="col-md-3 col-sm-12">
+                            <div class="card11 text-center" >
+                                <a href="http://127.0.0.1/LegalHat15/design-registration.php">
+                                <div class="card-body">
+                                    <h3 class="card-title">DESIGN REGISTRATION</h3>
+                                    <h6 class="card-title">"Safeguard your intellectual property, register your designs."</h6>  
+                                </div>           
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3 col-sm-12">
+                            <div class="card11 text-center" >
+                                <a href="http://127.0.0.1/LegalHat15/patent.php">
+                                <div class="card-body">
+                                    <h3 class="card-title">PATENT REGISTRATION</h3>
+                                    <h6 class="card-title">"Protect your inventions, register your patent"</h6>  
+                                </div>           
+                                </a>
+                            </div>                        
+                        </div>
+
+                        <div class="col-md-3 col-sm-12 txtshadow">
+                            <div class="card11 text-center " >
+                                <a href="http://127.0.0.1/LegalHat15/iso.php">
+                                <div class="card-body ">
+                                    <h3 class="card-title">ISO REGISTRATION</h3>
+                                    <h6 class="card-title">"ISO registration: a sign of quality and excellence"</h6>  
+                                </div>           
+                                </a>
+                            </div>  
+                        </div>
+
+                        <div class="col-md-3 col-sm-12">
+                            <div class="card11 text-center" >
+                                <a href="http://127.0.0.1/LegalHat15/web-services.php">
+                                <div class="card-body">
+                                    <h3 class="card-title">WEB SERVICES</h3>
+                                    <h6 class="card-title">"The web, made easy with our services"</h6>  
+                                </div>           
+                                </a>
+                            </div>  
+                        </div>
+
+                        <div class="col-md-3 col-sm-12">
+                            <div class="card11 text-center" >
+                                <a href="http://127.0.0.1/LegalHat15/private-limited.php">
+                                <div class="card-body">
+                                    <h3 class="card-title">FORMATION OF COMPANIES</h3>
+                                    <h6 class="card-title">"Starting a business? Let us handle the details."</h6>  
+                                </div>           
+                                </a>
+                            </div> 
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="card11 text-center" >
+                                <div class="card-body">
+                                    <h3 class="card-title">BRANDING SERVICES</h3>
+                                    <h6 class="card-title">"Let us help you tell your brand's story."</h6>  
+                                </div>           
+                            </div> 
+                        </div>
+
+                    
+                      </div>
+                    </div>
+                   </div>
+</section>
 
   <div class="row"style="background-image: url(images1/bkwhite.jpg);">
   <div class="container">
@@ -1116,406 +1370,3 @@ session_destroy();
 
 ?>
 </html>
-
-
-<section id="about" class="about roomy-100">
-
-    <div class="row">
-        <div class="container">
-            <div class="col-lg-12 col-sm-12">
-                <ul class="accordian">
-                    <li>
-                        <input type="radio" name="accordian" id="first" checked>
-                        <label for="first">Products</label>
-                        <div class="content">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore nam provident fuga.
-                            </p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <input type="radio" name="accordian" id="second">
-                        <label for="second">Products</label>
-                        <div class="content">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore nam provident fuga.
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <input type="radio" name="accordian" id="third">
-                        <label for="third">Products</label>
-                        <div class="content">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore nam provident fuga.
-                            </p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="container">
-        <div class="row">    
-            <div class="col-lg-12" style="display:flex; flex-direction: column; align-items: center;justify-content: center; ">
-                <!-- <h1>What We Do?</h1> -->
-                <!-- Section's title goes here -->
-                <h5>DIFFERENT TYPES OF TRADEMARKS THAT CAN BE REGISTERED IN INDIA</h5>
-                <hr class="new1">
-                <!--Simple description for section goes here. -->
-            </div> 
-        </div>
-    </div> 
-
-    <div class="container">
-        <div class="row-fluid">
-                    <!-- <div class="linebtn" > 
-                        <div class="col-lg-12 col-md-8 col-sm-12 ">
-                            <ul>
-                                <li class="list active" data-filter="all"><strong>All</strong></li>
-                                <li class="list" data-filter="2022"><strong>YEAR 2021-22</strong></li>
-                                <li class="list" data-filter="2023"><strong>YEAR 2022-23</strong></li>
-                            </ul>
-                        </div>
-                    </div> -->
-
-                    <div class="row line" style="margin-bottom: 50px;">
-
-                      <div class="col-md-3 col-sm-12">
-                        <div class="card11 card-1 itemBox 2023" >
-                          <a href="assets/doc/Financial_Results/Covering Letter_Reg 52_Financial Results_compressed.pdf" target="_blank" style="text-decoration: none;" rel="noopener">
-                            <h3 class="txtshadow zoom-in">TRADEMARK REGISTRATION</h3>
-                        </a>  
-                    </div>
-                </div>  
-
-
-                <div class="col-md-3 col-sm-12">
-                    <div class="card11 card-1 itemBox 2022" >
-                      <a href="assets/doc/Financial_Results/Covering Letter along with Financial Results_Reg 52.pdf" target="_blank" style="text-decoration: none;" rel="noopener">
-                        <h3 class="txtshadow zoom-in">COPYRIGHT REGISTRATION</h3>
-                    </a>  
-                </div>
-            </div>
-
-
-            <div class="col-md-3 col-sm-12">
-                <div class="card11 card-1 itemBox 2022" >
-                    <a href="assets/doc/Financial_Results/Covering Letter along with Financial Results.pdf" target="_blank" style="text-decoration: none;" rel="noopener">
-                        <h3 class="txtshadow zoom-in">DESIGN REGISTRATION</h3>
-                    </a>  
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-12">
-                <div class="card11 card-1 itemBox 2022" >
-                    <a href="assets/doc/Financial_Results/Covering Letter_Reg 52_Financial Results_organized_compressed.pdf" target="_blank" style="text-decoration: none;" rel="noopener">
-                        <h3 class="txtshadow zoom-in">PATENT REGISTRATION</h3>
-                    </a>  
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-12">
-                <div class="card11 card-1 itemBox 2022" >
-                    <a href="assets/doc/Financial_Results/Covering Letter_Reg 52_Financial Results_organized_compressed.pdf" target="_blank" style="text-decoration: none;" rel="noopener">
-                        <h3 class="txtshadow zoom-in">ISO REGISTRATION</h3>
-                    </a>  
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-12">
-                <div class="card11 card-1 itemBox 2022" >
-                    <a href="assets/doc/Financial_Results/Covering Letter_Reg 52_Financial Results_organized_compressed.pdf" target="_blank" style="text-decoration: none;" rel="noopener">
-                        <h3 class="txtshadow zoom-in">FORMATION OF COMPANIES</h3>
-                    </a>  
-                </div>
-            </div>
-
-
-        </div>
-    </div>
-</div>
-</div>
-</div>
-
-
-<!-- Contact section edn -->
-<!-- Footer section start -->
-                                    <!-- <div class="footer">
-                                        <pShared by <i class="fa fa-love"></i><a href="#">hemraj</a>
-                                        </p>
-                                    </div> -->
-                                    <!-- Footer section end -->
-                                    <!-- ScrollUp button start -->
-                                    <div class="scrollup">
-                                        <a href="#">
-                                            <i class="icon-up-open"></i>
-                                        </a>
-                                    </div>
-
-
-
-                                    <!-- ScrollUp button end -->
-                                    <!-- Include javascript -->
-                                    <script src="js/jquery.js"></script>
-                                    <script type="text/javascript" src="js/jquery.mixitup.js"></script>
-                                    <script type="text/javascript" src="js/bootstrap.js"></script>
-                                    <script type="text/javascript" src="js/modernizr.custom.js"></script>
-                                    <script type="text/javascript" src="js/jquery.bxslider.js"></script>
-                                    <script type="text/javascript" src="js/jquery.cslider.js"></script>
-                                    <script type="text/javascript" src="js/jquery.placeholder.js"></script>
-                                    <script type="text/javascript" src="js/jquery.inview.js"></script>
-                                    <!-- Load google maps api and call initializeMap function defined in app.js -->
-                                    <script async="" defer="" type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=initializeMap"></script>
-                                    <!-- css3-mediaqueries.js for IE8 or older -->
-                <!--[if lt IE 9]>
-                    <script src="js/respond.min.js"></script>
-                <![endif]-->
-                 <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> -->
-
-                 <script type="text/javascript" src="js/app.js"></script>
-
-                 <script src="dropdown-19/js/jquery-3.3.1.min.js"></script>
-                 <script src="dropdown-19/js/popper.min.js"></script>
-                 <script src="dropdown-19/js/bootstrap.min.js"></script>
-                 <script src="dropdown-19/js/owl.carousel.min.js"></script>
-                 <script src="dropdown-19/js/main.js"></script>
-
-
-                 <script type="text/javascript">
-                     (function($) {
-                         'use strict';
-
-                         jQuery(document).on('ready', function(){
-
-                             $('a.page-scroll').on('click', function(e){
-                                 var anchor = $(this);
-                                 $('html, body').stop().animate({
-                                     scrollTop: $(anchor.attr('href')).offset().top - 50
-                                 }, 1500);
-                                 e.preventDefault();
-                             });     
-
-                         });                       
-                     })(jQuery);
-                 </script>
-
-                 <script type="text/javascript">
-                   // Acc
-                   $(document).on("click", ".naccs .menu div", function() {
-                    var numberIndex = $(this).index();
-
-                    if (!$(this).is("active")) {
-                        $(".naccs .menu div").removeClass("active");
-                        $(".naccs ul li").removeClass("active");
-
-                        $(this).addClass("active");
-                        $(".naccs ul").find("li:eq(" + numberIndex + ")").addClass("active");
-
-                        var listItemHeight = $(".naccs ul")
-                        .find("li:eq(" + numberIndex + ")")
-                        .innerHeight();
-                        $(".naccs ul").height(listItemHeight + "px");
-                    }
-                });
-            </script> 
-
-
-            <script type="text/javascript">
-                class FibonacciSphere {
-                    #points;
-
-                    get points() {
-                        return this.#points;
-                    }
-
-                    constructor(N) {
-                        this.#points = [];
-
-                        const goldenAngle = Math.PI * (3 - Math.sqrt(5));
-
-                        for (let i = 0; i < N; i++) {
-                            const y = 1 - (i / (N - 1)) * 2;
-                            const radius = Math.sqrt(1 - y ** 2);
-                            const a = goldenAngle * i;
-                            const x = Math.cos(a) * radius;
-                            const z = Math.sin(a) * radius;
-
-                            this.#points.push([x, y, z]);
-                        }
-                    }
-                }
-
-
-                class TagsCloud {
-                    #root;
-                    #size;
-                    #sphere;
-                    #tags;
-                    #rotationAxis;
-                    #rotationAngle;
-                    #rotationSpeed;
-                    #frameRequestId;
-
-                    constructor(root) {
-                        this.#root = root;
-                        this.#size = this.#root.offsetWidth;
-                        this.#tags = root.querySelectorAll('.tag');
-                        this.#sphere = new FibonacciSphere(this.#tags.length);
-                        this.#rotationAxis = [1, 0, 0];
-                        this.#rotationAngle = 0;
-                        this.#rotationSpeed = 0;
-
-                        this.#updatePositions();
-                        this.#initEventListeners();
-                        this.#root.classList.add('-loaded');
-                    }
-
-                    #initEventListeners() {
-                        window.addEventListener('resize', this.#updatePositions.bind(this));
-                        document.addEventListener('mousemove', this.#onMouseMove.bind(this));
-                    }
-
-                    #updatePositions() {
-                        const sin = Math.sin(this.#rotationAngle);
-                        const cos = Math.cos(this.#rotationAngle);
-                        const ux = this.#rotationAxis[0];
-                        const uy = this.#rotationAxis[1];
-                        const uz = this.#rotationAxis[2];
-
-                        const rotationMatrix = [
-                            [
-                                cos + (ux ** 2) * (1 - cos),
-                                ux * uy * (1 - cos) - uz * sin,
-                                ux * uz * (1 - cos) + uy * sin,
-                                ],
-                            [
-                                uy * ux * (1 - cos) + uz * sin,
-                                cos + (uy ** 2) * (1 - cos),
-                                uy * uz * (1 - cos) - ux * sin,
-                                ],
-                            [
-                                uz * ux * (1 - cos) - uy * sin,
-                                uz * uy * (1 - cos) + ux * sin,
-                                cos + (uz ** 2) * (1 - cos)
-                                ]
-                            ];
-
-                        const N = this.#tags.length;
-
-                        for (let i = 0; i < N; i++) {
-                            const x = this.#sphere.points[i][0];
-                            const y = this.#sphere.points[i][1];
-                            const z = this.#sphere.points[i][2];
-
-                            const transformedX =
-                            rotationMatrix[0][0] * x
-                            + rotationMatrix[0][1] * y
-                            + rotationMatrix[0][2] * z;
-                            const transformedY =
-                            rotationMatrix[1][0] * x
-                            + rotationMatrix[1][1] * y
-                            + rotationMatrix[1][2] * z;
-                            const transformedZ =
-                            rotationMatrix[2][0] * x
-                            + rotationMatrix[2][1] * y
-                            + rotationMatrix[2][2] * z;
-
-                            const translateX = this.#size * transformedX / 2;
-                            const translateY = this.#size * transformedY / 2;
-                            const scale = (transformedZ + 2) / 3;
-                            const transform =
-                            `translateX(${translateX}px) translateY(${translateY}px) scale(${scale})`;
-                            const opacity = (transformedZ + 1.5) / 2.5;
-
-                            this.#tags[i].style.transform = transform;
-                            this.#tags[i].style.opacity = opacity;
-                        }
-                    }
-
-                    #onMouseMove(e) {
-                        const rootRect = this.#root.getBoundingClientRect();
-                        const deltaX = e.clientX - (rootRect.left + this.#root.offsetWidth / 2);
-                        const deltaY = e.clientY - (rootRect.top + this.#root.offsetHeight / 2);
-                        const a = Math.atan2(deltaX, deltaY) - Math.PI / 2;
-                        const axis = [Math.sin(a), Math.cos(a), 0];
-                        const delta = Math.sqrt(deltaX ** 2 + deltaY ** 2);
-                        const speed = delta / Math.max(window.innerHeight, window.innerWidth) / 10;
-
-                        this.#rotationAxis = axis;
-                        this.#rotationSpeed = speed;
-                    }
-
-                    #update() {
-                        this.#rotationAngle += this.#rotationSpeed;
-
-                        this.#updatePositions();
-                    }
-
-                    start() {
-                        this.#update();
-
-                        this.#frameRequestId = requestAnimationFrame(this.start.bind(this));
-                    }
-
-                    stop() {
-                        cancelAnimationFrame(this.#frameRequestId);
-                    }
-                }
-
-
-                function main() {
-                    {
-                        const root = document.querySelector('.tags-cloud');
-                        const cloud = new TagsCloud(root);
-
-                        cloud.start();
-                    }
-
-                    {
-                        const cursor = document.getElementById('cursor');
-                        const isActivated = false;
-
-                        document.addEventListener('mousemove', (e) => {
-                            if (!isActivated) {
-                                cursor.classList.add('-activated');
-                            }
-
-                            cursor.style.transform =
-                            `translateX(${e.clientX}px) translateY(${e.clientY}px)`;
-                        });
-                    }
-                }
-
-
-                document.addEventListener('DOMContentLoaded', () => {
-                    main();
-                });
-
-            </script>    
-
-            <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
-            <!-- <script src="assets/js/jquery-1.9.1.min.js"></script> -->
-            <script type="text/javascript">
-              $(document).ready(function(){
-               $('.list').click(function(){
-                  const value = $(this).attr('data-filter');
-                  if(value == 'all'){
-                      $('.itemBox').show('1000');
-                  }
-                  else{
-                      $('.itemBox').not('.'+value).hide('1000');
-                      $('.itemBox').filter('.'+value).show('1000');
-                  }
-              }); 
-
-               $('.list').click(function(){
-                $(this).addClass('active').siblings().removeClass('active');
-            });
-           });
-       </script>
-
-       <script src="js1/bootstrap.min.js"></script>
-
-   </body> 
-   </html>

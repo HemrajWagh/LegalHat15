@@ -483,11 +483,11 @@
 
         <section class="design-process-section" id="process-tab">
          <div class="container" >
-          <div class="col-lg-6 col-sm-6"  data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
-              <img width="100%" src="images1/StepsManVert.jpg">     
+          <div class="col-lg-6 col-sm-6"  data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine"style="display: flex;">
+              <img width="100%" src="images1/StepDr870700.jpg" style="display: flex; justify-content: center;align-items: center;">     
           </div>         
           <div class="col-lg-6 col-sm-6" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine"> 
-            <h3 class="txtshadow num" >Procesure</h3>
+            <h3 class="txtshadow num" >Procedure</h3>
             <ul class="nav nav-tabs process-model more-icon-preocess" role="tablist">
              <li role="presentation" class="active"><a href="#discover" aria-controls="discover" role="tab" data-toggle="tab" data-target="#discove"><i class="fa fa-search" aria-hidden="true"></i>
                <p>Application </p>
@@ -712,7 +712,7 @@
 
 
 
-      <section  class=""    id="parallex2" style="background-image: url(images1/bk2.jpg); box-shadow: 0 10px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 5%);padding-bottom: 50PX; "  >
+      <section  class=""    id="parallex2" style="background-image: url(images1/bk2.jpg); box-shadow: 0 10px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 5%);"  >
 
                <section class="info">
                   <div class="container">
@@ -816,7 +816,7 @@
 
                            
 
-                              <div class="row line" style="margin-bottom: 100px;">
+                              <div class="row line">
                                   <div class="col-md-3 col-sm-12">
                                       <div class=" card11 text-center">
                                       <a href="http://127.0.0.1/LegalHat15/trademark.php">

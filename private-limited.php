@@ -640,7 +640,7 @@
            <!-- <h1>What We Do?</h1> -->
            <!-- Section's title goes here -->
            <h5 class="txtshadow num" style="color: #ffb900;text-align: center;">DIFFERENT TYPES OF TRADEMARKS THAT CAN BE REGISTERED IN INDIA</h5>
-           <hr class="new1">
+           <hr style="border-bottom: 5px solid #fbb900"> </hr>
            <!--Simple description for section goes here. -->
          </div> 
        </div>
@@ -661,7 +661,7 @@
 
                       
 
-                         <div class="row line" style="margin-bottom: 100px;">
+                         <div class="row line">
                              <div class="col-md-3 col-sm-12">
                                  <div class=" card11 text-center">
                                  <a href="http://127.0.0.1/LegalHat15/trademark.php">
