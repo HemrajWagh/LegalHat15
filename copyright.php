@@ -306,7 +306,7 @@
     </div>
     <div class="col-lg-6" data-aos="fade-up"data-aos-duration="2000" data-aos-offset="350"data-aos-easing="ease-in-sine">
       <div id="topic1">
-        <h4>What is Copyright Registration ? </h4>
+        <h4> <span class="textHead"></span> What is Copyright Registration ? </h4>
         <p>Copyright is a legal concept, enacted by most governments, giving
           the creator of an original work exclusive rights to it, usually for a
         limited time.</p>
@@ -321,7 +321,7 @@
 
       </div>
       <div id="topic2">
-        <h4> Types of Copyright </h4>
+        <h4> <span class="textHead"></span> Types of Copyright </h4>
         <ul>
           <p>
             ● Artistic Work (Manufacturing and Service Industry logos / labels /
@@ -356,7 +356,7 @@
         </ul>
       </div>
       <div id="topic3">
-        <h4>Importance and Advantages of Copyright</h4>
+        <h4><span class="textHead"></span>Importance and Advantages of Copyright</h4>
         <p>Copyright is a major part of Intellectual property where one can
           claim exclusive rights over the created identity which may be in any
         above mentioned form.</p>
@@ -496,7 +496,7 @@
               <img width="100%" src="images1/StepDr870700.jpg" style="display: flex; justify-content: center;align-items: center;">     
           </div>         
           <div class="col-lg-6 col-sm-6" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine"> 
-            <h3 class="txtshadow num" >Procedure</h3>
+            <h3 class="num" ><span class="textHead">Procedure</span></h3>
             <ul class="nav nav-tabs process-model more-icon-preocess" role="tablist">
              <li role="presentation" class="active"><a href="#discover" aria-controls="discover" role="tab" data-toggle="tab" data-target="#discove"><i class="fa fa-search" aria-hidden="true"></i>
                <p>Application </p>
@@ -520,25 +520,26 @@
            <div role="tabpanel" class="tab-pane  show active" id="discove">
              <div class="design-process-content">
                <h3 class="semi-bold">Application</h3>
-               <p>Preparation of Application for Design Registration and submission along with the necessary documents Attending to the proceedings and obtaining Provisional Papers after necessary follow up Publication in official journal</p>
+               <p>An application for registration is to be made in a prescribed form as per the Copyright Act/ Rules.</p>
              </div>
            </div>
            <div role="tabpanel" class="tab-pane" id="Strateg">
              <div class="design-process-content">
                <h3 class="semi-bold">Opposition</h3>
-               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
+               <p>No action is taken by the copyright office for 30 days thereafter and it waits for the objections if any to be received. In case the objections are received, both the parties that is the person who has raised objections and the applicant are sent a letter and a reply is received. A hearing takes place before the Registrar and the application is accepted or rejected.</p>
              </div>
            </div>
            <div role="tabpanel" class="tab-pane" id="optimizatio">
              <div class="design-process-content">
                <h3 class="semi-bold">Acceptance</h3>
-               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
+               <p>Thereafter, the application may be accepted or rejected. If accepted, the Copyright office approves the registration and shall send extract from the Register to the Applicant.</p>
              </div>
            </div>
            <div role="tabpanel" class="tab-pane" id="conten">
              <div class="design-process-content">
                <h3 class="semi-bold">Registration Certificate</h3>
-               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>              
+               <p>In case the discrepancies are not replied to, the application is rejected and the rejection letter is sent to the Applicant.
+</p>              
              </div>
            </div>
  <!-- <div role="tabpanel" class="tab-pane" id="reportin">
@@ -552,29 +553,60 @@
 </div>
 </section>
 
-<br><br>   
+   
 
+<section id="about" class="about roomy-100">
 
-<div class="row">
-    <div class="container" style="display: flex; " >
-        <!-- <div class="col-lg-6 col-sm-6"></div> -->
-        <div class="col-lg-6 col-sm-6">
-            <h3 style="text-align: center;">Procedure for registration of a logo / monogram </h3>
-            <img src="images1/patentProcess.png" alt="">
+    <div class="row">
+        <div class="container" style="display:flex; justify-content:center; align-items: center;">
+
+            <div class="col-lg-6 col-sm-12" data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
+                      
+                <ul class="accordian">
+                          <h2 style="text-align: center;" ><span class="textHead">Requirements for filing Application</span> </h2>
+                    <li>
+                        <input type="radio" name="accordian" id="first" checked>
+                        <label for="first">Informational Requirements : </label>
+
+                        <div class="content">
+                            
+                              <p>The name, address and nationality of the applicant.</p>
+                              <p>Residential address of the applicant.</p>
+                              <p>Name, address and nationality of the author; if the author is deceased, the date of his decease.</p>
+                              <p>Title, language and brief description of the work.</p>
+                            
+                        </div>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="accordian" id="second">
+                        <label for="second">Documentary Requirements : </label>
+                        <div class="content">
+                          <p>In case of a partnership concern: Copy of partnership deed</p>
+                          <p>In case of a company: copy of memorandum and articles and certificate of incorporation duly attested as true copy</p>
+                          <p>In case of a trust or an NGO: copy of trust deed with names and addresses of trustees</p>
+                          <p>In case registration of Computer Software/ Literally Material / Musical Work then required the five copies of the work./ in case Artistic work then 10 color printouts of the logo.</p>
+                          <!-- <p>Required logo / writing style of trademark in soft copy to be mailed to info@trademark.in and to the concerned advocate/executive in our firm</p> -->
+      
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+
+            <div class="col-lg-6 col-sm-6" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine">
+                <img src="images1/StpesIso.jpg" style="display: flex; justify-content: center;align-items: center;" alt="">
+            </div>
         </div>
-        <div class="col-lg-6 col-sm-6">
-            <h3 style="text-align: center;">Procedure for registration for service
-            Industries : </h3>
-            <img src="images1/patentProcess.png" alt="">
-         </div>
     </div>
-</div>                                                                   
+</section>
+                                                                
 
 <section  class=""    id="parallex2" style="background-image: url(images1/bk2.jpg); box-shadow: 0 10px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 5%);"  >
 
          <section class="info">
             <div class="container">
-                <h2 class="txtshadow num" style="color: #ffb900;text-align: center;" >Awards & Achievement</h2>
+                <h2 class="" style="color: #ffb900;text-align: center;" > <span class="textHead">Awards & Achievement</span></h2>
             </div>
            <!-- <h1>Awards &mdash; Achievments </h1> -->
          </section>
@@ -652,7 +684,7 @@
         <div class="col-lg-12" style="display:flex; flex-direction: column; align-items: center;justify-content: center; ">
           <!-- <h1>What We Do?</h1> -->
           <!-- Section's title goes here -->
-          <h5 class="txtshadow num" style="color: #ffb900;text-align: center;">DIFFERENT TYPES OF TRADEMARKS THAT CAN BE REGISTERED IN INDIA</h5>
+          <h5 class="" style="color: #ffb900;text-align: center;"><span class="textHead"> DIFFERENT TYPES OF TRADEMARKS THAT CAN BE REGISTERED IN INDIA</span></h5>
           <hr class="new1">
           <!--Simple description for section goes here. -->
         </div> 

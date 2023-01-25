@@ -320,9 +320,9 @@
 
         </div> 
       </div>
-      <div class="col-lg-6"  data-aos="fade-up"data-aos-duration="2000" data-aos-offset="350"data-aos-easing="ease-in-sine">
+      <div class="col-lg-6 col-sm-6"  data-aos="fade-up"data-aos-duration="2000" data-aos-offset="350"data-aos-easing="ease-in-sine">
         <div id="topic1">
-          <h4> What is Design Registration ? </h4>
+          <h4><span class="textHead"></span> What is Design Registration ? </h4>
           <p>Under Design Act, 2000, A design must be some shape, configuration, pattern or omamentation or composition of lines or colors applied to such article in any form by any industrial process or means but does not include any mode or principle of construction or anything which is in Trade or Property mark or artistic work.</p>
           <p>Industrial designs refer to creative activity which result in the omamental or formal
             appearance of a product and design right refers to a novel or original design that is
@@ -332,7 +332,7 @@
 
         </div>
         <div id="topic2">
-          <h4> Benefits </h4>
+          <h4><span class="textHead"></span> Benefits </h4>
           <ul> <li>        
             Design registration in India gives the owner, a monopoly on his or her product, Le the right for a limited period to stop others from making, using or selling the product without their permission and is additional to any design right or copyright protection that may exist automatically in the design.
           </li></ul>
@@ -345,14 +345,14 @@
 
       </div>
       <div id="topic3">
-        <h4>Design Registration Rights</h4>
+        <h4><span class="textHead"></span>Design Registration Rights</h4>
 
         <p>A registered design brings the exclusive right to make, offer, put on the market import, export, and use of stock any product to which the design has been applied or is incorporated, or to let others use the design under terms agreed with the registered owner, in the UK and the Isle of Man.</p>
 
 
       </div>
       <div id="topic4">
-        <h4>Requirements</h4>
+        <h4><span class="textHead"></span>Requirements</h4>
         <p>The Application for Design Registration is to be filed at Kolkata : </p> 
         <div class="row"> 
           <div class="container text-center">
@@ -375,7 +375,7 @@
        </div>   
      </div><br>
      <div id="topic5">
-      <h4>Procedure</h4>
+      <h4><span class="textHead"></span>Procedure</h4>
       <ul>
        <li> <b>Application - </b>  Preparation of Application for Design Registration and submission along with the necessary documents Attending to the proceedings and obtaining Provisional Papers after necessary follow up
         Publication in official journal
@@ -394,7 +394,7 @@
  </div>
  <br>
  <div id="topic6">
-  <h4>Validity</h4>
+  <h4><span class="textHead"></span>Validity</h4>
   <p>A design registration will initially last for 10 years from the filing date of the application and may be extended to further for a second period of 5 years. </p>
   <p>Thus the maximum period of registered design is 15 years.</p>
 </div>
@@ -487,19 +487,19 @@
               <img width="100%" src="images1/StepDr870700.jpg" style="display: flex; justify-content: center;align-items: center;">     
           </div>         
           <div class="col-lg-6 col-sm-6" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine"> 
-            <h3 class="txtshadow num" >Procedure</h3>
+            <h3 class="" > <span class="textHead">Procedure for Registration of Design in India</span></h3>
             <ul class="nav nav-tabs process-model more-icon-preocess" role="tablist">
              <li role="presentation" class="active"><a href="#discover" aria-controls="discover" role="tab" data-toggle="tab" data-target="#discove"><i class="fa fa-search" aria-hidden="true"></i>
-               <p>Application </p>
+               <p>Filing</p>
              </a></li>
              <li role="presentation"><a href="#strategy" aria-controls="strategy" role="tab" data-toggle="tab" data-target="#Strateg"><i class="fa fa-send-o" aria-hidden="true"></i>
-               <p>Opposition</p>
+               <p>Examination</p>
              </a></li>
              <li role="presentation"><a href="#optimization" aria-controls="optimization" role="tab" data-toggle="tab" data-target="#optimizatio"><i class="fa fa-qrcode" aria-hidden="true"></i>
-               <p>Acceptance</p>
+               <p>Registration</p>
              </a></li>
              <li role="presentation"><a href="#content" aria-controls="content" role="tab" data-toggle="tab" data-target="#conten"><i class="fa fa-newspaper-o" aria-hidden="true"></i>
-               <p>Registration Certificate
+               <p>Publication
                </p>
              </a></li>
          <!-- <li role="presentation"><a href="#reporting" aria-controls="reporting" role="tab" data-toggle="tab"data-target="#reportin"><i class="fa fa-clipboard" aria-hidden="true"></i>
@@ -510,26 +510,26 @@
          <div class="tab-content" style="border: 1px solid #fbb900; ">
            <div role="tabpanel" class="tab-pane  show active" id="discove">
              <div class="design-process-content">
-               <h3 class="semi-bold">Application</h3>
-               <p>Preparation of Application for Design Registration and submission along with the necessary documents Attending to the proceedings and obtaining Provisional Papers after necessary follow up Publication in official journal</p>
+               <h3 class="semi-bold">Filing an application</h3>
+               <p>The applicant / applicant’s advocate needs to file prescribed forms and fees and four to seven copies of representation of a Design depending upon the article to be registered.</p>
              </div>
            </div>
            <div role="tabpanel" class="tab-pane" id="Strateg">
              <div class="design-process-content">
-               <h3 class="semi-bold">Opposition</h3>
-               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
+               <h3 class="semi-bold">Examination of an application</h3>
+               <p>The Design office will examine a application and will send a report citing observations and objections to the registration of design to Design Office. The applicant thereafter must reply to the examination report.</p>
              </div>
            </div>
            <div role="tabpanel" class="tab-pane" id="optimizatio">
              <div class="design-process-content">
-               <h3 class="semi-bold">Acceptance</h3>
-               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
+               <h3 class="semi-bold">Registration</h3>
+               <p>The Patent office will issue the certificate of registration after the objections have removed and the application is accepted.</p>
              </div>
            </div>
            <div role="tabpanel" class="tab-pane" id="conten">
              <div class="design-process-content">
-               <h3 class="semi-bold">Registration Certificate</h3>
-               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>              
+               <h3 class="semi-bold">Publication</h3>
+               <p>The Patent Officer will notify in the Patent Office Journal, the facts relating to the registration. Forms and fees for the Registration of Design in India</p>              
              </div>
            </div>
  <!-- <div role="tabpanel" class="tab-pane" id="reportin">
@@ -543,7 +543,56 @@
 </div>
 </section>
 
-<br><br>         
+       
+
+    <section id="about" class="about roomy-100">
+
+        <div class="row">
+            <div class="container" style="display:flex; justify-content:center; align-items: center;">
+
+                <div class="col-lg-6 col-sm-12" data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
+                          
+                    <ul class="accordian">
+                        <h2 style="text-align: center;" ><span class="textHead">Requirements for filing Application</span> </h2>
+                        <li>
+                            <input type="radio" name="accordian" id="first" checked>
+
+                            <label for="first">Basic Requirements : </label>
+
+                            <div class="content">
+                                  <p>Novelty : A design is capable of being registered only if it is novel, new or original. A design is stated to be new if it is not already published anywhere in the world or does not form part of the public domain.</p>
+
+                                  <p>Since as per the Act the Design is always in relation to an article and since the definition of a article includes an article or any part thereof capable of being made and sold separately, the requirement of a design to be registered must be in respect of an article capable being made and sold separately.</p>
+                                
+                            </div>
+                        </li>
+
+                        <li>
+                            <input type="radio" name="accordian" id="second">
+                            <label for="second">Requirements for filing Design Application</label>
+                            <div class="content">
+                         
+                              <p>Applicant: (Firm / Company / Individual) :</p>  
+                              <p>Address, Tel. and Email :</p>
+
+                              <p>Full Name of the signatory with Father`s / Husband`s Name : </p>
+                              <p>Names and residential addresses of Proprietor / Partners (in case of company, address of registered office of the company)</p>
+                              <p>Photos: 5 sets from four or five different angles depending on the product</p>
+                              <p>Drawings of the Design</p >
+                              <p>Brief statement of novelty of the Design</p> 
+                        
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <div class="col-lg-6 col-sm-6" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine">
+                    <img src="images1/StpesIso.jpg" style="display: flex; justify-content: center;align-items: center;" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     

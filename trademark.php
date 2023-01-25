@@ -273,8 +273,16 @@
 <!-- End home section -->
 <!-- Service section start -->
 
-
-<br><br>
+<div class="container">                  
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <!-- <li class="breadcrumb-item"><a href="#">Design Registration</a></li> -->
+    <li class="breadcrumb-item" aria-current="page">Trademark Registration</li>
+  </ol>
+</nav>
+ </div>
+<br>
 
 <section id="theory" class="about roomy-100" >   
 <div class="row content">   
@@ -290,27 +298,30 @@
       <a href="#topic3" style="text-decoration: none;">
         <div class="list"><span class="light"></span><span>Trademark Registration Procesure</span></div>
       </a>
+      <a href="#topic4" style="text-decoration: none;">
+        <div class="list"><span class="light"></span><span>Requirements for filing Application</span></div>
+      </a>
 
     </div> 
   </div>
   <div class="col-lg-6" style="position: sticky; top: 100px;"   data-aos="fade-up"data-aos-duration="2000" data-aos-offset="350"data-aos-easing="ease-in-sine">
 
     <div id="topic1">
-      <h4> What is Trademark Registration ? </h4>
+      <h4> <span class="textHead"></span> What is Trademark Registration ? </h4>
       <p>A trademark, trade mark, or trade-mark is a disunclive sign or indicator used by an individual business brganizallon, or otlher legal entity to identify that the products or services o consumers wilh whieh the lrademark appears originate from a unique source, designated for a speciic markel end is used to distinguish its products or services from those of other enlities.</p>
       <p>A trademark is typically a name, word, phrase, logo, symbol, design, image, or a combination of these elements.  </p>
       <p>There is also a range of non-conventional trademarks comprising marks which do not fall into these standard categories, such as those based on Color, smell, or sound.</p>
 
     </div>
     <div id="topic2">
-      <h4> Importance Of Trademark </h4>
+      <h4> <span class="textHead"></span> Importance Of Trademark </h4>
       <p>Trademark is denoted as yourintellectual property as it adds fo your brand identity as its quife mandatory to have the Trademark Registration to create own brand identity in the market and to stop others who are misusing and creating confusion in the market by infringing your brand name. </p>
       <p>Your reputation is represented by your trade mark. Others may seek to use/copy your trade mark or something akin to your trade mark for their own use and thus take advantage of the reputation eamed by youin the market.</p>
       <p>Registration of your trade mark is the surest and quickest means of avoiding these circumstances. Furthermore, registration establishes yOur exclusive nights to use that trade mark for your goods or services.</p>
 
     </div>
     <div id="topic3">
-      <h4>Trademark Registration Procesure</h4>
+      <h4> <span class="textHead"></span>Trademark Registration Procesure</h4>
 
       <p>The procedure for applying for Trademark Reglstration is as follows :</p>
 
@@ -323,6 +334,31 @@
       <p>4. Publications and Registration :- The mark is then published in the trademark jourmal and a certificate of registration is issued.</p>
 
 
+    </div>
+    <div id="topic4">
+      <h4> <span class="textHead"></span>Requirements for filing Application</h4>
+      <h4>Informational Requirements :</h4>
+        <ul>
+            <li>The name, address and nationality of the applicant.</li  >
+            <li>Form of Organization. (Proprietorship/Partnership/Company/Trust)</li  >
+            <li>Full name & Age of signatory of the application</li  >
+            <li>Father’s / Husband name of signatory & nationality with Residential address.</li  >
+            <li>Trademark to be registered</li  >
+            <li>A list of goods and/or services for which registration is required with trade description (such as manufacturers/merchants/dealers).</li  >
+            <li>Date of first use of the trademark (if already using), If user not claimed then mention as to when you propose to be use the trademark.</li>
+        </ul>
+
+      <h4>Documentary Requirements : </h4>
+      <ul>
+      <li>Sales Invoices from date of using the trademark (if already using the trademark)</li>
+
+      <li>In case of a partnership concern: Copy of partnership deed</li>
+
+      <li>In case of a company: copy of memorandum and articles and certificate of incorporation duly attested as true copy </li>
+      <li>In case of a trust or an NGO: copy of trust deed with names and addresses of trustees</li>
+      <!-- <li>Required logo / writing style of trademark in soft copy to be mailed to info@trademark.in and to the concerned advocate/executive in our firm</li> -->
+      </ul>
+     
     </div>
   </div>
   <div class="col-lg-3" data-aos="fade-left"data-aos-offset="350"data-aos-easing="ease-in-sine">
@@ -410,7 +446,8 @@
       <div class="container">
         <div class="col-lg-12 col-sm-6"> 
           <div class="">
-            <h2 class="pb-3 pt-2 border-bottom mb-5" style="border-bottom: 1px solid #ffb900 !important ;" >TRADEMARK REGISTRATION PROCEDURE</h2>
+            <h2 class="pb-3 pt-2 mb-5 "> <span class="textHead">TRADEMARK REGISTRATION PROCEDURE :</span> </h2>
+                      <!-- <hr style="background-color:#ffb900 " size="100"> -->
             <!--first section-->
             <div class="row align-items-center how-it-works d-flex">
               <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
@@ -524,7 +561,58 @@
       </div>
     </div>  
 
-    <br><br><br>
+<br>
+
+    <section id="about" class="about roomy-100">
+
+        <div class="row">
+            <div class="container" style="display:flex; justify-content:center; align-items: center;">
+
+                <div class="col-lg-6 col-sm-12" data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
+                          
+                    <ul class="accordian">
+                              <h2 style="text-align: center;" ><span class="textHead">Requirements for filing Application</span> </h2>
+                        <li>
+                            <input type="radio" name="accordian" id="first" checked>
+                            <label for="first">Informational Requirements : </label>
+
+                            <div class="content">
+                                
+                                  <p>The name, address and nationality of the applicant.</p>
+                                  <p>Form of Organization. ( Proprietorship/Partnership/Company/Trust )</p>
+                                  <p>Father’s / Husband name of signatory & nationality with Residential address.</p>
+                                  <p>Trademark to be registered</p>
+                                  <p>A list of goods and/or services for which registration is required with trade description (such as manufacturers/merchants/dealers).</p>
+                                  <p>Date of first use of the trademark (if already using), If user not claimed then mention as to when you propose to be use the trademark.</p>
+                                
+                            </div>
+                        </li>
+
+                        <li>
+                            <input type="radio" name="accordian" id="second">
+                            <label for="second">Documentary Requirements : </label>
+                            <div class="content">
+                              <p>Sales Invoices from date of using the trademark ( if already using the trademark )</p>
+                              <p>In case of a partnership concern: Copy of partnership deed</p>
+                              <p>In case of a company: copy of memorandum and articles and certificate of incorporation duly attested as true copy</p>
+                              <p>In case of a trust or an NGO: copy of trust deed with names and addresses of trustees</p>
+                              <!-- <p>Required logo / writing style of trademark in soft copy to be mailed to info@trademark.in and to the concerned advocate/executive in our firm</p> -->
+          
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <div class="col-lg-6 col-sm-6" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine">
+                    <img src="images1/StpesIso.jpg" style="display: flex; justify-content: center;align-items: center;" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<br><br>
+
 <section id="about" class="about roomy-100" >   
     <div class="row">
       <div class="container content1">
@@ -540,8 +628,7 @@
     </div> 
 </section>
 
-    <br><br><br>  <br><br><br> 
-
+<br><br><br> 
 
     <div class="row">
       <div class="container">
@@ -610,7 +697,9 @@
     <div class="container" style="display:flex;justify-content: center;align-items: center; ">
                       <div class="col-sm-6 " data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
                           <div class="single_history_content">
-                              <div class="head_title"style="margin-right:0px; border-left:4px solid #ffb900;" >
+                              <div class="head_title"style="margin-right:0px; border-left:4px solid #ffb900;font-family: Lato-Medium;
+/*                      font-weight: 900!important;*/
+                      text-shadow: 0px 3px 12px #c3c3c3; border-left: 5px solid #ffb900;">
                                   <h2 style="margin-left: 20px;" >Flowchart of <br> Trademark Registraion</h2>
                               </div>
                               <!-- <p>A trademark is typically a name, word, phrase, logo, symbol, design, image, or a combination of these elements.</p> -->
@@ -618,7 +707,7 @@
       <p>Conduct a trademark search to ensure that the proposed mark is not already in use by another party. File a trademark application with the appropriate government agency. Wait for the application to be reviewed and approved by an examining attorney. </p>
       <p>If the application is approved, the mark is published in the Official Gazette, allowing other parties to file oppositions or request extensions of time to oppose. </p>
       <p>If no opposition is filed or if the opposition is unsuccessful, the mark is registered and a certificate of registration is issued. </p>
-                                  <a href="" class="btn btn-lg shadowbtn txtshadow"style="margin-right:0px; border-left:4px solid #ffb900;">BROWSE OUR WORK</a>
+                                  <a href="" class="btn btn-lg shadowbtn txtshadow"style="margin-right:0px; border-left:4px solid #ffb900;text-shadow: 0px 3px 12px #c3c3c3;">BROWSE OUR WORK</a>
                           </div>
                       </div>
       <div class="col-lg-6"><img src="images1/Flowcchart(TM).png" alt="" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine"></div>
@@ -844,7 +933,12 @@
       <div class="row">
         <div class="col-md-12">
           <div class="section-title text-center wow zoomIn">
-            <h1>Frequently Asked Questions</h1>
+            <h1 style="    text-align: center;
+    font-family: Lato-Medium;
+    font-weight: 900!important;
+    position: relative;
+    margin-bottom: 30px;
+    text-shadow: 0px 3px 12px #c3c3c3;">Frequently Asked Questions</h1>
             <span></span>
             <p>If you have any doubts regarding Trademark then this article based on FAQs on Trademark Registration in India will clear all your doubts.</p>
           </div>

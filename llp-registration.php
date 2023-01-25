@@ -282,7 +282,7 @@
          <ol class="breadcrumb">
            <li class="breadcrumb-item"><a href="#">Home</a></li>
            <!-- <li class="breadcrumb-item"><a href="#">Design Registration</a></li> -->
-           <li class="breadcrumb-item active" aria-current="page">Design Registration</li>
+           <li class="breadcrumb-item" aria-current="page">LLP Registration</li>
          </ol>
        </nav>
         </div>
@@ -515,7 +515,7 @@
 <br><br><br>
 
 
-      <section id="info1">
+      <!-- <section id="info1">
       <div class="row">
         <div class="container">
           <div class="col-lg-6 col-sm-6" >
@@ -527,9 +527,8 @@
             <img src="images1/patentPrcesure.png" alt=""></div>
           </div>
         </div> 
-      </section> 
-      <br><br><br>        
-
+      </section>  -->
+     
          <section class="design-process-section" id="process-tab">
                <div class="container" >
                 <div class="col-lg-6 col-sm-6"  data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine"style="display: flex;">
@@ -596,7 +595,7 @@
 
 
       <section id="info2">
-        <div class="row">
+        <!-- <div class="row">
           <div class="container">
             <div class="main_history fadeInUp">
               <div class="col-lg-6 col-sm-6" style="display: flex; align-items: center;justify-content: center;" data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
@@ -608,7 +607,7 @@
                 <div class="single_history_img">
                   <img width="100%" src="images1/StepsManVert.jpg">
                 </div>
-              </div>
+              </div> -->
 
               <!-- <div class="col-lg-6 col-sm-6 " style="display: flex; align-items: center;justify-content: center;" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine">
                 <div class="single_history_content">
@@ -620,9 +619,9 @@
                   <a href="" class="btn btn-lg shadowbtn txtshadow"style="margin-right:0px; border-left:4px solid #ffb900;">BROWSE OUR WORK</a>
                 </div>
               </div> -->
-            </div>
+       <!--      </div>
           </div>
-        </div> 
+        </div>  -->
       </section>         
 
 

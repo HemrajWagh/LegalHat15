@@ -275,11 +275,19 @@
 
 
 
+    <div class="container">                  
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <!-- <li class="breadcrumb-item"><a href="#">Design Registration</a></li> -->
+        <li class="breadcrumb-item" aria-current="page">Patent Registration</li>
+      </ol>
+    </nav>
+     </div>
 
 
 
-
-<br><br><br>
+<br><br>
 <div class="row content">   
  <div class="container" style="display: flex;" >    
     <div class="col-lg-3 col-sm-6"  data-aos="fade-right"data-aos-offset="350"data-aos-easing="ease-in-sine"> 
@@ -298,7 +306,7 @@
     </div>
     <div class="col-lg-6 col-sm-6"   data-aos="fade-up"data-aos-duration="500" data-aos-offset="350"data-aos-easing="ease-in-sine" >
         <div id="topic1" style="margin-top:20px;">
-            <h4>What is Patent ? </h4>
+            <h4> <span class="textHead"></span> What is Patent ? </h4>
             <p>Patent is a major part of Intellectual Property which grants its
                 inventor, the right of exploiting its object exclusively, during a given
             time period.</p>
@@ -306,7 +314,7 @@
         </div>
 
         <div id="topic2">
-            <h4>Importance Of Patent</h4>
+            <h4><span class="textHead"></span>Importance Of Patent</h4>
             <p>It helps in stimulating the development of new technologies and
                 also guarantees the investor's exploitation rights. It also promotes
                 new era and various modifications required in the existing systems
@@ -319,18 +327,18 @@
                 are granted, only on the fulfillment of some requirements such as:
                 Industrial applicability, inventive act and novelty with regard to the
             technological knowledge already disclosed.</p><p>Due to the creative
-                efforts in the technical field, the inventor who opts for Patent
+                effor ts in the technical field, the inventor who opts for Patent
                 Registration also holds the temporary exploitation monopoly of his
             creation; which ultimately guarantees him a sort of market reserve.</p>
         </div><div id="topic3">
-            <h4>Benefits Of Patent</h4>
-            <p>● A patent gives you the right to stop others from copying,
+            <h4><span class="textHead"></span>Benefits Of Patent</h4>
+            <p> ● A patent gives you the right to stop others from copying,
                 manufacturing, selling, and importing your invention without your
                 permission. The existence of your patent may be enough on its
                 own to stop others from trying to exploit your invention. If it does
                 not, it gives you the right to take legal action to stop them exploiting
             your invention and to claim damages.</p>
-            <p>●The patent also allows you to:
+            <p> ● The patent also allows you to:
                 sell the invention and all the intellectual property (IP) rights
                 license the invention to someone else but retain all the IP rights
                 discuss the invention with others in order to set up a business
@@ -424,24 +432,25 @@
               <img width="100%" src="images1/StepsManVert.jpg">     
           </div>         
           <div class="col-lg-6 col-sm-6" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine"> 
-            <h3 class="txtshadow num" >Procesure</h3>
+            <h3 class="textHead num" >Patent Procedure In India</h3>
             <ul class="nav nav-tabs process-model more-icon-preocess" role="tablist">
              <li role="presentation" class="active"><a href="#discover" aria-controls="discover" role="tab" data-toggle="tab" data-target="#discove"><i class="fa fa-search" aria-hidden="true"></i>
-               <p>Application </p>
+               <p>Appl. </p>
              </a></li>
              <li role="presentation"><a href="#strategy" aria-controls="strategy" role="tab" data-toggle="tab" data-target="#Strateg"><i class="fa fa-send-o" aria-hidden="true"></i>
-               <p>Opposition</p>
+               <p>Publication</p>
              </a></li>
              <li role="presentation"><a href="#optimization" aria-controls="optimization" role="tab" data-toggle="tab" data-target="#optimizatio"><i class="fa fa-qrcode" aria-hidden="true"></i>
-               <p>Acceptance</p>
+               <p>Pre Grant of Opposition</p>
              </a></li>
+            <li role="presentation"><a href="#reporting" aria-controls="reporting" role="tab" data-toggle="tab"data-target="#reportin"><i class="fa fa-clipboard" aria-hidden="true"></i>
+             <p>Hearing/Grant </p>
+              </a>
+            </li>
              <li role="presentation"><a href="#content" aria-controls="content" role="tab" data-toggle="tab" data-target="#conten"><i class="fa fa-newspaper-o" aria-hidden="true"></i>
-               <p>Registration Certificate
+               <p>Term of Patent:
                </p>
              </a></li>
-         <!-- <li role="presentation"><a href="#reporting" aria-controls="reporting" role="tab" data-toggle="tab"data-target="#reportin"><i class="fa fa-clipboard" aria-hidden="true"></i>
-             <p>Reporting</p>
-           </a></li> -->
          </ul>
          
          <div class="tab-content" style="border: 1px solid #fbb900; ">
@@ -453,32 +462,104 @@
            </div>
            <div role="tabpanel" class="tab-pane" id="Strateg">
              <div class="design-process-content">
-               <h3 class="semi-bold">Opposition</h3>
-               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
+               <h3 class="semi-bold">Publication</h3>
+               <p>An inventor may file request for examination for early publication of the patent. In case the same is not filed, the Indian Patent Office will publish the patent application within 18 months from the date of filing or date of priority whichever is earlier.</p>
              </div>
            </div>
            <div role="tabpanel" class="tab-pane" id="optimizatio">
              <div class="design-process-content">
-               <h3 class="semi-bold">Acceptance</h3>
-               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
+               <h3 class="semi-bold">Pre Grant of Opposition</h3>
+               <p>At any time after a Patent is published and before it is granted any person may represent before the Patent office by filing an opposition against the grant of the patent.</p>
              </div>
            </div>
+        <div role="tabpanel" class="tab-pane" id="reportin">
+          <div class="design-process-content">
+             <h3>Hearing/Grant</h3>
+                <p>The Patent office may call for a hearing to seek clarifications from the applicant on the requirements on application filed and reply given by the applicant. </p>
+                <p>If the application for Patent is found in order for grant, the Patent Office shall grant the Patent and Letters Patent is issued and the details of the grant of patent are published in the Patent Journal.</p>     
+        </div>
+          </div>
            <div role="tabpanel" class="tab-pane" id="conten">
              <div class="design-process-content">
-               <h3 class="semi-bold">Registration Certificate</h3>
-               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>              
+               <h3 class="semi-bold">Term of Patent:</h3>
+               <p>A patent is issued for a period of 20 years from the date of Application or priority date whichever is earlier.</p>              
              </div>
            </div>
- <!-- <div role="tabpanel" class="tab-pane" id="reportin">
-     <div class="design-process-content">
-       <h3>Reporting</h3>
-       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat. </p>
-   </div>
- </div> -->
 </div>
 </div>
 </div>
 </section>
+
+
+<section id="about" class="about roomy-100">
+
+    <div class="row">
+        <div class="container" style="display:flex; justify-content:center; align-items: center;">
+
+            <div class="col-lg-6 col-sm-12" data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
+                      
+                <ul class="accordian">
+                          <h2 style="text-align: center;" ><span class="textHead">Types of Patent Applications that can be filed in India:</span> </h2>
+                    <li>
+                        <input type="radio" name="accordian" id="first" checked>
+                        <label for="first">Patent Application enclosing Provisional Specification : </label>
+
+                        <div class="content">
+                              <p>When the research on invention is not completed fully, the inventor may file a Patent Application enclosing provisional specification followed by a Patent Application enclosing complete specification within 12 months.</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="accordian" id="second">
+                        <label for="second">Patent Application with complete Specification :  </label>
+                        <div class="content">
+                          <p>The inventor may file a patent application with complete specification giving full details of the inventions with details of invention, drawings and diagrams.</p>
+                    
+      
+                        </div>
+                    </li>
+
+
+                    <li>
+                        <input type="radio" name="accordian" id="third">
+                        <label for="third">Convention Patent Application :</label>
+                        <div class="content">
+                          <p>The inventor may file a patent application with complete specification giving full details of the inventions with details of invention, drawings and diagrams.</p>
+                    
+                    
+                        </div>
+                    </li>
+
+
+                    <li>
+                        <input type="radio" name="accordian" id="four">
+                        <label for="four">PCT National Phase Patent Application : </label>
+                        <div class="content">
+                          <p>The inventor may file a patent application with complete specification giving full details of the inventions with details of invention, drawings and diagrams.</p>
+                    
+                    
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordian" id="five">
+                        <label for="five">PCT International Patent Application :</label>
+                        <div class="content">
+                          <p>The inventor may file a patent application with complete specification giving full details of the inventions with details of invention, drawings and diagrams.</p>
+                    
+                    
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+
+            <div class="col-lg-6 col-sm-6" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine">
+                <img src="images1/StpesIso.jpg" style="display: flex; justify-content: center;align-items: center;" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <br><br>         
 
@@ -617,11 +698,11 @@
 <div class="row-fluid">
     <div class="container-fluid"style="display:flex;">
         <div class="col-lg-6 col-sm-6" >
-            <h3 style="text-align: center;">Patent Registratoin Steps</h3>
+            <h3  style="text-align: center;"><span class="textHead">Patent Registratoin Steps</span> </h3>
             <img src="images1/PatentSteps870_440.png" alt="">
         </div>
         <div class="col-lg-6 col-sm-6">
-            <h3 style="text-align: center;">Patent Registratoin Process</h3>
+            <h3 style="text-align: center;"><span class="textHead">Patent Registratoin Process</span> </h3>
             <img src="images1/patentProcess.png" alt=""></div>
          </div>
 </div>                                                                   
@@ -634,7 +715,7 @@
 
          <section class="info">
             <div class="container">
-                <h2 class="txtshadow num" style="color: #ffb900;text-align: center;" >Awards & Achievement</h2>
+                <h2 class="" style="color: #ffb900;text-align: center;" ><span class="textHead">Awards & Achievement</span> </h2>
             </div>
            <!-- <h1>Awards &mdash; Achievments </h1> -->
          </section>
@@ -712,7 +793,7 @@
         <div class="col-lg-12" style="display:flex; flex-direction: column; align-items: center;justify-content: center; ">
           <!-- <h1>What We Do?</h1> -->
           <!-- Section's title goes here -->
-          <h5 class="txtshadow num" style="color: #ffb900;text-align: center;">DIFFERENT TYPES OF TRADEMARKS THAT CAN BE REGISTERED IN INDIA</h5>
+          <h5 class="" style="color:#ffb900; text-align: center;"><span class="textHead">DIFFERENT TYPES OF TRADEMARKS THAT CAN BE REGISTERED IN INDIA</span> </h5>
           <hr class="new1">
           <!--Simple description for section goes here. -->
         </div> 
@@ -843,11 +924,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="section-title text-center wow zoomIn">
-                <h2 style="text-align: center;font-family: Lato-Medium;
-                font-weight: 900!important;
-                position: relative;
-                margin-bottom: 30px;
-                text-shadow: 0px 3px 12px #c3c3c3;">Frequently Asked Questions</h2>
+                <h2 class="txtshadow" ><span class="textHead">Frequently Asked Questions</span></h2>
                 <span></span>
                 <p>If you have any doubts regarding Trademark then this article based on FAQs on Trademark Registration in India will clear all your doubts.</p>
             </div>
