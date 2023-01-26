@@ -548,11 +548,11 @@
     <section id="about" class="about roomy-100">
 
         <div class="row">
-            <div class="container" style="display:flex; justify-content:center; align-items: center;">
+            <div class="container">
 
                 <div class="col-lg-6 col-sm-12" data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
                           
-                    <ul class="accordian">
+                    <ul class="accordian Acc">
                         <h2 style="text-align: center;" ><span class="textHead">Requirements for filing Application</span> </h2>
                         <li>
                             <input type="radio" name="accordian" id="first" checked>
@@ -588,7 +588,7 @@
                 </div>
 
                 <div class="col-lg-6 col-sm-6" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine">
-                    <img src="images1/StpesIso.jpg" style="display: flex; justify-content: center;align-items: center;" alt="">
+                    <img src="images1/StepsCheck.jpg" alt="">
                 </div>
             </div>
         </div>

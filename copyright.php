@@ -493,7 +493,7 @@
         <section class="design-process-section" id="process-tab">
          <div class="container" >
           <div class="col-lg-6 col-sm-6"  data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine"style="display: flex;">
-              <img width="100%" src="images1/StepDr870700.jpg" style="display: flex; justify-content: center;align-items: center;">     
+              <img width="100%" src="images1/StepsProcedure.jpg" style="display: flex; justify-content: center;align-items: center;">     
           </div>         
           <div class="col-lg-6 col-sm-6" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine"> 
             <h3 class="num" ><span class="textHead">Procedure</span></h3>
@@ -558,9 +558,9 @@
 <section id="about" class="about roomy-100">
 
     <div class="row">
-        <div class="container" style="display:flex; justify-content:center; align-items: center;">
+        <div class="container Acc">
 
-            <div class="col-lg-6 col-sm-12" data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
+            <div class="col-lg-6 col-sm-6" data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
                       
                 <ul class="accordian">
                           <h2 style="text-align: center;" ><span class="textHead">Requirements for filing Application</span> </h2>
@@ -595,7 +595,7 @@
             </div>
 
             <div class="col-lg-6 col-sm-6" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine">
-                <img src="images1/StpesIso.jpg" style="display: flex; justify-content: center;align-items: center;" alt="">
+                <img src="images1/StepsCheck.jpg" alt="">
             </div>
         </div>
     </div>

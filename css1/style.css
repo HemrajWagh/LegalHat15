@@ -2247,7 +2247,7 @@ style="position: sticky; top: 100px;"
 /*"""""""""""Accordian"""""""""""*/
 .accordian{
     margin: 60px auto;
-    width: 600px;
+/*    width: 600px;*/
 
 }
 .accordian li{
@@ -2520,4 +2520,20 @@ padding-left: 10px;
  font-weight: 900!important;
  text-shadow: 0px 3px 12px #c3c3c3; 
  border-left: 5px solid #ffb900;                   
+}
+
+
+.Acc{
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+}
+
+@media(max-width:480px){
+    .Acc{
+        display: flex;
+        justify-content:center; 
+        align-items: center;
+        flex-wrap: wrap;
+    }  
 }
