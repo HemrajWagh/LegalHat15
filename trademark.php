@@ -268,6 +268,7 @@
       </div>
       <!-- End cSlide navigation arrows -->
     </div>
+
   </div>
 </div>
 <!-- End home section -->
@@ -282,8 +283,74 @@
   </ol>
 </nav>
  </div>
-<br>
 
+<div class="row">
+  <div class="container">
+    <div class="main_history fadeInUp" style="display:flex;">
+            <div class="col-lg-6 col-sm-6"data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine" style="border-right: 1px solid #ffb900;">
+             
+              <h2 style="text-align: center;justify-content: center;align-items: center;" ><span class="textHead">We Are Associated With </span> </h2>
+              <br> 
+                <div class="single_history_img">
+                    <div class="row ">
+                      
+                            <div class="container" style="display: flex;">
+                                <div class="col" style="display: flex; justify-content: center;align-items: center;" >
+                                  <img src="images1/tiaup/axis.jpeg" style="border-radius: 10px;"   alt="Logo 1" width="100%" class="shadowbtn">
+                                </div>
+                                <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                  <img src="images1/tiaup/just.jpeg" style="border-radius: 10px; " alt="Logo 2" width="100%" class="shadowbtn">
+                                </div>
+                                
+                                <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                  <img src="images1/tiaup/paytm.jpeg" style="border-radius: 10px; " alt="Logo 5" width="100%" class="shadowbtn">
+                                </div>
+                                <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                  <img src="images1/tiaup/sulekha.jpeg"style="border-radius: 10px; " alt="Logo 4" width="100%" class="shadowbtn">
+                                </div>
+                                <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                  <img src="images1/tiaup/kotak.jpeg"style="border-radius: 10px; " alt="Logo 4" width="100%" class="shadowbtn">
+                                </div>
+                               
+                              </div>
+                      </div>
+                                
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-6"data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine" style="border-left: 1px solid #ffb900;">
+                <h2 style="text-align: center;justify-content: center;align-items: center;" ><span class="textHead">Our Associated Partners </span> </h2> 
+                
+                <div class="single_history_img">
+                    <div class="row ">
+                   
+                            <div class="container" style="display: flex;">
+                                <div class="col" style="display: flex; justify-content: center;align-items: center;" >
+                                  <img src="images1/Associate/logo1.jpeg" style="border-radius: 10px;"   alt="Logo 1" width="70%" class="shadowbtn">
+                                </div>
+                                <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                  <img src="images1/Associate/logo2.jpeg" style="border-radius: 10px; " alt="Logo 2" width="100%" class="shadowbtn">
+                                </div>
+                                
+                                <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                  <img src="images1/Associate/logo3.jpeg" style="border-radius: 10px; " alt="Logo 5" width="70%" class="shadowbtn">
+                                </div>
+                                <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                  <img src="images1/Associate/logo4.jpeg"style="border-radius: 10px; " alt="Logo 4" width="70%" class="shadowbtn">
+                                </div>
+                               <!--  <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                  <img src="images1/tiaup/png.jpeg"style="border-radius: 5px; " alt="Logo 4" width="100%" class="shadowbtn">
+                                </div>
+                                -->
+                              </div>
+                      </div>
+                                
+                </div>
+            </div>       
+    </div>
+<hr style="border-bottom:2px solid #fbb900;">
+  </div>
+</div>
+<br><br>
 <section id="theory" class="about roomy-100" >   
 <div class="row content">   
  <div class="container">    
@@ -613,7 +680,7 @@
 
 <br><br>
 
-<section id="about" class="about roomy-100" >   
+<!-- <section id="about" class="about roomy-100" >   
     <div class="row">
       <div class="container content1">
         <div class="col-lg-6 col-sm-6" data-aos="fade-right"data-aos-offset="350"data-aos-easing="ease-in-sine" >
@@ -626,37 +693,10 @@
         </div>
       </div>
     </div> 
-</section>
-
-<br><br><br> 
-
-    <div class="row">
-      <div class="container">
-        <div class="main_history fadeInUp" style="display:flex;">
-                <div class="col-sm-6"data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
-                    <div class="single_history_img">
-                        <img width="100%" src="images1/patentPrcesure.png">
-                    </div>
-                </div>
-
-                <div class="col-sm-6 "data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine">
-                    <div class="single_history_content">
-                        <div class="head_title"style="margin-right:0px; border-left:4px solid #ffb900;" >
-                            <h2 style="margin-left: 20px;" >A GOLDEN LEGACY OF OVER <br> 5 DECADES</h2>
-                        </div>
-                        <p>A trademark is typically a name, word, phrase, logo, symbol, design, image, or a combination of these elements.</p>
-
-<p>There is also a range of non-conventional trademarks comprising marks which do not fall into these standard categories, such as those based on Color, smell, or sound. </p>
-                            <a href="" class="btn btn-lg shadowbtn txtshadow"style="margin-right:0px; border-left:4px solid #ffb900;">BROWSE OUR WORK</a>
-                    </div>
-                </div>
-        </div>
-      </div>
-    </div>          
-    <br><br><br> <br><br><br>
+</section> -->
 
 
-
+   
 <!-- <div class="row">
     <div class="container" style="display: flex;"      >
         <div class="col-lg-6 ">
@@ -791,7 +831,10 @@
                   </div>
            <!-- https://images.unsplash.com/photo-1520839090488-4a6c211e2f94?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=38951b8650067840307cba514b554ba5&auto=format&fit=crop&w=1350&q=80 -->
          </section>
-           <br> <br>
+
+
+    <br><br>
+
     <div class="container">
       <div class="row" >    
         <div class="col-lg-12" style="display:flex; flex-direction: column; align-items: center;justify-content: center; ">
@@ -924,7 +967,154 @@
 <br><br><br>
 
 
+    <div class="row">
+      <div class="container">
+        <div class="main_history fadeInUp" style="display:flex;">
+                <div class="col-lg-6 col-sm-6"data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
+                    <div class="single_history_img">
+                        <div class="row ">
+                                <div class="container" style="display: flex;">
+                                    <div class="col" style="display: flex; justify-content: center;align-items: center;" >
+                                      <img src="images1/logo/active.jpeg" style="border-radius: 5px;"   alt="Logo 1" width="100%" class="shadowbtn">
+                                    </div>
+                                    <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                      <img src="images1/logo/bhumi.jpeg" style="border-radius: 5px; " alt="Logo 2" width="100%" class="shadowbtn">
+                                    </div>
+                                    
+                                    <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                      <img src="images1/logo/meatbox.jpeg" style="border-radius: 5px; " alt="Logo 5" width="100%" class="shadowbtn">
+                                    </div>
+                                    <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                      <img src="images1/logo/logica.jpeg"style="border-radius: 5px; " alt="Logo 4" width="100%" class="shadowbtn">
+                                    </div>
+                                    <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                      <img src="images1/logo/png.jpeg"style="border-radius: 5px; " alt="Logo 4" width="100%" class="shadowbtn">
+                                    </div>
+                                   
+                                  </div>
+                          </div>
+                          <br>
+                         <div class="row ">
+                                 <div class="container" style="display: flex;">
+                                     <div class="col" style="display: flex; justify-content: center;align-items: center;" >
+                                       <img src="images1/logo/mamaLogo.png" style="border-radius: 5px;"   alt="Logo 1" width="100%" class="shadowbtn">
+                                     </div>
+                                     <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                       <img src="images1/logo/kiranaLogo.png" style="border-radius: 5px; " alt="Logo 2" width="100%" class="shadowbtn">
+                                     </div>
+                                     <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                       <img src="images1/logo/vrukshaLogo.png" style="border-radius: 5px; " alt="Logo 3" width="100%" class="shadowbtn">
+                                     </div>
+                                     <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                       <img src="images1/logo/twotech.jpeg" style="border-radius: 5px; " alt="Logo 5" width="100%" class="shadowbtn">
+                                     </div>
+                                   
+                                   </div>
+                            </div>
+                            <br>
+                           <div class="row ">
+                              <div class="container" style="display: flex;">
+                                       <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                          <img src="images1/logo/dudhraja.jpeg" style="border-radius: 5px; " alt="Logo 3" width="35%" class="shadowbtn">
+                                        </div>
+                                        <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                       <img src="images1/logo/spicelogo.png" style="border-radius: 5px; " alt="Logo 2" width="45%" class="shadowbtn">
+                                     </div>
+                                      
+                                       
+                                       <!-- <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                         <img src="images1/logo/soar.jpeg"style="border-radius: 5px; " alt="Logo 4" width="100%" class="shadowbtn">
+                                       </div> -->
+                                       
+                            </div>
+                           </div>                
 
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-sm-6 "data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine" style=" display: flex; align-items: center; justify-content: center;">
+                    <div class="single_history_content" >
+                        <div class="head_title"style="margin-right:0px; ">
+                            <h2 style="margin-left: 20px; " class="textHead"> "CLIENTS FIRST , ALWAYS" </h2>
+                        </div>
+                        <!-- <p>A trademark is typically a name, word, phrase, logo, symbol, design, image, or a combination of these elements.</p>
+
+<p>There is also a range of non-conventional trademarks comprising marks which do not fall into these standard categories, such as those based on Color, smell, or sound. </p> -->
+                            <!-- <a href="" class="btn btn-lg shadowbtn txtshadow"style="margin-right:0px; border-left:4px solid #ffb900;">BROWSE OUR WORK</a> -->
+                    </div>
+                </div>
+        </div>
+      </div>
+    </div>          
+    <br><br><br> <br>
+
+        <div class="row">
+          <div class="container">
+            <div class="main_history fadeInUp" style="display:flex;">
+                    <div class="col-lg-6 col-sm-6"data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
+                     
+                      <h2 style="text-align: center;justify-content: center;align-items: center;" ><span class="textHead">We Are  <br> Associated With </span> </h2>
+                      <br> 
+                        <div class="single_history_img">
+                            <div class="row ">
+                              
+                                    <div class="container" style="display: flex;">
+                                        <div class="col" style="display: flex; justify-content: center;align-items: center;" >
+                                          <img src="images1/tiaup/axis.jpeg" style="border-radius: 5px;"   alt="Logo 1" width="100%" class="shadowbtn">
+                                        </div>
+                                        <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                          <img src="images1/tiaup/just.jpeg" style="border-radius: 5px; " alt="Logo 2" width="100%" class="shadowbtn">
+                                        </div>
+                                        
+                                        <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                          <img src="images1/tiaup/paytm.jpeg" style="border-radius: 5px; " alt="Logo 5" width="100%" class="shadowbtn">
+                                        </div>
+                                        <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                          <img src="images1/tiaup/sulekha.jpeg"style="border-radius: 5px; " alt="Logo 4" width="100%" class="shadowbtn">
+                                        </div>
+                                        <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                          <img src="images1/tiaup/kotak.jpeg"style="border-radius: 5px; " alt="Logo 4" width="100%" class="shadowbtn">
+                                        </div>
+                                       
+                                      </div>
+                              </div>
+                                        
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6"data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
+                        <h2 style="text-align: center;justify-content: center;align-items: center;" ><span class="textHead">Our  <br> Associated Partners </span> </h2> 
+                        
+                        <div class="single_history_img">
+                            <div class="row ">
+                           
+                                    <div class="container" style="display: flex;">
+                                        <div class="col" style="display: flex; justify-content: center;align-items: center;" >
+                                          <img src="images1/Associate/logo1.jpeg" style="border-radius: 5px;"   alt="Logo 1" width="80%" class="shadowbtn">
+                                        </div>
+                                        <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                          <img src="images1/Associate/logo2.jpeg" style="border-radius: 5px; " alt="Logo 2" width="80%" class="shadowbtn">
+                                        </div>
+                                        
+                                        <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                          <img src="images1/Associate/logo3.jpeg" style="border-radius: 5px; " alt="Logo 5" width="80%" class="shadowbtn">
+                                        </div>
+                                        <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                          <img src="images1/Associate/logo4.jpeg"style="border-radius: 5px; " alt="Logo 4" width="80%" class="shadowbtn">
+                                        </div>
+                                       <!--  <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                          <img src="images1/tiaup/png.jpeg"style="border-radius: 5px; " alt="Logo 4" width="100%" class="shadowbtn">
+                                        </div>
+                                        -->
+                                      </div>
+                              </div>
+                                        
+                        </div>
+                    </div>       
+            </div>
+          </div>
+        </div>
+
+        <br><br><br><br><br><br>
 
 
 <section id="about" class="about roomy-100" >    
