@@ -1693,9 +1693,11 @@ body{
                   .tags-cloud {
                     position: relative;
                     top: calc(50% - 30vmin);
-                    left: calc(50% - 30vmin);
-                    height: 20vmin;
-                    width: 50vmin;
+                    left: calc(50% - 25vmin);
+/*                    top: 50%;*/
+/*                    left: 50%;*/
+                    height: 30vmin;
+                    width: 30vmin;
                     list-style: none;
                     opacity: 0;
                     color: #ffb900;
@@ -1707,8 +1709,8 @@ body{
 
                   .tags-cloud > .tag {
                     position: relative;
-                    top: 30%;
-                    left: 30%;
+                    top: 50%;
+                    left: 50%;
                     font-size: 5vmin;
                     font-weight: bold;
                     transition: transform .5s linear, opacity .5s linear;
@@ -1719,9 +1721,9 @@ body{
                     transform: translateX(-80%) translateY(-80%);
                   }
 
-                </style>
+              
 
-                <style type="text/css">
+              
                   #circle {
                     position: absolute;
                     top: 50%;

@@ -285,6 +285,29 @@
  </nav>
 </div>   
 
+<div class="row ">
+ <div class="container" style="display: flex;">
+     <div class="col-2" style="display: flex; justify-content: center;align-items: center;" >
+       <img src="images1/logo/active.jpeg" style="border-radius: 5px;"   alt="Logo 1" width="60%" class="shadowbtn">
+     </div>
+     <div class="col-2"style="display: flex; justify-content: center;align-items: center;">
+       <img src="images1/logo/bhumi.jpeg" style="border-radius: 5px; " alt="Logo 2" width="60%" class="shadowbtn">
+     </div>
+     <div class="col-2"style="display: flex; justify-content: center;align-items: center;">
+       <img src="images1/logo/dudhraja.jpeg" style="border-radius: 5px; " alt="Logo 3" width="60%" class="shadowbtn">
+     </div>
+     <div class="col-2"style="display: flex; justify-content: center;align-items: center;">
+       <img src="images1/logo/meatbox.jpeg" style="border-radius: 5px; " alt="Logo 5" width="60%" class="shadowbtn">
+     </div>
+     <div class="col-2"style="display: flex; justify-content: center;align-items: center;">
+       <img src="images1/logo/logica.jpeg"style="border-radius: 5px; " alt="Logo 4" width="60%" class="shadowbtn">
+     </div>
+     <div class="col-2"style="display: flex; justify-content: center;align-items: center;">
+       <img src="images1/logo/logica.jpeg"style="border-radius: 5px; " alt="Logo 4" width="60%" class="shadowbtn">
+     </div>
+    
+   </div>
+ </div>
 
 <br><br><br>
 <section id="theory" class="about roomy-100" > 
