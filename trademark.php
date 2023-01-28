@@ -102,70 +102,82 @@
     <body>
 
 
-
       <header id="header" >
-             
-         <div class="container">
-             
-              <nav class="navbar navbar-expand-lg navbar-light ">
-                <a class="navbar-brand" href="#"><img src="images/logo.png"width="170"height="50" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
+              
+            <div class="container">
+                
+                 <nav class="navbar navbar-expand-lg navbar-light ">
+                   <a class="navbar-brand" href="#"><img src="images/logo.png"width="170"height="50" alt=""></a>
+                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                   </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav ml-lg-auto">
-                    <li class="nav-item ">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">About Us</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Services
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">IPR Services</a>
-                        <!-- <a class="dropdown-item" href="#">Private Limited Company</a> -->
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Compony Formantion</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Iso Registration</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Food License</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">GST registration</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Make in india Certificattion</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Other Registraion</a>
-                      </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Registration
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Private Limited Company</a>
-                        <!-- <a class="dropdown-item" href="#">Private Limited Company</a> -->
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">LIMITED LIABILITY PARTNERSHIP</a>
-                      </div>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="#">Contact Us</a>
-                    </li>
-                  </ul>
-                  
-                </div>
-              </nav>
+                   <div class="collapse navbar-collapse textHead" id="navbarSupportedContent">
+                     <ul class="navbar-nav ml-lg-auto">
+                       <li class="nav-item ">
+                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                       </li>
+                       <li class="nav-item">
+                         <a class="nav-link" href="#">About Us</a>
+                       </li>
+                       <li class="nav-item dropdown">
+                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           Services
+                         </a>
+                         <div class="dropdown-menu dropright" aria-labelledby="navbarDropdown">
+                                 <a class="dropdown-item dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">IPR Services</a>
+                                 <div class="dropdown-menu dropdown-menu-right">
+                                   <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/trademark.php">Trademark Registration</a>
+                                   <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/copyright.php">Copyright Registration</a>
+                                   <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/design-registration.php">Design Registration</a>
+                                   <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/patent.php">Patent Registration</a>
+                                 </div>
+
+                           <div class="dropdown-divider"></div>
+                           <!-- <a class="dropdown-item" href="#">Compony Formation</a> -->
+                                 <a class="dropdown-item dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Compony Formation</a>
+                                 <div class="dropdown-menu dropdown1 dropdown-menu-right">
+                                   <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/private-limited.php">PVT Limited</a>
+                                   <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/llp-registration.php">LLP</a>
+                                   <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/opc.php">OPC</a>
+                                 </div>
+
+                           <div class="dropdown-divider"></div>
+                           <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/iso.php">Iso Registration</a>
+                           <div class="dropdown-divider"></div>
+                           <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/fssai-registration.php">Food License</a>
+                           <div class="dropdown-divider"></div>
+                           <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/gst.php">GST registration</a>
+                           <div class="dropdown-divider"></div>
+                           <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/">Make in india Certificattion</a>
+                           <div class="dropdown-divider"></div>
+                           <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/">Other Registraion</a>
+                          
+                         </div>
+                       </li>
+                       <li class="nav-item dropdown">
+                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           Registration
+                         </a>
+                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <a class="dropdown-item" href="#">Private Limited Company</a>
+                           <!-- <a class="dropdown-item" href="#">Private Limited Company</a> -->
+                           <div class="dropdown-divider"></div>
+                           <a class="dropdown-item" href="#">LIMITED LIABILITY PARTNERSHIP</a>
+                         </div>
+                       </li>
+                       <li class="nav-item">
+                         <a class="nav-link " href="#">Contact Us</a>
+                       </li>
+                     </ul>
+                     
+                   </div>
+                 </nav>
 
 
-         </div>   
+            </div>   
 
-        </header>
-
+       </header>
 
   <!-- Start home section -->
   <div id="home">

@@ -101,72 +101,82 @@
 
     <body>
 
-
-
-        <header id="header" >
-
-         <div class="container">
-
+ <header id="header" >
+         
+       <div class="container">
+           
             <nav class="navbar navbar-expand-lg navbar-light ">
               <a class="navbar-brand" href="#"><img src="images/logo.png"width="170"height="50" alt=""></a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
+              </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="collapse navbar-collapse textHead" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-lg-auto">
                   <li class="nav-item ">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link" href="#">About Us</a>
-                </li>
-                <li class="nav-item dropdown">
+                  </li>
+                  <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Services
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">IPR Services</a>
+                    </a>
+                    <div class="dropdown-menu dropright" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">IPR Services</a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                              <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/trademark.php">Trademark Registration</a>
+                              <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/copyright.php">Copyright Registration</a>
+                              <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/design-registration.php">Design Registration</a>
+                              <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/patent.php">Patent Registration</a>
+                            </div>
+
+                      <div class="dropdown-divider"></div>
+                      <!-- <a class="dropdown-item" href="#">Compony Formation</a> -->
+                            <a class="dropdown-item dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Compony Formation</a>
+                            <div class="dropdown-menu dropdown1 dropdown-menu-right">
+                              <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/private-limited.php">PVT Limited</a>
+                              <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/llp-registration.php">LLP</a>
+                              <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/opc.php">OPC</a>
+                            </div>
+
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/iso.php">Iso Registration</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/fssai-registration.php">Food License</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/gst.php">GST registration</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/">Make in india Certificattion</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/">Other Registraion</a>
+                     
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Registration
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Private Limited Company</a>
                       <!-- <a class="dropdown-item" href="#">Private Limited Company</a> -->
                       <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Compony Formantion</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Iso Registration</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Food License</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">GST registration</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Make in india Certificattion</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Other Registraion</a>
-                  </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Registration
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Private Limited Company</a>
-                  <!-- <a class="dropdown-item" href="#">Private Limited Company</a> -->
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">LIMITED LIABILITY PARTNERSHIP</a>
+                      <a class="dropdown-item" href="#">LIMITED LIABILITY PARTNERSHIP</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">Contact Us</a>
+                  </li>
+                </ul>
+                
               </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#">Contact Us</a>
-        </li>
-    </ul>
-
-</div>
-</nav>
+            </nav>
 
 
-</div>   
+       </div>   
 
-</header>                                 
-
-
+  </header>
 
 
 <!-- Start home section -->
@@ -287,8 +297,8 @@
 
 
 <br><br><br>
-<div class="row content ">   
    <div class="container " style="display: flex;" >    
+    <div class="row content ">   
     <div class="col-lg-3 col-sm-6"  data-aos="fade-right"data-aos-offset="350"data-aos-easing="ease-in-sine" > 
         <div class="menu" id="menu"style="position: sticky; top: 60px;" >
             <a href="#topic1" style="text-decoration: none;" >
@@ -517,9 +527,8 @@ documents )
 
 <section id="about" class="about roomy-100">
 
-    <div class="row">
-        <div class="container Acc">
-
+    <div class="container Acc">
+        <div class="row">
             <div class="col-lg-6 col-sm-12" data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
                 <ul class="accordian">
                     <li>
@@ -557,8 +566,8 @@ documents )
     </div>
 </section>
 <br>
-<div class="row ">
     <div class="container content1" style="display: flex; " >
+        <div class="row ">
         <!-- <div class="col-lg-6 col-sm-6"></div> -->
         <div class="col-lg-6 col-sm-6">
             <h3 style="text-align: center;">Procedure for registration of a logo / monogram </h3>
@@ -778,8 +787,8 @@ documents )
                    </div>
 </section>
 
-  <div class="row"style="background-image: url(images1/bkwhite.jpg);">
   <div class="container">
+  <div class="row"style="background-image: url(images1/bkwhite.jpg);">
     <div class="row">
         <div class="col-md-12">
             <div class="section-title text-center wow zoomIn">
@@ -793,8 +802,8 @@ documents )
             </div>
         </div>
     </div>
-    <div class="row">               
-        <div class="col-md-12">
+    <div class="col-md-12">
+        <div class="row">               
             <div class="panel-group accordion" id="accordion" role="tablist" aria-multiselectable="true">
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="headingOne">
@@ -1034,31 +1043,31 @@ documents )
 
 
 
-                                <!-- ScrollUp button end -->
-                                <!-- Include javascript -->
-                                <script src="js/jquery.js"></script>
-                                <script type="text/javascript" src="js/jquery.mixitup.js"></script>
-                                <!-- <script type="text/javascript" src="js/bootstrap.js"></script> -->
-                                <script type="text/javascript" src="js/modernizr.custom.js"></script>
-                                <script type="text/javascript" src="js/jquery.bxslider.js"></script>
-                                <script type="text/javascript" src="js/jquery.cslider.js"></script>
-                                <script type="text/javascript" src="js/jquery.placeholder.js"></script>
-                                <script type="text/javascript" src="js/jquery.inview.js"></script>
-                                <!-- Load google maps api and call initializeMap function defined in app.js -->
-                                <script async="" defer="" type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=initializeMap"></script>
-                                <!-- css3-mediaqueries.js for IE8 or older -->
+            <!-- ScrollUp button end -->
+            <!-- Include javascript -->
+            <script src="js/jquery.js"></script>
+            <script type="text/javascript" src="js/jquery.mixitup.js"></script>
+            <!-- <script type="text/javascript" src="js/bootstrap.js"></script> -->
+            <script type="text/javascript" src="js/modernizr.custom.js"></script>
+            <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+            <script type="text/javascript" src="js/jquery.cslider.js"></script>
+            <script type="text/javascript" src="js/jquery.placeholder.js"></script>
+            <script type="text/javascript" src="js/jquery.inview.js"></script>
+            <!-- Load google maps api and call initializeMap function defined in app.js -->
+            <script async="" defer="" type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=initializeMap"></script>
+            <!-- css3-mediaqueries.js for IE8 or older -->
             <!--[if lt IE 9]>
-                <script src="js/respond.min.js"></script>
+            <script src="js/respond.min.js"></script>
             <![endif]-->
              <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> -->
 
              <script type="text/javascript" src="js/app.js"></script>
 
-           <!--     <script src="dropdown-19/js/jquery-3.3.1.min.js"></script>
-               <script src="dropdown-19/js/popper.min.js"></script>
-               <script src="dropdown-19/js/bootstrap.min.js"></script>
-               <script src="dropdown-19/js/owl.carousel.min.js"></script>
-               <script src="dropdown-19/js/main.js"></script> -->
+           <!-- <script src="dropdown-19/js/jquery-3.3.1.min.js"></script>
+            <script src="dropdown-19/js/popper.min.js"></script>
+            <script src="dropdown-19/js/bootstrap.min.js"></script>
+            <script src="dropdown-19/js/owl.carousel.min.js"></script>
+            <script src="dropdown-19/js/main.js"></script> -->
 
 
                <script type="text/javascript">
