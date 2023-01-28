@@ -369,17 +369,17 @@
                                      <div class="col-lg-3 col-sm-6" data-aos="fade-right"data-aos-offset="350"data-aos-easing="ease-in-sine" > 
                                        <div class="menu" id="menu" style="position: sticky; top: 100px;" >
                                          <a href="#topic1" style="text-decoration: none;" >
-                                           <div class="list"><span class="light"></span><span> Trademark Registration </span></div>
+                                           <div class="list"><span class="light"></span><span> GST Registration </span></div>
                                          </a>
                                          <a href="#topic2" style="text-decoration: none;">
                                            <div class="list"><span class="light"></span><span>Process</span></div>
                                          </a>
-                                         <a href="#topic3" style="text-decoration: none;">
+                                        <!--  <a href="#topic3" style="text-decoration: none;">
                                            <div class="list"><span class="light"></span><span>Trademark Registration Procesure</span></div>
                                          </a>
                                          <a href="#topic4" style="text-decoration: none;">
                                            <div class="list"><span class="light"></span><span>Requirements for filing Application</span></div>
-                                         </a>
+                                         </a> -->
 
                                        </div> 
                                      </div>
@@ -412,47 +412,19 @@
                                          <li style="list-style-type: upper-roman;"> <b>Tab wise Details </b>Part B of the form has various tabs. Enter the details by selecting relevant options. Upload documents in .pdf and .jpeg format.</li>
                                          <li style="list-style-type: upper-roman;"> <b>Business Details </b>‘The first tab is ‘Business Details’. Enter the necessary details and upload the relevant documents. If you want to apply for Composition Scheme, select ‘Yes’ in the option for the Composition field. Once all the details are entered, click on ‘Save & Continue’.</li>
                                          <li style="list-style-type: upper-roman;"> <b>Promoters / Partners Details </b>‘The first tab is ‘Business Details’. Enter the necessary details and upload the relevant documents. If you want to apply for Composition Scheme, select ‘Yes’ in the option for the Composition field. Once all the details are entered, click on ‘Save & Continue’.</li>
-                                       </div>
-                                       <div id="topic3">
-                                         <h4> <span class="textHead"></span>Trademark Registration Procesure</h4>
+                                         <li style="list-style-type: upper-roman;"> <b>Authorised Signatory </b>The third tab is ‘Authorised Signatory’. The details are auto-filled if the tab for authorised signatory was selected while entering details of promoter or partner in the earlier tab. Select the primary authorised signatory. Review details and click on ‘Save & Continue’</li>
+                                         <li style="list-style-type: upper-roman;"> <b>Authorised Representative </b>The fourth tab is ‘Authorised Representative’. If you have any authorised representative, enter details of such person and click on ‘Save & Continue’.</li>
+                                         <li style="list-style-type: upper-roman;"> <b>Additional Place of Business</b>The fifth tab is ‘Additional Place of Business’. If you have any other office other than the principal place of business, enter details of that place under this tab. Enter the number of additional place of business, add details similar to the principal place of business and click on ‘Save & Continue’.</li>
+                                         <li style="list-style-type: upper-roman;"> <b>Goods and Services</b>The sixth tab is ‘Goods and Services’. Enter details of goods or services supplied by the business. You can enter details of a maximum of 5 goods and 5 services. Enter HSN/SAC and description. Once you enter the details, click on ‘Save & Continue’.</li>
 
-                                         <p>The procedure for applying for Trademark Reglstration is as follows :</p>
-
-                                         <p> 1. Search :-  A search is conducted at the Trade Mark Registry, Govt. Office to As certain whether the trademark to be applied for ls register-able or hot. </p>
-
-                                         <p>2. Application For Registration :- An application needs to be file prepare the complete applicalion doc and file the same. On submission, application number is received which is made availlable to you along with copy ofapplication.</p>
-
-                                         <p>3. Official Objections, If Any :- We need to reply to official objections raised under various sections of the Act.</p>
-
-                                         <p>4. Publications and Registration :- The mark is then published in the trademark jourmal and a certificate of registration is issued.</p>
-
-
-                                       </div>
-                                       <div id="topic4">
-                                         <h4> <span class="textHead"></span>Requirements for filing Application</h4>
-                                         <h4>Informational Requirements :</h4>
-                                         <ul>
-                                           <li>The name, address and nationality of the applicant.</li  >
-                                           <li>Form of Organization. (Proprietorship/Partnership/Company/Trust)</li  >
-                                           <li>Full name & Age of signatory of the application</li  >
-                                           <li>Father’s / Husband name of signatory & nationality with Residential address.</li  >
-                                           <li>Trademark to be registered</li  >
-                                           <li>A list of goods and/or services for which registration is required with trade description (such as manufacturers/merchants/dealers).</li  >
-                                           <li>Date of first use of the trademark (if already using), If user not claimed then mention as to when you propose to be use the trademark.</li>
-                                         </ul>
-
-                                         <h4>Documentary Requirements : </h4>
-                                         <ul>
-                                           <li>Sales Invoices from date of using the trademark (if already using the trademark)</li>
-
-                                           <li>In case of a partnership concern: Copy of partnership deed</li>
-
-                                           <li>In case of a company: copy of memorandum and articles and certificate of incorporation duly attested as true copy </li>
-                                           <li>In case of a trust or an NGO: copy of trust deed with names and addresses of trustees</li>
-                                           <!-- <li>Required logo / writing style of trademark in soft copy to be mailed to info@trademark.in and to the concerned advocate/executive in our firm</li> -->
-                                         </ul>
-
-                                       </div>
+                                         <li style="list-style-type: upper-roman;"> <b>Bank Accounts</b>The ‘Bank Accounts’ tab will not appear on the screen during the GST Registration. Once the GSTIN is issued, when the taxpayer logins to the GST Portal for the first time, Bank Account details are required to be added. You can enter details of maximum of 10 bank accounts. Enter the account number, type, and IFSC code. Further, upload the document proof and click on ‘Save & Continue’.</li>
+                                         <li style="list-style-type: upper-roman;"> <b>State Specific Information</b>The eighth tab is ‘State Specific Information’. Enter details of state registrations if any and click on ‘Save & Continue’.</li>
+                                         <li style="list-style-type: upper-roman;"> <b>Verification</b>The last tab is ‘Verification’. There are two options to Submit the Application at the bottom of the page. <ul><li><b>Submit with DSC – </b>Sign the application using the DSC i.e. Digital Signature Certificate token. However, you must register the DSC on the GST Portal.</li>
+                                         <li><b>Submit with EVC or Submit with E-Signature –</b>Under this option, you would receive an OTP on registered mobile and registered email. Enter the OTP and submit the application.</li></ul> </li>
+                                         <li style="list-style-type: upper-roman;"> <b>State Specific Information</b>The eighth tab is ‘State Specific Information’. Enter details of state registrations if any and click on ‘Save & Continue’.</li>
+                                         <li style="list-style-type: upper-roman;"> <b>Success message</b>TAfter you submit the application, a success message is displayed. You would receive an Acknowledgement Reference Number i.e. ARN on your registered email and mobile in the next 15 minutes.</li>
+                                       </div><br>
+                                       
                                      </div>
                                      <div class="col-lg-3" data-aos="fade-left"data-aos-offset="350"data-aos-easing="ease-in-sine">
                                        <div class="container "style="position: sticky; top: 100px;" >
@@ -1112,7 +1084,7 @@
                                                              <div class="panel-heading" role="tab" id="headingOne">
                                                                <h4 class="panel-title">
                                                                  <a role="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                                                   What is Trademark?
+                                                                   Can I save the application for change of details in GST Registration?
                                                                  </a>
                                                                </h4>                    
 
@@ -1120,7 +1092,7 @@
 
                                                              <div id="collapseOne" class="collapse show" data-parent="#accordion" data-parent="#accordion">
                                                                <div class="panel-body">
-                                                                 <p>The term ‘Trademark’ refers to the brand or logo which represents the business. It is a visual symbol of a signature, name, device, label, numerals or combination of colors used by the owner of the trademark for goods or services or any other articles of commerce. Moreover, it is meant to differentiate among the similar products or services originated from the different business. A trademark can be a word, wrapper, packaging labels or a tagline or a combination of these. For example Coca-Cola and Pepsi.
+                                                                 <p>Yes. You can save the application to change or update details in GST Registration. However, you must submit the application within 15 days from the date of starting the application. On the expiry of 15 days, the system automatically cancels the application.
                                                                  </p>
                                                                </div>
                                                              </div>
@@ -1129,13 +1101,13 @@
                                                              <div class="panel-heading" role="tab" id="headingTwo">
                                                                <h4 class="panel-title">
                                                                  <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseTwo" >
-                                                                  Who can apply for the Trademark?
+                                                                  Can PAN be changed after GST Registration?
                                                                 </a>
                                                               </h4>
                                                             </div>
                                                             <div id="collapseTwo" class="panel-collapse collapse"  data-parent="#accordion">
                                                              <div class="panel-body">
-                                                               <p>Any Individual, Company, Proprietor or legal entity who can claim to be an owner of the Trademark can apply for it. The trademark Registration formalities can be done in 18 to 24 months after that you can start using the ‘TM’ symbol. Once your trademark registry is done and registration certificate is issued then you may use ® (registered symbol) next to your trademark. The validity of a registered trademark is for 10 years from the date of filing and that can be renewed from time to time. </p>
+                                                               <p>No, after registration PAN (Permanent Account Number) cannot be changed. This is because GST Number or GSTIN is based on the PAN of the entity.</p>
                                                              </div>
                                                            </div>
                                                          </div>
@@ -1143,62 +1115,20 @@
                                                            <div class="panel-heading" role="tab" id="headingThree">
                                                              <h4 class="panel-title">
                                                                <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseThree">
-                                                                 What are the types of Trademark?
+                                                                 How to change GST registration details?
                                                                </a>
                                                              </h4>
                                                            </div>
                                                            <div id="collapseThree" class="panel-collapse collapse" data-parent="#accordion">
                                                              <div class="panel-body">
-                                                               <p>There are several types of Trademark which are given below:
+                                                               <p>In order to change the details of your registration , you need to visit the GST official portal. Go to Services > Registration > Amendment of Registration Non-Core Fields. Select the desired tab and make the necessary changes.
                                                                </p>
-                                                               <p>
-                                                                 A name of a person or surname or predecessor in business or the signature of the person.
-                                                                 The coined word or an invented word or any dictionary words that are not being directly descriptive of the character.
-                                                                 Alphanumeric or letter or any combination thereof.
-                                                                 Image, symbol, monograms, 3-dimensional shapes etc
-                                                                 Sound marks in audio format
-                                                               </p>
+                                                               
                                                              </div>
                                                            </div>
                                                          </div>
-                                                         <div class="panel panel-default">
-                                                           <div class="panel-heading" role="tab" id="headingFour">
-                                                             <h4 class="panel-title">
-                                                               <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseFour">
-                                                                 What are the functions of Trademark?
-                                                               </a>
-                                                             </h4>
-                                                           </div>
-                                                           <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion">
-                                                             <div class="panel-body">
-                                                               <p>Following are the functions of Trademark </p>
-                                                               <p>It identifies the product or the services and its sources. </p>
-                                                               <p>It provides a guarantee for its quality </p>
-                                                               <p>It helps in advertising the products and services. </p>
-                                                               <p>Read more : Classes of Trademark Goods and Services </p>
-                                                             </div>
-                                                           </div>
-                                                         </div>
-                                                         <div class="panel panel-default">
-                                                           <div class="panel-heading" role="tab" id="headingFive">
-                                                             <h4 class="panel-title">
-                                                               <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseFive">
-                                                                 What are the documents required for Trademark Registration?
-                                                               </a>
-                                                             </h4>
-                                                           </div>
-                                                           <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion">
-                                                             <div class="panel-body">
-                                                               <p>Following are the documents which are required for the Trademark registration: </p>
-                                                               <p>Copy of Trademark or logo </p>
-                                                               <p>Applicant details like name, address, and nationality and for the company it requires the state of incorporation </p>
-                                                               <p>Goods or services to register </p>
-                                                               <p>Date of first use of the trademark in India. </p>
-                                                               <p>Power of attorney which is to be signed by the applicant. </p>
-                                                             </div>
-                                                           </div>
-                                                         </div>
-                                                       </div>
+                                                         
+                                                         
                                                      </div><!--- END COL -->     
                                                    </div><!--- END ROW -->        
 

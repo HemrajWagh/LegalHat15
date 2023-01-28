@@ -967,7 +967,7 @@ color: #ffb900;;
       text-transform: uppercase;
     }
     .navbar-light .navbar-nav  .nav-item .nav-link:hover,    
-    .navbar-light .navbar-nav  .nav-item.active .nav-link{
+    .navbar-light .navbar-nav  .nav-item .active .nav-link{
       background: #ffb900;
       color:#fff;
     }
