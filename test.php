@@ -186,7 +186,7 @@
          <div class="row" >
             
              <div class="col-lg-12 col-sm-6">
-                 <div id='cursor'></div>
+                 <!-- <div id='cursor'></div> -->
                  <div class="canvas" style="width:100; height:100;"  width="100" height="100"    >
                      <ul class='tags-cloud'>
                          <li class='tag'><span class='wrap'>Trademark</span></li>

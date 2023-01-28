@@ -284,17 +284,17 @@
 </nav>
  </div>
 
-<div class="row">
   <div class="container">
+<div class="row">
     <div class="main_history fadeInUp" style="display:flex;">
             <div class="col-lg-6 col-sm-6"data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine" style="border-right: 1px solid #ffb900;">
              
               <h2 style="text-align: center;justify-content: center;align-items: center;" ><span class="textHead">We Are Associated With </span> </h2>
               <br> 
                 <div class="single_history_img">
-                    <div class="row ">
                       
                             <div class="container" style="display: flex;">
+                    <div class="row ">
                                 <div class="col" style="display: flex; justify-content: center;align-items: center;" >
                                   <img src="images1/tiaup/axis.jpeg" style="border-radius: 10px;"   alt="Logo 1" width="100%" class="shadowbtn">
                                 </div>
@@ -321,7 +321,7 @@
                 <h2 style="text-align: center;justify-content: center;align-items: center;" ><span class="textHead">Our Associated Partners </span> </h2> 
                 
                 <div class="single_history_img">
-                    <div class="row ">
+                    <!-- <div class="row "> -->
                    
                             <div class="container" style="display: flex;">
                                 <div class="col" style="display: flex; justify-content: center;align-items: center;" >
@@ -342,7 +342,7 @@
                                 </div>
                                 -->
                               </div>
-                      </div>
+                      <!-- </div> -->
                                 
                 </div>
             </div>       
@@ -352,8 +352,8 @@
 </div>
 <br><br>
 <section id="theory" class="about roomy-100" >   
-<div class="row content">   
  <div class="container">    
+<div class="row content">   
   <div class="col-lg-3 col-sm-6" data-aos="fade-right"data-aos-offset="350"data-aos-easing="ease-in-sine" > 
     <div class="menu" id="menu" style="position: sticky; top: 100px;" >
       <a href="#topic1" style="text-decoration: none;" >
@@ -509,8 +509,8 @@
 </section>    
     <br><br><br>
 
-    <div class="row" >  
       <div class="container">
+    <div class="row" >  
         <div class="col-lg-12 col-sm-6"> 
           <div class="">
             <h2 class="pb-3 pt-2 mb-5 "> <span class="textHead">TRADEMARK REGISTRATION PROCEDURE :</span> </h2>
@@ -632,8 +632,8 @@
 
     <section id="about" class="about roomy-100">
 
-        <div class="row">
             <div class="container Acc" style="">
+        <div class="row">
 
                 <div class="col-lg-6 col-sm-12" data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
                           
@@ -733,8 +733,8 @@
         </div>
     </div>
   </div> -->
-  <div class="row">
     <div class="container" style="display:flex;justify-content: center;align-items: center; ">
+  <div class="row">
                       <div class="col-sm-6 " data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
                           <div class="single_history_content">
                               <div class="head_title"style="margin-right:0px; border-left:4px solid #ffb900;font-family: Lato-Medium;
@@ -967,13 +967,13 @@
 <br><br><br>
 
 
-    <div class="row">
       <div class="container">
+    <div class="row">
         <div class="main_history fadeInUp" style="display:flex;">
                 <div class="col-lg-6 col-sm-6"data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
                     <div class="single_history_img">
-                        <div class="row ">
                                 <div class="container" style="display: flex;">
+                        <div class="row ">
                                     <div class="col" style="display: flex; justify-content: center;align-items: center;" >
                                       <img src="images1/logo/active.jpeg" style="border-radius: 5px;"   alt="Logo 1" width="100%" class="shadowbtn">
                                     </div>
@@ -994,8 +994,8 @@
                                   </div>
                           </div>
                           <br>
-                         <div class="row ">
                                  <div class="container" style="display: flex;">
+                         <div class="row ">
                                      <div class="col" style="display: flex; justify-content: center;align-items: center;" >
                                        <img src="images1/logo/mamaLogo.png" style="border-radius: 5px;"   alt="Logo 1" width="100%" class="shadowbtn">
                                      </div>
@@ -1012,8 +1012,8 @@
                                    </div>
                             </div>
                             <br>
-                           <div class="row ">
                               <div class="container" style="display: flex;">
+                           <div class="row ">
                                        <div class="col"style="display: flex; justify-content: center;align-items: center;">
                                           <img src="images1/logo/dudhraja.jpeg" style="border-radius: 5px; " alt="Logo 3" width="35%" class="shadowbtn">
                                         </div>
@@ -1048,8 +1048,8 @@
     </div>          
     <br><br><br> <br>
 
+        <div class="container">
         <div class="row">
-          <div class="container">
             <div class="main_history fadeInUp" style="display:flex;">
                     <div class="col-lg-6 col-sm-6"data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
                      
@@ -1085,9 +1085,9 @@
                         <h2 style="text-align: center;justify-content: center;align-items: center;" ><span class="textHead">Our  <br> Associated Partners </span> </h2> 
                         
                         <div class="single_history_img">
+                                    <div class="container" style="display: flex;">
                             <div class="row ">
                            
-                                    <div class="container" style="display: flex;">
                                         <div class="col" style="display: flex; justify-content: center;align-items: center;" >
                                           <img src="images1/Associate/logo1.jpeg" style="border-radius: 5px;"   alt="Logo 1" width="80%" class="shadowbtn">
                                         </div>
