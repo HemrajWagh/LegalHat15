@@ -119,7 +119,7 @@
                            <span class="navbar-toggler-icon"></span>
                          </button>
 
-                         <div class="collapse navbar-collapse textHead" id="navbarSupportedContent">
+                         <div class="collapse navbar-collapse " id="navbarSupportedContent">
                            <ul class="navbar-nav ml-lg-auto">
                              <li class="nav-item ">
                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -334,7 +334,7 @@
 
         </div> 
       </div>
-      <div class="col-lg-6 col-sm-6"  data-aos="fade-up"data-aos-duration="2000" data-aos-offset="350"data-aos-easing="ease-in-sine">
+      <div class="col-lg-6 col-sm-6"  data-aos="fade-up"data-aos-duration="700" data-aos-offset="350"data-aos-easing="ease-in-sine">
         <div id="topic1">
           <h4><span class="textHead"></span> What is Design Registration ? </h4>
           <p>Under Design Act, 2000, A design must be some shape, configuration, pattern or omamentation or composition of lines or colors applied to such article in any form by any industrial process or means but does not include any mode or principle of construction or anything which is in Trade or Property mark or artistic work.</p>
@@ -561,12 +561,12 @@
 
     <section id="about" class="about roomy-100">
 
-        <div class="row">
             <div class="container">
+        <div class="row Acc">
 
                 <div class="col-lg-6 col-sm-12" data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
                           
-                    <ul class="accordian Acc">
+                    <ul class="accordian ">
                         <h2 style="text-align: center;" ><span class="textHead">Requirements for filing Application</span> </h2>
                         <li>
                             <input type="radio" name="accordian" id="first" checked>
@@ -742,8 +742,8 @@
 
       <section id="info2" style="box-shadow: 0 10px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 5%);"  >
       <br><br>        
-        <div class="row">
           <div class="container">
+        <div class="row">
             <div class="main_history fadeInUp">
               <div class="col-lg-6 col-sm-6" style="display: flex; align-items: center;justify-content: center;" data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
                 <div class="single_history_img">
@@ -981,8 +981,8 @@
       </section>
 
          
-        <div class="row"style="background-image: url(images1/bkwhite.jpg);">
         <div class="container">
+        <div class="row"style="background-image: url(images1/bkwhite.jpg);">
           <div class="row">
               <div class="col-md-12 col-sm-6">
                   <div class="section-title text-center wow zoomIn">
