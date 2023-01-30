@@ -1,3 +1,57 @@
+<?php
+  session_start();
+  $allErrs = $nameErr = $emailErr = $contactnoErr = $cityErr = $typeOfSerrvicesErr = $allpostval = $allapproxbudget1 = $alltypeOfServices =  "" ;
+
+  if(isset($_SESSION['errors'])){
+    $allErrs = $_SESSION['errors'];
+  }
+  if(isset($_SESSION['postval'])){
+    $allpostval =$_SESSION['postval'];
+  }
+
+  // if(isset($_SESSION['approxbudget1'])){
+  //   $allapproxbudget1 =$_SESSION['approxbudget1'];
+  // }
+
+  if(isset($_SESSION['services'])){
+    $alltypeOfServices =$_SESSION['services'];
+  }
+
+  if(isset($allpostval['enquirysource'])){
+    $enquirysource=$allpostval['enquirysource'];
+
+  }
+
+  if (isset($allErrs['project'])) {
+    $projectErr = $allErrs['project'];
+  }
+
+  if(isset($allErrs['name'])){
+    $nameErr = $allErrs['name'];
+  }
+
+  if(isset($allErrs['email'])){
+    $emailErr = $allErrs['email'];
+  }
+  if(isset($allErrs['contactno'])){
+    $contactnoErr = $allErrs['contactno'];
+  }
+  if(isset($allErrs['city'])){
+    $cityErr = $allErrs['city'];
+  }
+  // if(isset($allErrs['location'])){
+  //   $locationErr = $allErrs['location'];
+  // }
+
+  // if(isset($allErrs['enquirysource'])){
+  //   $enquirysourceErr = $allErrs['enquirysource'];
+  // }
+  if(isset($allErrs['services'])){
+    $typeOfSerrvicesErr = $allErrs['services'];
+  }?>
+
+
+
 <?php include 'header.php';?>
 
 <!-- ============Content========= -->
@@ -705,66 +759,72 @@
 
 
                    <div class="container-fluid gtco-features-list">
-                    <div class="container">
-                        <h2 style="text-align: center;font-family: Lato-Medium;
-                        font-weight: 900!important;
-                        position: relative;
-                        margin-bottom: 30px;
-                        text-transform: uppercase;text-shadow: 0px 3px 12px #c3c3c3;">WHY CHOOSE US</h2>
+                          <div class="container">
+                              <h2 style="text-align: center;font-family: Lato-Medium;
+                              font-weight: 900!important;
+                              position: relative;
+                              margin-bottom: 30px;
+                              text-transform: uppercase;text-shadow: 0px 3px 12px #c3c3c3;">WHY CHOOSE US</h2>
 
-                        <div class="row">
-                            <div class="media col-md-6 col-lg-4">
-                                <div class="oval mr-4"><img class="align-self-start" src="images1/TmRg.png" alt=""></div>
-                                <div class="media-body">
-                                    <h5 class="mb-0">Data Security & Trust</h5>
-                                    Aliquam a nisl pulvinar, hendrerit arcu sed, dapibus velit. Duis ac quam id sapien vestibulum
-                                    fermentum ac eu eros. Aliquam erat volutpat.
-                                </div>
-                            </div>
-                            <div class="media col-md-6 col-lg-4">
-                                <div class="oval mr-4"><img class="align-self-start" src="images1/TmRg.png" alt=""></div>
-                                <div class="media-body">
-                                    <h5 class="mb-0">On Time Service</h5>
-                                    Aliquam a nisl pulvinar, hendrerit arcu sed, dapibus velit. Duis ac quam id sapien vestibulum
-                                    fermentum ac eu eros. Aliquam erat volutpat.
-                                </div>
-                            </div>
-                            <div class="media col-md-6 col-lg-4">
-                                <div class="oval mr-4"><img class="align-self-start" src="images1/TmRg.png" alt=""></div>
-                                <div class="media-body">
-                                    <h5 class="mb-0">Affordable Pricing</h5>
-                                    Aliquam a nisl pulvinar, hendrerit arcu sed, dapibus velit. Duis ac quam id sapien vestibulum
-                                    fermentum ac eu eros. Aliquam erat volutpat.
-                                </div>
-                            </div>
-                            <div class="media col-md-6 col-lg-4">
-                                <div class="oval mr-4"><img class="align-self-start" src="images1/TmRg.png" alt=""></div>
-                                <div class="media-body">
-                                    <h5 class="mb-0">Easy To Use</h5>
-                                    Aliquam a nisl pulvinar, hendrerit arcu sed, dapibus velit. Duis ac quam id sapien vestibulum
-                                    fermentum ac eu eros. Aliquam erat volutpat.
-                                </div>
-                            </div>
-                            <div class="media col-md-6 col-lg-4">
-                                <div class="oval mr-4"><img class="align-self-start" src="images1/TmRg.png" alt=""></div>
-                                <div class="media-body">
-                                    <h5 class="mb-0">Free Support</h5>
-                                    Aliquam a nisl pulvinar, hendrerit arcu sed, dapibus velit. Duis ac quam id sapien vestibulum
-                                    fermentum ac eu eros. Aliquam erat volutpat.
-                                </div>
-                            </div>
-                            <div class="media col-md-6 col-lg-4">
-                                <div class="oval mr-4"><img class="align-self-start" src="images1/TmRg.png" alt=""></div>
-                                <div class="media-body">
-                                    <h5 class="mb-0">Trained & Professional Experts</h5>
-                                    Aliquam a nisl pulvinar, hendrerit arcu sed, dapibus velit. Duis ac quam id sapien vestibulum
-                                    fermentum ac eu eros. Aliquam erat volutpat.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>                              
+                              <div class="row">
+                                  <div class="media col-md-6 col-lg-4">
+                                      <div class="oval mr-4"><img class="align-self-start" src="images1/TmRg.png" alt=""></div>
+                                      <div class="media-body">
+                                          <h5 class="mb-0">Data Security & Trust</h5>
+                                          "Data security is not optional, it's necessary. We secure your data, so you can focus on what matters."
+                                      </div>
+                                  </div>
+                                  <div class="media col-md-6 col-lg-4">
+                                      <div class="oval mr-4"><img class="align-self-start" src="images1/TmRg.png" alt=""></div>
+                                      <div class="media-body">
+                                          <h5 class="mb-0">On Time Service</h5>
+                                          "Service on time, every time, Never wait for good service again , We value your time, and deliver on it. "
+                                      </div>
+                                  </div>
+                                  <div class="media col-md-6 col-lg-4">
+                                      <div class="oval mr-4"><img class="align-self-start" src="images1/TmRg.png" alt=""></div>
+                                      <div class="media-body">
+                                          <h5 class="mb-0">Affordable Pricing</h5>
+                                          "Affordable prices, unbeatable value. The smart choice for affordability and quality , Get more for less, with our affordable pricing ."
+                                      </div>
+                                  </div>
+                                  <div class="media col-md-6 col-lg-4">
+                                      <div class="oval mr-4"><img class="align-self-start" src="images1/TmRg.png" alt=""></div>
+                                      <div class="media-body">
+                                          <h5 class="mb-0">Easy To Use</h5>
+                                         "Ease of use, at your fingertips , Say goodbye to complexity, hello to ease." 
+                                      </div>
+                                  </div>
+                                  <div class="media col-md-6 col-lg-4">
+                                      <div class="oval mr-4"><img class="align-self-start" src="images1/TmRg.png" alt=""></div>
+                                      <div class="media-body">
+                                          <h5 class="mb-0">Free Support</h5>
+                                          "Support that's always free, always available. Expert support, always at your service, gratis."
+                                      </div>
+                                  </div>
+                                  <div class="media col-md-6 col-lg-4">
+                                      <div class="oval mr-4"><img class="align-self-start" src="images1/TmRg.png" alt=""></div>
+                                      <div class="media-body">
+                                          <h5 class="mb-0">Trained & Professional Experts</h5>
+                                         "Expertise you can trust, professionalism you can count on. The best in the business, backed by training and experience." 
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>   
 
+
+
+
+                      <br><br><br>
+
+                <section id="parallex2" style="background-image: url(images1/bk2.jpg); box-shadow: 0 10px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 5%);height: 250px;">
+                  <div class="container" style="display: flex;" id="paraFlex" >
+                    <div class="col-lg-6 col-sm-6"><img src="images1/man.png"></div>
+                    <div class="col-lg-6 col-sm-6" style="display: flex; justify-content: center; align-items: center;margin-top:-100px ;"> <a href="" class="btn btn-lg shadowbtn "style="  border-left:4px solid #ffb900;text-shadow: 0px 3px 12px #c3c3c3;">BROWSE OUR WORK</a></div>
+                  </div>
+                </section>  
+                <br><br>
 
 
                 <div class="container-fluid gtco-logo-area">
@@ -917,6 +977,61 @@
                                   </div>
                               </div>
                           </div>                                                                       
+
+
+
+
+                          <!-- Client -->
+                          <div class="vg-page page-client">
+                            <div class="container" >
+                              <div class="row" >
+                                <div class="col-md-6 col-lg-4 col-xl-3 item" >
+                                  <div class="img-place wow fadeInUp" style="display:flex;">
+                                    <img src="images1/logo/logica.png" alt="">
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3 item">
+                                  <div class="img-place wow fadeInUp">
+                                    <img src="images1/logo/mamaLogo.png" alt="">
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3 item">
+                                  <div class="img-place wow fadeInUp">
+                                    <img src="images1/logo/activeLogo.png" alt="">
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3 item">
+                                  <div class="img-place wow fadeInUp">
+                                    <img src="images1/logo/meatLogo.png" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-md-6 col-lg-4 col-xl-3 item">
+                                  <div class="img-place wow fadeInUp">
+                                    <img src="images1/logo/spicelogo.png" alt="">
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3 item">
+                                  <div class="img-place wow fadeInUp">
+                                    <img src="images1/logo/vrukshaLogo.png" alt="">
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3 item">
+                                  <div class="img-place wow fadeInUp">
+                                    <img src="images1/logo/dudhraja.jpeg" alt="">
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3 item">
+                                  <div class="img-place wow fadeInUp">
+                                    <img src="images1/logo/soar.jpeg" alt="">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div> <!-- End client -->
+
+<br><br><br>
 
                           <!-- <div class="row"style="background-image: url(images1/bkwhite.jpg);"> -->
                               <div class="container">

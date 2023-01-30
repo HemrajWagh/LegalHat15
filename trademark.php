@@ -66,7 +66,7 @@
 </nav>
  </div>
 
-  <div class="container">
+<div class="container">
 <div class="row">
     <div class="main_history fadeInUp" style="display:flex;">
             <div class="col-lg-6 col-sm-6"data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine" style="border-right: 1px solid #ffb900;">
@@ -898,6 +898,13 @@
 
         <br><br><br>
 
+        <section id="parallex2" style="background-image: url(images1/bk2.jpg); box-shadow: 0 10px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 5%);height: 250px;">
+          <div class="container" style="display: flex;" >
+            <div class="col-lg-6"><img src="images1/man.png" width="60%"></div>
+            <div class="col-lg-6" style="display: flex; justify-content: center; align-items: center;margin-top:-100px ;"> <a href="" class="btn btn-lg shadowbtn "style="  border-left:4px solid #ffb900;text-shadow: 0px 3px 12px #c3c3c3;">BROWSE OUR WORK</a></div>
+          </div>
+        </section>  
+        <br><br><br><br>
 
 <section id="about" class="about roomy-100" >    
 

@@ -2341,8 +2341,8 @@ input[type="radio"]{
                 font-family: 'Heebo';
                 --bg-filter-opacity: 0.5;
                 background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
-                height: 9em;
-                width: 13em;
+                height: 7em;
+                width: 10em;
                 font-size: 1.5em;
                 color: white;
                 border-radius: 0em 2em;
@@ -2352,7 +2352,8 @@ input[type="radio"]{
                 align-items: flex-end;
                 background-size: cover;
                 background-position: center;
-                box-shadow: 0 0 5em -1em black;
+                box-shadow: 0 0 50px #ccc;
+/*                box-shadow: 0 0 5em -1em black;*/
                 transition: all, var(--transition-time);
                 position: relative;
                 overflow: hidden;
@@ -2538,4 +2539,85 @@ padding-left: 10px;
         align-items: center;
         flex-wrap: wrap;
     }  
+}
+
+
+
+
+.page-client {
+  background-color: -webkit-linear-gradient(0deg, rgba(252,200,19,1) 0%, rgba(255,231,93,1) 100%);
+  color: #fff;
+}
+
+.page-client .row .item {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: #292e3b;
+}
+
+.page-client .row:last-child .item {
+  border-bottom: 0;
+
+}
+
+.page-client .row .item:first-child {
+  border-left: 0;
+}
+
+.page-client .row .item:last-child {
+  border-right: 0;
+}
+
+.page-client .img-place {
+  width: 100px;
+  height: 100px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.page-client .img-place:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.page-client .img-place img {
+  filter: grayscale(100%) brightness(2);
+   justify-content: center;align-items: center;
+}
+
+.page-client .img-place:hover img {
+  filter: none;
+}
+
+
+
+
+
+#paraFlex{
+  display: flex;
+/*  width: 60%;*/
+}
+
+#paraFlex img{
+  width: 60%;
+  padding-bottom: 80px;
+}
+
+@media(max-width:480px){
+
+  #paraFlex{
+    display: flex;
+    flex-wrap: wrap;
+
+
+  }
+
+  #paraFlex img{
+    width: 60%;
+    padding-bottom: 80px;
+  }
+
 }

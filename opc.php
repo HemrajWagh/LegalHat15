@@ -50,241 +50,10 @@ if(isset($allErrs['services'])){
   $typeOfSerrvicesErr = $allErrs['services'];
 }?>
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset=utf-8>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Legal | Hat</title>
-  <!-- Load Roboto font -->
-  <!-- <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'> -->
-  <!-- Load css styles -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="css1/bootstrap.min.css">
-  <!-- custom CSS -->
-  <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" /> -->
-  <!-- <link rel="stylesheet" type="text/css" href="css/style.css" /> -->
-
-  <link rel="stylesheet" href="./form/style.css">
-
-  <!-- awesone fonts css-->
-  <link href="css1/font-awesome.css" rel="stylesheet" type="text/css">
-  <!-- owl carousel css-->
-  <link rel="stylesheet" href="owl-carousel/assets/owl.carousel.min.css" type="text/css">
-  <!-- Bootstrap CSS -->
-
-  <!-- custom CSS -->
-  <link rel="stylesheet" href="css1/style.css">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
-
-  <link rel="stylesheet" href="owl-carousel/assets/owl.carousel.min.css" type="text/css">
-  <!-- <link rel="stylesheet" type="text/css" href="css/pluton.css" /> -->
-  <!-- [if IE 7]> -->
-  <!-- <link rel="stylesheet" type="text/css" href="css/pluton-ie7.css" /> -->
-  <!-- <![endif]--> 
-    <link rel="stylesheet" type="text/css" href="css/jquery.cslider.css" />
-    <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
-    <link rel="stylesheet" type="text/css" href="css/animate.css" />
-    <!-- Fav and touch icons -->
-
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
 
 
+<?php include 'header.php' ?>
 
-  </head>
-
-  <body>
-
-   <header id="header" >
-
-    <div class="container">
-
-     <nav class="navbar navbar-expand-lg navbar-light ">
-       <a class="navbar-brand" href="#"><img src="images/logo.png"width="170"height="50" alt=""></a>
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-       </button>
-
-       <div class="collapse navbar-collapse textHead" id="navbarSupportedContent">
-         <ul class="navbar-nav ml-lg-auto">
-           <li class="nav-item ">
-             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-           </li>
-           <li class="nav-item">
-             <a class="nav-link" href="#">About Us</a>
-           </li>
-           <li class="nav-item dropdown">
-             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-               Services
-             </a>
-             <div class="dropdown-menu dropright" aria-labelledby="navbarDropdown">
-               <a class="dropdown-item dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">IPR Services</a>
-               <div class="dropdown-menu dropdown-menu-right">
-                 <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/trademark.php">Trademark Registration</a>
-                 <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/copyright.php">Copyright Registration</a>
-                 <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/design-registration.php">Design Registration</a>
-                 <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/patent.php">Patent Registration</a>
-               </div>
-
-               <div class="dropdown-divider"></div>
-               <!-- <a class="dropdown-item" href="#">Compony Formation</a> -->
-               <a class="dropdown-item dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Compony Formation</a>
-               <div class="dropdown-menu dropdown1 dropdown-menu-right">
-                 <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/private-limited.php">PVT Limited</a>
-                 <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/llp-registration.php">LLP</a>
-                 <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/opc.php">OPC</a>
-               </div>
-
-               <div class="dropdown-divider"></div>
-               <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/iso.php">Iso Registration</a>
-               <div class="dropdown-divider"></div>
-               <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/fssai-registration.php">Food License</a>
-               <div class="dropdown-divider"></div>
-               <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/gst.php">GST registration</a>
-               <div class="dropdown-divider"></div>
-               <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/">Make in india Certificattion</a>
-               <div class="dropdown-divider"></div>
-               <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/">Other Registraion</a>
-
-             </div>
-           </li>
-           <li class="nav-item dropdown">
-             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-               Registration
-             </a>
-             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-               <a class="dropdown-item" href="#">Private Limited Company</a>
-               <!-- <a class="dropdown-item" href="#">Private Limited Company</a> -->
-               <div class="dropdown-divider"></div>
-               <a class="dropdown-item" href="#">LIMITED LIABILITY PARTNERSHIP</a>
-             </div>
-           </li>
-           <li class="nav-item">
-             <a class="nav-link " href="#">Contact Us</a>
-           </li>
-         </ul>
-
-       </div>
-     </nav>
-
-
-   </div>   
-
- </header>
-
-
- <!-- Start home section -->
- <div id="home">
-  <!-- Start cSlider -->
-  <div id="da-slider" class="da-slider">
-    <!-- <div class="triangle"></div> -->
-    <!-- mask elemet use for masking background image -->
-    <div class="mask"></div>
-    <!-- All slides centred in container element -->
-    <div class="container">
-      <!-- Start first slide -->
-      <div class="da-slide">
-        <h2 class="fittext2">Trademark</h2>
-        <!-- <h4>Trademark</h4> -->
-        <p>A trademark, trade mark, or trade-mark is a distinctive 
-          sign or indicator used by an individual, business 
-          organization, or other legal entity to identify that the 
-          products or services to consumers with which the 
-          trademark appears originate from a unique source, 
-          designated for a specific market, and is used to 
-          distinguish its products or services from those of other 
-        entities.</p>
-        <a href="#" class="da-link button">Read more</a>
-        <div class="da-img">
-         <!-- <a href="https://icons8.com/illustrations/author/JTmm71Rqvb2T">Dani Grapevine</a> from <a href="https://icons8.com/illustrations">Ouch!</a> -->
-         <img src="images/3d.png" alt="image01" width="320">
-       </div>
-     </div> 
-     <!-- End first slide -->
-     <!-- Start second slide -->
-     <div class="da-slide">
-      <h2>Copyright</h2>
-      <!-- <h4>Copyright</h4> -->
-      <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-      <a href="#" class="da-link button">Read more</a>
-      <div class="da-img">
-        <img src="images/anime.gif" width="320" alt="image02">
-      </div>
-    </div>
-    <!-- End second slide -->
-    <!-- Start third slide -->
-    <div class="da-slide">
-      <h2>Patent Registration</h2>
-      <!-- <h4>Patent</h4> -->
-      <p>Patent is a major part of Intellectual Property which grants its' 
-        inventor, the right of exploiting its object exclusively, during a 
-      given time period.</p>
-      <a href="#" class="da-link button">Read more</a>
-      <div class="da-img">
-        <img src="images/patent.gif" width="320" alt="image03">
-      </div>
-    </div>
-    <div class="da-slide">
-      <h2>Company Formation</h2>
-      <!-- <h4>Company Formation</h4> -->
-      <p>Company formation is the term for the process of incorporation 
-        of a business. It is also sometimes referred to as 
-        company registration. Under company law and most 
-        international law a company or corporation is considered to be 
-        an entity that is separate from the people who own or operate 
-      the company.</p>
-      <a href="#" class="da-link button">Read more</a>
-      <div class="da-img">
-        <img src="images/Compani.png" width="320" alt="image03">
-      </div>
-    </div>
-    <div class="da-slide">
-      <h2>ISO</h2>
-      <!-- <h4>ISO</h4> -->
-      <p>ISO's work makes a positive difference to the world we live in. 
-        ISO standards add value to all types of business operations. 
-        They contribute to making the development, manufacturing 
-        and supply of products and services more efficient, safer 
-        and cleaner. They make trade between countries easier and 
-        fairer. ISO standards also serve to safeguard consumers and 
-        users of products and services in general - as well as making 
-      their lives simpler.</p>
-      <a href="#" class="da-link button">Read more</a>
-      <div class="da-img">
-        <img src="images/iso.png" width="320" alt="image03">
-      </div>
-    </div>
-    <div class="da-slide">
-      <h2>Website Design</h2>
-      <!-- <h4>Website Design</h4> -->
-      <p>A Web service is a method of communication between two 
-        electronic devices over the Web. It includes website 
-        development and various online services required for 
-      set up of a enterpreneurship.</p>
-      <a href="#" class="da-link button">Read more</a>
-      <div class="da-img">
-        <img src="images/Web.png" width="320" alt="image03">
-      </div>
-    </div>
-    <!-- Start third slide -->
-    <!-- Start cSlide navigation arrows -->
-    <div class="da-arrows">
-      <span class="da-arrows-prev"></span>
-      <span class="da-arrows-next"></span>
-    </div>
-    <!-- End cSlide navigation arrows -->
-  </div>
-
-</div>
-</div>
-<!-- End home section -->
-<!-- Service section start -->
 
 <div class="container">                  
   <nav aria-label="breadcrumb">
@@ -475,18 +244,18 @@ if(isset($allErrs['services'])){
                 <p>We have to prepare the following documents which are required to be submitted to the
                 ROC:</p> 
                 <ul>
-                <li style="list-style-type: upper-alpha">Since there are only 1 Director and a member, a nominee on behalf of such person has
-                  to be appointed because in case he becomes incapacitated or dies and cannot perform his
-                  duties the nominee will perform on behalf of the director and take his place. His consent
-                  in Form INC – 3 will be taken along with his PAN card, Voter ID/ Passport as ID proof
-                and Bank Statement / Utility bill as Address proof.</li>
-                <li style="list-style-type: upper-alpha"> Proof of the Registered office of the proposed Company along with the proof of
-                ownership and a NOC from the owner.</li>
-                <li style="list-style-type:upper-alpha">Consent of the proposed Director in Form DIR – 2.</li>
-              </li> 
-              <li style="list-style-type:upper-alpha">A declaration by the professional certifying that all compliances have been made.</li>
-            </li>
-              </ul>     
+                  <li style="list-style-type: upper-alpha">Since there are only 1 Director and a member, a nominee on behalf of such person has
+                    to be appointed because in case he becomes incapacitated or dies and cannot perform his
+                    duties the nominee will perform on behalf of the director and take his place. His consent
+                    in Form INC – 3 will be taken along with his PAN card, Voter ID/ Passport as ID proof
+                  and Bank Statement / Utility bill as Address proof.</li>
+                  <li style="list-style-type: upper-alpha"> Proof of the Registered office of the proposed Company along with the proof of
+                  ownership and a NOC from the owner.</li>
+                  <li style="list-style-type:upper-alpha">Consent of the proposed Director in Form DIR – 2.</li>
+                </li> 
+                <li style="list-style-type:upper-alpha">A declaration by the professional certifying that all compliances have been made.</li>
+              </li>
+            </ul>     
             <li style="list-style-type: upper-roman;"> <b> Filing of Forms with MCA : </b>
               <p>All these documents will be attached to SPICe Form, SPICe-MOA, SPICe-AOA and
                 AGILE form along with the DSC of the Director and the professional, and will be
@@ -586,7 +355,7 @@ if(isset($allErrs['services'])){
                      </section>    
                      <br><br><br>
 
-                   <section class="design-process-section" id="process-tab">
+                     <section class="design-process-section" id="process-tab">
                       <div class="container" >
                        <div class="col-lg-6 col-sm-6"  data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
                          <img width="100%" src="images1/StepsFood.jpg">     
@@ -618,7 +387,7 @@ if(isset($allErrs['services'])){
                           <div class="design-process-content">
                             <h3 class="semi-bold">Apply for Digital Signature :</h3>
                             <p>The first Step is to obtain the Digital Signature Certificate (DSC) of the proposed
-Director which required the following documents:</p>
+                            Director which required the following documents:</p>
                             <li>Address Proof</li>
                             <li>Aadhaar card</li>
                             <li>PAN card</li>
@@ -631,25 +400,25 @@ Director which required the following documents:</p>
                           <div class="design-process-content">
                             <h3 class="semi-bold">Application for DIN :</h3>
                             <p>This option is now available only in integrated form Spice while applying for
-incorporation of a company.</p>
+                            incorporation of a company.</p>
                           </div>
                         </div>
                         <div role="tabpanel" class="tab-pane" id="optimizatio">
                           <div class="design-process-content">
                             <h3 class="semi-bold">Name Approval Application:</h3>
                             <p>The next step while incorporating an OPC is to decide on the name of the Company. The
-name of the Company will be in the form of “ABC (OPC) Private Limited”.</p>
+                            name of the Company will be in the form of “ABC (OPC) Private Limited”.</p>
                             <p>There are 2 options available for getting name approved by making application in Form
-SPICe or by using RUN Web service of MCA by giving only 1 preferred name along
-with the significance of keeping that name.</p>
+                              SPICe or by using RUN Web service of MCA by giving only 1 preferred name along
+                            with the significance of keeping that name.</p>
                           </div>
                         </div>
                         <div role="tabpanel" class="tab-pane" id="reportin">
                          <div class="design-process-content">
                           <h3>Filing of Forms with MCA :</h3>
                           <p>All these documents will be attached to SPICe Form, SPICe-MOA, SPICe-AOA and
-AGILE form along with the DSC of the Director and the professional, and will be
-uploaded to the MCA site for approval.</p>
+                            AGILE form along with the DSC of the Director and the professional, and will be
+                          uploaded to the MCA site for approval.</p>
                           
                         </div>
                       </div>
@@ -657,11 +426,11 @@ uploaded to the MCA site for approval.</p>
                         <div class="design-process-content">
                           <h3 class="semi-bold">Issue of Certificate of Incorporation :</h3>
                           <p>On verification, the Registrar of Companies (ROC) will issue a Certificate of
-Incorporation and we can commence our business. Nowadays, the issue of Pan Number
-and TAN is done automatically at the time of incorporation of the Company. There is no
-need to make any separate application. The PAN Number and TAN come printed on the
-certificate of incorporation itself, and after the registration of the Company, E-Pan and
-Tan letter is sent via email.</p>              
+                            Incorporation and we can commence our business. Nowadays, the issue of Pan Number
+                            and TAN is done automatically at the time of incorporation of the Company. There is no
+                            need to make any separate application. The PAN Number and TAN come printed on the
+                            certificate of incorporation itself, and after the registration of the Company, E-Pan and
+                          Tan letter is sent via email.</p>              
                         </div>
                       </div>
                     </div>
@@ -671,8 +440,8 @@ Tan letter is sent via email.</p>
 
               <section id="about" class="about roomy-100">
 
-               <div class="container Acc" style="">
-                 <div class="row">
+               <div class="container " style="">
+                 <div class="row Acc" >
 
                    <div class="col-lg-6 col-sm-12" data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
 
@@ -684,54 +453,54 @@ Tan letter is sent via email.</p>
 
                          <div class="content">
                           <ul>
-                          <li style="list-style-type: upper-roman;"> <b> Separate Legal Entity : </b>One Person company is a separate legal entity and capable of
-                                             doing everything that an entrepreneur would do.</li>
-                                             <li style="list-style-type: upper-roman;"> <b> Easy Funding :  </b> Like a Private company, One Person Company can raise funds through
-                                              venture capital, financial institutions, angel investors etc. A One Person Company can
-                                            raise funds thus graduating itself to a private limited company.</li>
-                                            <li style="list-style-type: upper-roman;"> <b> Limited Liability : </b> Since the liability of the One Person Company is limited to the extent
-                                              of the value of the share you hold, the individual could take more risk in business without
-                                              affecting or suffering loss of personal assets. It is the encouragement to new, young and
-                                            innovative start-ups.</li>
-                                            <li style="list-style-type: upper-roman;"> <b> Minimum Compliances :  </b> One Person Company have to face little compliance burden as
-                                              compared to private limited companies , hence One Person Company can more focus on
-                                            other functional and core areas.</li>
-                                            <li style="list-style-type: upper-roman;"> <b> Other benefits :  </b> An One Person Company can avail the various benefits provided to
-                                              Small Scale Industries like lower rate of Interest on loans, easy funding from bank
-                                              without depositing any security to a certain limit, manifold benefits under Foreign Trade
-                                            policy and others. All these benefits can be boon to any business in initial years.</li>
-                                            <li style="list-style-type: upper-roman;"> <b> Greater Credibility :  </b> As an OPC needs to have its books audited annually, it has greater
-                                            credibility among vendors and lending institutions.
-                          </li>
+                            <li style="list-style-type: upper-roman;"> <b> Separate Legal Entity : </b>One Person company is a separate legal entity and capable of
+                            doing everything that an entrepreneur would do.</li>
+                            <li style="list-style-type: upper-roman;"> <b> Easy Funding :  </b> Like a Private company, One Person Company can raise funds through
+                              venture capital, financial institutions, angel investors etc. A One Person Company can
+                            raise funds thus graduating itself to a private limited company.</li>
+                            <li style="list-style-type: upper-roman;"> <b> Limited Liability : </b> Since the liability of the One Person Company is limited to the extent
+                              of the value of the share you hold, the individual could take more risk in business without
+                              affecting or suffering loss of personal assets. It is the encouragement to new, young and
+                            innovative start-ups.</li>
+                            <li style="list-style-type: upper-roman;"> <b> Minimum Compliances :  </b> One Person Company have to face little compliance burden as
+                              compared to private limited companies , hence One Person Company can more focus on
+                            other functional and core areas.</li>
+                            <li style="list-style-type: upper-roman;"> <b> Other benefits :  </b> An One Person Company can avail the various benefits provided to
+                              Small Scale Industries like lower rate of Interest on loans, easy funding from bank
+                              without depositing any security to a certain limit, manifold benefits under Foreign Trade
+                            policy and others. All these benefits can be boon to any business in initial years.</li>
+                            <li style="list-style-type: upper-roman;"> <b> Greater Credibility :  </b> As an OPC needs to have its books audited annually, it has greater
+                              credibility among vendors and lending institutions.
+                            </li>
                           </ul>
                           <br>
-                         </div>
-                       </li>
+                        </div>
+                      </li>
 
-                       <li>
-                         <input type="radio" name="accordian" id="second">
-                         <label for="second">MAJOR DRAWBACK / DISADVANTAGE OF ONE PERSON COMPANY :</label>
-                         <div class="content">
-                             <p>The MCA is skeptical about a single person in charge of a large corporation. Therefore, it
-                                            requires all OPCs to be converted into private limited or public limited companies on crossing a
-                                            certain revenue number. Currently, in case of an average turnover of Rs. 2 crore or more for the
-                                            three consecutive years or a paid-up capital of over Rs. 50 lakh, the OPC must mandatorily be
-                                          converted into an OPC.</p>
+                      <li>
+                       <input type="radio" name="accordian" id="second">
+                       <label for="second">MAJOR DRAWBACK / DISADVANTAGE OF ONE PERSON COMPANY :</label>
+                       <div class="content">
+                         <p>The MCA is skeptical about a single person in charge of a large corporation. Therefore, it
+                          requires all OPCs to be converted into private limited or public limited companies on crossing a
+                          certain revenue number. Currently, in case of an average turnover of Rs. 2 crore or more for the
+                          three consecutive years or a paid-up capital of over Rs. 50 lakh, the OPC must mandatorily be
+                        converted into an OPC.</p>
 
-                         </div>
-                       </li>
+                      </div>
+                    </li>
 
-                     </ul>
-                   </div>
+                  </ul>
+                </div>
 
-                   <div class="col-lg-6 col-sm-6" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine">
-                     <img src="images1/Stepsfoof.jpg" alt="">
-                   </div>
-                 </div>
+                <div class="col-lg-6 col-sm-6" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine">
+                 <img src="images1/Stepsfoof.jpg" alt="">
                </div>
-             </section>
+             </div>
+           </div>
+         </section>
 
-             <br><br>
+         <br><br>
 
                        <!-- <section id="about" class="about roomy-100" >   
                            <div class="row">
@@ -1134,7 +903,7 @@ Tan letter is sent via email.</p>
 
                                                </div>
                                              </div>
-                                             <div class="col-lg-6 col-sm-6"data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
+                                             <div class="col-lg-6 col-sm-6"data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine">
                                                <h2 style="text-align: center;justify-content: center;align-items: center;" ><span class="textHead">Our  <br> Associate Partners </span> </h2> 
                                                
                                                <div class="single_history_img">
@@ -1167,7 +936,16 @@ Tan letter is sent via email.</p>
                                                  </div>
                                                </div>
 
-                                               <br><br><br><br><br><br>
+                                               <br><br><br>
+
+
+                                               <section id="parallex2" style="background-image: url(images1/bk2.jpg); box-shadow: 0 10px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 5%);height: 250px;">
+                                                 <div class="container" style="display: flex;" >
+                                                   <div class="col-lg-6"><img src="images1/man.png" width="60%"></div>
+                                                   <div class="col-lg-6" style="display: flex; justify-content: center; align-items: center;margin-top:-100px ;"> <a href="" class="btn btn-lg shadowbtn "style="  border-left:4px solid #ffb900;text-shadow: 0px 3px 12px #c3c3c3;">BROWSE OUR WORK</a></div>
+                                                 </div>
+                                               </section>  
+                                               <br><br><br>                                              
 
 
                                                <section id="about" class="about roomy-100" >    
@@ -1294,329 +1072,4 @@ Tan letter is sent via email.</p>
 
 
 
-                                             <!-- ScrollUp button end -->
-                                             <!-- Include javascript -->
-                                             <script src="js/jquery.js"></script>
-                                             <script type="text/javascript" src="js/jquery.mixitup.js"></script>
-
-                                             <script type="text/javascript" src="js/modernizr.custom.js"></script>
-                                             <script type="text/javascript" src="js/jquery.bxslider.js"></script>
-                                             <script type="text/javascript" src="js/jquery.cslider.js"></script>
-                                             <script type="text/javascript" src="js/jquery.placeholder.js"></script>
-                                             <script type="text/javascript" src="js/jquery.inview.js"></script>
-                                             <!-- Load google maps api and call initializeMap function defined in app.js -->
-                                             <script async="" defer="" type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=initializeMap"></script>
-
-
-                                             <script type="text/javascript" src="js/app.js"></script>
-
-
-                                             <script type="text/javascript">
-                                              (function($) {
-                                                'use strict';
-
-                                                jQuery(document).on('ready', function(){
-
-                                                  $('a.page-scroll').on('click', function(e){
-                                                    var anchor = $(this);
-                                                    $('html, body').stop().animate({
-                                                      scrollTop: $(anchor.attr('href')).offset().top - 50
-                                                    }, 1500);
-                                                    e.preventDefault();
-                                                  });     
-
-                                                });                       
-                                              })(jQuery);
-                                            </script>
-
-                                            <script type="text/javascript">
-      // Acc
-                                              $(document).on("click", ".naccs .menu div", function() {
-                                               var numberIndex = $(this).index();
-
-                                               if (!$(this).is("active")) {
-                                                 $(".naccs .menu div").removeClass("active");
-                                                 $(".naccs ul li").removeClass("active");
-
-                                                 $(this).addClass("active");
-                                                 $(".naccs ul").find("li:eq(" + numberIndex + ")").addClass("active");
-
-                                                 var listItemHeight = $(".naccs ul")
-                                                 .find("li:eq(" + numberIndex + ")")
-                                                 .innerHeight();
-                                                 $(".naccs ul").height(listItemHeight + "px");
-                                               }
-                                             });
-                                           </script> 
-
-
-                                           <script type="text/javascript">
-                                             class FibonacciSphere {
-                                               #points;
-
-                                               get points() {
-                                                 return this.#points;
-                                               }
-
-                                               constructor(N) {
-                                                 this.#points = [];
-
-                                                 const goldenAngle = Math.PI * (3 - Math.sqrt(5));
-
-                                                 for (let i = 0; i < N; i++) {
-                                                   const y = 1 - (i / (N - 1)) * 2;
-                                                   const radius = Math.sqrt(1 - y ** 2);
-                                                   const a = goldenAngle * i;
-                                                   const x = Math.cos(a) * radius;
-                                                   const z = Math.sin(a) * radius;
-
-                                                   this.#points.push([x, y, z]);
-                                                 }
-                                               }
-                                             }
-
-
-                                             class TagsCloud {
-                                               #root;
-                                               #size;
-                                               #sphere;
-                                               #tags;
-                                               #rotationAxis;
-                                               #rotationAngle;
-                                               #rotationSpeed;
-                                               #frameRequestId;
-
-                                               constructor(root) {
-                                                 this.#root = root;
-                                                 this.#size = this.#root.offsetWidth;
-                                                 this.#tags = root.querySelectorAll('.tag');
-                                                 this.#sphere = new FibonacciSphere(this.#tags.length);
-                                                 this.#rotationAxis = [1, 0, 0];
-                                                 this.#rotationAngle = 0;
-                                                 this.#rotationSpeed = 0;
-
-                                                 this.#updatePositions();
-                                                 this.#initEventListeners();
-                                                 this.#root.classList.add('-loaded');
-                                               }
-
-                                               #initEventListeners() {
-                                                 window.addEventListener('resize', this.#updatePositions.bind(this));
-                                                 document.addEventListener('mousemove', this.#onMouseMove.bind(this));
-                                               }
-
-                                               #updatePositions() {
-                                                 const sin = Math.sin(this.#rotationAngle);
-                                                 const cos = Math.cos(this.#rotationAngle);
-                                                 const ux = this.#rotationAxis[0];
-                                                 const uy = this.#rotationAxis[1];
-                                                 const uz = this.#rotationAxis[2];
-
-                                                 const rotationMatrix = [
-                                                   [
-                                                     cos + (ux ** 2) * (1 - cos),
-                                                     ux * uy * (1 - cos) - uz * sin,
-                                                     ux * uz * (1 - cos) + uy * sin,
-                                                     ],
-                                                   [
-                                                     uy * ux * (1 - cos) + uz * sin,
-                                                     cos + (uy ** 2) * (1 - cos),
-                                                     uy * uz * (1 - cos) - ux * sin,
-                                                     ],
-                                                   [
-                                                     uz * ux * (1 - cos) - uy * sin,
-                                                     uz * uy * (1 - cos) + ux * sin,
-                                                     cos + (uz ** 2) * (1 - cos)
-                                                     ]
-                                                   ];
-
-                                                 const N = this.#tags.length;
-
-                                                 for (let i = 0; i < N; i++) {
-                                                   const x = this.#sphere.points[i][0];
-                                                   const y = this.#sphere.points[i][1];
-                                                   const z = this.#sphere.points[i][2];
-
-                                                   const transformedX =
-                                                   rotationMatrix[0][0] * x
-                                                   + rotationMatrix[0][1] * y
-                                                   + rotationMatrix[0][2] * z;
-                                                   const transformedY =
-                                                   rotationMatrix[1][0] * x
-                                                   + rotationMatrix[1][1] * y
-                                                   + rotationMatrix[1][2] * z;
-                                                   const transformedZ =
-                                                   rotationMatrix[2][0] * x
-                                                   + rotationMatrix[2][1] * y
-                                                   + rotationMatrix[2][2] * z;
-
-                                                   const translateX = this.#size * transformedX / 2;
-                                                   const translateY = this.#size * transformedY / 2;
-                                                   const scale = (transformedZ + 2) / 3;
-                                                   const transform =
-                                                   `translateX(${translateX}px) translateY(${translateY}px) scale(${scale})`;
-                                                   const opacity = (transformedZ + 1.5) / 2.5;
-
-                                                   this.#tags[i].style.transform = transform;
-                                                   this.#tags[i].style.opacity = opacity;
-                                                 }
-                                               }
-
-                                               #onMouseMove(e) {
-                                                 const rootRect = this.#root.getBoundingClientRect();
-                                                 const deltaX = e.clientX - (rootRect.left + this.#root.offsetWidth / 2);
-                                                 const deltaY = e.clientY - (rootRect.top + this.#root.offsetHeight / 2);
-                                                 const a = Math.atan2(deltaX, deltaY) - Math.PI / 2;
-                                                 const axis = [Math.sin(a), Math.cos(a), 0];
-                                                 const delta = Math.sqrt(deltaX ** 2 + deltaY ** 2);
-                                                 const speed = delta / Math.max(window.innerHeight, window.innerWidth) / 10;
-
-                                                 this.#rotationAxis = axis;
-                                                 this.#rotationSpeed = speed;
-                                               }
-
-                                               #update() {
-                                                 this.#rotationAngle += this.#rotationSpeed;
-
-                                                 this.#updatePositions();
-                                               }
-
-                                               start() {
-                                                 this.#update();
-
-                                                 this.#frameRequestId = requestAnimationFrame(this.start.bind(this));
-                                               }
-
-                                               stop() {
-                                                 cancelAnimationFrame(this.#frameRequestId);
-                                               }
-                                             }
-
-
-                                             function main() {
-                                               {
-                                                 const root = document.querySelector('.tags-cloud');
-                                                 const cloud = new TagsCloud(root);
-
-                                                 cloud.start();
-                                               }
-
-                                               {
-                                                 const cursor = document.getElementById('cursor');
-                                                 const isActivated = false;
-
-                                                 document.addEventListener('mousemove', (e) => {
-                                                   if (!isActivated) {
-                                                     cursor.classList.add('-activated');
-                                                   }
-
-                                                   cursor.style.transform =
-                                                   `translateX(${e.clientX}px) translateY(${e.clientY}px)`;
-                                                 });
-                                               }
-                                             }
-
-
-                                             document.addEventListener('DOMContentLoaded', () => {
-                                               main();
-                                             });
-
-                                           </script>    
-
-                                           <!-- <script src="https://code.jquery.com/jquery-3.6.1.js"></script> -->
-                                           <!-- <script src="assets/js/jquery-1.9.1.min.js"></script> -->
-                                           <script type="text/javascript">
-                                             $(document).ready(function(){
-                                              $('.list').click(function(){
-                                               const value = $(this).attr('data-filter');
-                                               if(value == 'all'){
-                                                 $('.itemBox').show('1000');
-                                               }
-                                               else{
-                                                 $('.itemBox').not('.'+value).hide('1000');
-                                                 $('.itemBox').filter('.'+value).show('1000');
-                                               }
-                                             }); 
-
-                                              $('.list').click(function(){
-                                               $(this).addClass('active').siblings().removeClass('active');
-                                             });
-                                            });
-                                          </script>
-                                          <script src="js1/jquery-3.3.1.slim.min.js"></script>
-                                          <script src="js1/popper.min.js"></script>
-                                          <script src="owl-carousel/owl.carousel.min.js"></script>
-                                          <script src="js1/bootstrap.min.js"></script>
-                                          <script src="js1/main.js"></script>
-                                          <script src="js1/bootstrap.min.js"></script>
-                                          <script src="./form/script.js"></script>
-                                          <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->
-                                          <script>window.onscroll = function() {
-                                            stickyHeader();
-                                          };
-
-                                          var header = document.getElementById("header");
-                                          var sticky = header.offsetTop;
-
-                                          function stickyHeader() {
-                                            if (window.pageYOffset > sticky) {
-                                              header.classList.add("sticky");
-                                            } else {
-                                              header.classList.remove("sticky");
-                                            }
-                                          }
-
-                                        </script>
-
-                                        <script type="text/javascript">
-                              // Acc
-                                          $(document).on("click", " .menu div", function() {
-                                            var numberIndex = $(this).index();
-
-                                            if (!$(this).is("active")) {
-                                              $(" .menu div").removeClass("active");
-                                      // $("  ul li").removeClass("active");
-
-                                              $(this).addClass("active");
-                                      // $(" ul").find("li:eq(" + numberIndex + ")").addClass("active");
-
-                                  //     var listItemHeight = $(".naccs ul")
-                                  //         .find("li:eq(" + numberIndex + ")")
-                                  //         .innerHeight();
-                                  //     $(" ul").height(listItemHeight + "px");
-                                  // }
-                                            };
-                                          </script>
-
-
-
-                              <script type="text/javascript">// script for tab steps
-                              $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-
-                                var href = $(e.target).attr('href');
-                                var $curr = $(".process-model  a[href='" + href + "']").parent();
-
-                                $('.process-model li').removeClass();
-
-                                $curr.addClass("active");
-                                $curr.prevAll().addClass("visited");
-                              });
-                            </script>
-
-                            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-                            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-                            <script>
-                              AOS.init();
-                            </script>
-
-                          </body> 
-                          <?php 
-                          unset($_SESSION['errors']);
-                          unset($_SESSION['notmatched']);
-                          unset($_SESSION['postval']);
-                          unset($_SESSION['typeofflat1']);
-                          unset($_SESSION['approxbudget1']);
-                          session_destroy();
-
-                          ?>
-                          </html>                                
+ <?php include 'footer.php' ?>                          

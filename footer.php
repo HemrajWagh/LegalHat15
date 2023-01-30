@@ -22,14 +22,10 @@
                          </ul>
                          <h4 class="mt-5">Fllow Us</h4>
                          <ul class="nav follow-us-nav">
-                             <li class="nav-item"><a class="nav-link pl-0" href="#"><i class="fa fa-facebook"
-                               aria-hidden="true"></i></a></li>
-                               <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-twitter"
-                                  aria-hidden="true"></i></a></li>
-                                  <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-google"
-                                      aria-hidden="true"></i></a></li>
-                                      <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-linkedin"
-                                          aria-hidden="true"></i></a></li>
+                             <li class="nav-item"><a class="nav-link pl-0" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                               <li class="nav-item"><a class="nav-link" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                  <li class="nav-item"><a class="nav-link" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                      <li class="nav-item"><a class="nav-link" href="#"><i class="fa-brands fa-linkedin"></i> </a></li>
                                       </ul>
                                   </div>
                                   <div class="col-6">
