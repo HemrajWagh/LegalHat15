@@ -157,7 +157,7 @@
       </div>
       <div class="col-lg-6"  data-aos="fade-up"data-aos-duration="700" data-aos-offset="350"data-aos-easing="ease-in-sine">
         <div id="topic1">
-          <h4> What is LLP ? </h4>
+          <h4 class="textHead"> What is LLP ? </h4>
           <p>Limited Liability Partnership entities, the world wide recognized form of business organization has now been introduced in India by way of Limited Liability Partnership Act, 2008. </p>
           <p>A Limited Liability Partnership, popularly known as LLP combines the advantages of both the Company and Partnership into a single form of organization.
           </p>
@@ -165,7 +165,7 @@
         </div>
         <br>  <br>  
         <div id="topic2">
-           <h4>DOCUMENT REQUIRED </h4>
+           <h4 class="textHead">DOCUMENT REQUIRED </h4>
                       <br>
                       <div class="row"> 
                        <div class="container text-center">
@@ -221,14 +221,14 @@
       </div>
       <br>        <br>  
       <div id="topic3">
-        <h4>Design Registration Rights</h4>
+        <h4 class="textHead">Design Registration Rights</h4>
 
         <p>A registered design brings the exclusive right to make, offer, put on the market import, export, and use of stock any product to which the design has been applied or is incorporated, or to let others use the design under terms agreed with the registered owner, in the UK and the Isle of Man.</p>
 
 
       </div>
       <div id="topic4">
-        <h4>Requirements</h4>
+        <h4 class="textHead">Requirements</h4>
         <p>The Application for Design Registration is to be filed at Kolkata : </p> 
         <div class="row"> 
           <div class="container text-center">
@@ -251,7 +251,7 @@
        </div>   
      </div><br>
      <div id="topic5">
-      <h4>Procedure</h4>
+      <h4 class="textHead">Procedure</h4>
       <ul>
        <li> <b>Application - </b>  Preparation of Application for Design Registration and submission along with the necessary documents Attending to the proceedings and obtaining Provisional Papers after necessary follow up
         Publication in official journal
@@ -270,7 +270,7 @@
  </div>
  <br>
  <div id="topic6">
-  <h4>Validity</h4>
+  <h4 class="textHead">Validity</h4>
   <p>A design registration will initially last for 10 years from the filing date of the application and may be extended to further for a second period of 5 years. </p>
   <p>Thus the maximum period of registered design is 15 years.</p>
 </div>
@@ -376,7 +376,7 @@
                     <img width="100%" src="images1/StepDr870700.jpg" style="display: flex; justify-content: center;align-items: center;">     
                 </div>         
                 <div class="col-lg-6 col-sm-6" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine"> 
-                  <h3 class="txtshadow num" >Procedure</h3>
+                  <h3 class="textHead" >Procedure</h3>
                   <ul class="nav nav-tabs process-model more-icon-preocess" role="tablist">
                    <li role="presentation" class="active"><a href="#discover" aria-controls="discover" role="tab" data-toggle="tab" data-target="#discove"><i class="fa fa-search" aria-hidden="true"></i>
                      <p>Application </p>
@@ -473,7 +473,7 @@
 
                <section class="info">
                   <div class="container">
-                      <h2 class="txtshadow num" style="color: #ffb900;text-align: center;" >Awards & Achievement</h2>
+                      <h2 style="color: #ffb900;text-align: center;" ><span class="textHead"></span> Awards & Achievement</h2>
                   </div>
                  <!-- <h1>Awards &mdash; Achievments </h1> -->
                </section>
@@ -551,7 +551,8 @@
               <div class="col-lg-12" style="display:flex; flex-direction: column; align-items: center;justify-content: center; ">
                 <!-- <h1>What We Do?</h1> -->
                 <!-- Section's title goes here -->
-                <h5 class="txtshadow num" style="color: #ffb900;text-align: center;">DIFFERENT TYPES OF TRADEMARKS THAT CAN BE REGISTERED IN INDIA</h5>
+                <h5 class="txtshadow num" style="color: #ffb900;text-align: center;"> <span class=""></span>Transforming your business with innovative solutions. </h5>
+                <h5 class="txtshadow num" style="color: #ffb900;text-align: center;"> <span class=""></span>You may interested our other amazing services , making your dreams a reality . </h5>
                 <hr class="new1">
                 <!--Simple description for section goes here. -->
               </div> 

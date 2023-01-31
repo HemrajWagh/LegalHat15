@@ -552,10 +552,6 @@
          </div>
 </div>                                                                   
 
-
-<br><br>
-
-
 <section  class=""    id="parallex2" style="background-image: url(images1/bk2.jpg); box-shadow: 0 10px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 5%);"  >
 
          <section class="info">

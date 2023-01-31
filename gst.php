@@ -444,15 +444,15 @@
                              </div>
                            </div> -->
                            <!-- <div class="row"> -->
-                             <div class="container" style="display:flex;justify-content: center;align-items: center; ">
+                            <!--  <div class="container" style="display:flex;justify-content: center;align-items: center; ">
                                <div class="col-sm-6 " data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
                                  <div class="single_history_content">
                                    <div class="head_title"style="margin-right:0px; border-left:4px solid #ffb900;font-family: Lato-Medium;
-                                   /*                      font-weight: 900!important;*/
+                                                         font-weight: 900!important;
                                    text-shadow: 0px 3px 12px #c3c3c3; border-left: 5px solid #ffb900;">
                                    <h2 style="margin-left: 20px;" >Flowchart of <br> Trademark Registraion</h2>
                                  </div>
-                                 <!-- <p>A trademark is typically a name, word, phrase, logo, symbol, design, image, or a combination of these elements.</p> -->
+                                 <p>A trademark is typically a name, word, phrase, logo, symbol, design, image, or a combination of these elements.</p>
 
                                  <p>Conduct a trademark search to ensure that the proposed mark is not already in use by another party. File a trademark application with the appropriate government agency. Wait for the application to be reviewed and approved by an examining attorney. </p>
                                  <p>If the application is approved, the mark is published in the Official Gazette, allowing other parties to file oppositions or request extensions of time to oppose. </p>
@@ -463,7 +463,7 @@
                              <div class="col-lg-6"><img src="images1/Flowcchart(TM).png" alt="" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine"></div>
                            </div>
                          </div>
-                         <br><br> <br><br>
+                         <br><br> <br><br> -->
 
                          <section  class=""    id="parallex2" style="background-image: url(images1/bk2.jpg); box-shadow: 0 10px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 5%);"  >
 
