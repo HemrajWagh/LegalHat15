@@ -344,7 +344,7 @@
                            <img width="100%" src="images1/StepsFood.jpg">     
                          </div>         
                          <div class="col-lg-6 col-sm-6" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine"> 
-                           <h3 class="textHead num" >Patent Procedure In India</h3>
+                           <h3 class="textHead num" >Procedure In India</h3>
                            <ul class="nav nav-tabs process-model more-icon-preocess" role="tablist">
                             <li role="presentation" class="active"><a href="#discover" aria-controls="discover" role="tab" data-toggle="tab" data-target="#discove"><i class="fa fa-search" aria-hidden="true"></i>
                               <p>Appl. </p>
@@ -413,29 +413,49 @@
                          <h2 style="text-align: center;" ><span class="textHead">Requirements for filing Application</span> </h2>
                          <li>
                            <input type="radio" name="accordian" id="first" checked>
-                           <label for="first">Informational Requirements : </label>
+                           <label for="first">Documents Requirements : </label>
 
                            <div class="content">
 
-                             <p>The name, address and nationality of the applicant.</p>
-                             <p>Form of Organization. ( Proprietorship/Partnership/Company/Trust )</p>
-                             <p>Father’s / Husband name of signatory & nationality with Residential address.</p>
-                             <p>Trademark to be registered</p>
-                             <p>A list of goods and/or services for which registration is required with trade description (such as manufacturers/merchants/dealers).</p>
-                             <p>Date of first use of the trademark (if already using), If user not claimed then mention as to when you propose to be use the trademark.</p>
+                            <p>
+                                <ul>
+                                 <h6>ID proof</h6>
+                                 <h6>1.Partnership Deed / Certificate of Incorporation / Articles of Association or similar</h6>
+                                 <h6>2.Food safety management system plan</h6>
+                                 <h6>3.Passport Size photo</h6>
+                                 <h6>4.Address proof of premises :
+                                  <ul>
+                                    <li><b>In the case of own office – </b> Copy of electricity bill/ landline bill/ water bill/ municipal khata copy/ property tax receipt is sufficient.</li>
+                                    <li><b>In the case of rented office –</b> Rent agreement with an electricity bill of the owner and No Objection Certificate (NOC) from the owner is required.</li>
+                                  </ul>
+                                </h6>
+
+                              </ul>                                        
+                            </p>
 
                            </div>
                          </li>
 
                          <li>
                            <input type="radio" name="accordian" id="second">
-                           <label for="second">Documentary Requirements : </label>
+                           <label for="second">Documents Required for Obtaining the State/Central License </label>
                            <div class="content">
-                             <p>Sales Invoices from date of using the trademark ( if already using the trademark )</p>
-                             <p>In case of a partnership concern: Copy of partnership deed</p>
-                             <p>In case of a company: copy of memorandum and articles and certificate of incorporation duly attested as true copy</p>
-                             <p>In case of a trust or an NGO: copy of trust deed with names and addresses of trustees</p>
-                             <!-- <p>Required logo / writing style of trademark in soft copy to be mailed to info@trademark.in and to the concerned advocate/executive in our firm</p> -->
+                             
+                               <h6  style="list-style-type: upper-roman;">1.Processing unit plan  or certificate (if any)</h6  >
+                               <h6 style="list-style-type: upper-roman;">2.Name and list of equipment and machinery used</h6  >
+                               <h6 style="list-style-type: upper-roman;">3.List of food category desired to be manufactured (In case of manufacturers)</h6  >
+                               <h6 style="list-style-type: upper-roman;">4.Authority letter from the manufacturer (when applicable)</h6  >
+                               <h6 style="list-style-type: upper-roman;">5.Water test report</h6  >
+                               <h6 style="list-style-type: upper-roman;">6.NOC and copy of the license from the manufacturer </h6  >
+                               <h6 style="list-style-type: upper-roman;">7.Copy of certificate obtained under the Co-op Act 1861/Multi state Coop Act 2002</h6>
+                               <h6 style="list-style-type: upper-roman;">8.Source of raw material for meat and meat processing plants (when applicable)</h6>
+                               <h6 style="list-style-type: upper-roman;">9.Recall plan (wherever applicable)</h6>
+                               <h6 style="list-style-type: upper-roman;">10.Certificate from Ministry of Commerce (MOC) for 100% EOU</h6>
+                               <h6 style="list-style-type: upper-roman;">11.NOC from the municipality or local body</h6>
+                               <h6 style="list-style-type: upper-roman;">12.IE code document issued by DGFT (if applicable)</h6>
+                               <h6 style="list-style-type: upper-roman;">13.Declaration form</h6>
+                               <h6 style="list-style-type: upper-roman;">14.Proof (supporting document) of turnover and transportation</h6>
+                             
 
                            </div>
                          </li>
@@ -520,8 +540,10 @@
                                  <a href="" class="btn btn-lg shadowbtn txtshadow"style="margin-right:0px; border-left:4px solid #ffb900;text-shadow: 0px 3px 12px #c3c3c3;">BROWSE OUR WORK</a>
                                </div>
                              </div>
-                             <div class="col-lg-6"><img src="images1/Flowcchart(TM).png" alt="" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine"></div>
+                             <div class="col-lg-6"><img src="images1/FSSAI-Registration-Process-1024x761.png" alt="FSSAI-Registration-Process" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine">
+                              <h6 style="font-size: 10px;">Image Source: https://fssai.gov.in/cms/registration.php</h6></div>
                            </div>
+
                          </div>
                          <br><br> <br><br>
 

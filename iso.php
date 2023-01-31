@@ -566,22 +566,7 @@ documents )
     </div>
 </section>
 <br>
-    <div class="container content1" style="display: flex; " >
-        <div class="row ">
-        <!-- <div class="col-lg-6 col-sm-6"></div> -->
-        <div class="col-lg-6 col-sm-6">
-            <h3 style="text-align: center;">Procedure for registration of a logo / monogram </h3>
-            <img src="images1/patentProcess.png" alt="">
-        </div>
-        <div class="col-lg-6 col-sm-6">
-            <h3 style="text-align: center;">Procedure for registration for service
-            Industries : </h3>
-            <img src="images1/patentProcess.png" alt="">
-        </div>
-    </div>
-</div>
-
-
+ 
 <section  class=""    id="parallex2" style="background-image: url(images1/bk2.jpg); box-shadow: 0 10px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 5%);"  >
 
          <section class="info">
