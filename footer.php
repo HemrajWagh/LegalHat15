@@ -57,14 +57,14 @@
 
 
                           
-             <div class="scrollup">
+             <!-- <div class="scrollup">
                  <a href="#">
                      <i class="icon-up-open"></i>
                  </a>
-             </div>
+             </div> -->
 
              <div>
-                <a class="website floting"  target="_blank" href="https://api.whatsapp.com/send?phone=919960482299"><img src="images1/whatsapp.png" width="10%" style="animation-iteration-count: infinite;animation-duration: calc(var(--animate-duration)*1.25); position: fixed;left: 18px;bottom: 4%;float: left;z-index: 9;" class="whtsapp animate__bounceIn animate__infinite"></a>     
+                <a class="whtsapp"  target="_blank" href="https://api.whatsapp.com/send?phone=919960482299"><img src="images1/whatsapp.png" width="10%"  class="whtsapp"></a>     
             </div>
            <!-- <div>
                 <a class="website floting "  target="_blank" href="https://api.whatsapp.com/send?phone=918956498759"><img src="images1/fotterbtn.svg" width="10%" style="animation-iteration-count: infinite;animation-duration: calc(var(--animate-duration)*1.25); position: fixed;right: 18px;bottom: 4%;float: right ;z-index: 9;" class="whtsapp animate__bounceIn animate__infinite"></a>     
@@ -74,7 +74,34 @@
             <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">Small modal</button> -->
 
 
-            <img data-toggle="modal" data-target=".bd-example-modal-sm" src="images1/fotterbtn.svg" width="10%" style="animation-iteration-count: infinite;animation-duration: calc(var(--animate-duration)*1.25); position: fixed;right: 18px;bottom: 4%;float: right ;z-index: 9; cursor: pointer" class=" whtsapp animate__bounceIn animate__infinite">
+            <img data-toggle="modal" data-target=".bd-example-modal-sm" src="images1/fotterbtn.svg" class="website_floting">
+
+
+
+            <div id="apDiv5">
+                <a href="#">
+                    <div class="apDiv5-call" data-toggle="" data-target="">
+                        <i class="fa fa-envelope faa-tada animated"></i>&ensp;&ensp;Contact Us
+                    </div>
+                </a>
+            </div>
+
+            <div id="apDiv4">
+                <a href="tel:+919595330033">
+                    <div class="apDiv4-call" data-toggle="" data-target="">
+                        <i class="fa fa-envelope faa-tada animated"></i>&ensp;+91 9960482299
+                    </div>
+                </a>
+            </div>
+
+            <!-- <div id="apDiv5">
+                <a href="tel:+919595330033">
+                    <div class="apDiv5-call" data-toggle="" data-target="">
+                        <i class="fa fa-envelope faa-tada animated"></i>&ensp;+91 9960482299
+                    </div>
+                </a>
+            </div> -->
+
 
            <!-- <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
              <div class="modal-dialog modal-sm">
