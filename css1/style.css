@@ -871,7 +871,7 @@ color: #ffb900;;
 
 }
 
-@media(max-width: 420px)
+@media(max-width: 480px)
 {
     .content div.container-fluid{
         display: flex;
@@ -957,6 +957,17 @@ color: #ffb900;;
       /*                        margin-top: 10px;*/
       /*                        padding: 20px 0;*/
     }
+
+    @media(max-width:480px){
+      .navbar{
+        display: contents;
+        /* margin-top: 10px;*/
+         padding: 0px 0px !important;
+         flex-wrap: wrap; 
+      }
+
+    }
+
     .navbar-brand{
       font-size: 800;
       text-transform: uppercase;
@@ -983,6 +994,8 @@ color: #ffb900;;
       color: #fff;
       border: 2px solid #ffb900;
       border-radius: opx;
+      position: relative;
+      left: 100px;
     }
 
     .navbar-collapse{
@@ -2542,7 +2555,25 @@ padding-left: 10px;
     }  
 }
 
+.FlowFlex{
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+}
 
+@media(max-width:480px){
+    .FlowFlex{
+
+        display: flex;
+        justify-content:center; 
+        align-items: center;
+        flex-wrap: wrap;
+    } 
+
+    .flow{
+      padding-bottom: 25px;
+    } 
+}
 
 
 .page-client {
@@ -2621,4 +2652,121 @@ padding-left: 10px;
     padding-bottom: 80px;
   }
 
+}
+
+
+
+
+
+.whtsapp{
+width: 10%; 
+position: fixed;
+left: 18px;
+bottom: 4%;
+float: left;
+z-index: 9;
+}
+
+@media(max-width: 480px)
+{
+  .whtsapp{
+  width: 25%; 
+  
+  }
+}
+
+
+.website_floting{
+  width: 10%; 
+  position: fixed;
+  right: 18px;
+  bottom: 4%;
+  float: right;
+  z-index: 9;
+  cursor: pointer
+}
+
+@media(max-width: 480px)
+{
+  .website_floting{
+  width: 25%;
+  right:130px;
+  }
+}
+
+
+
+
+
+#apDiv4 {
+    display: none;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px){
+#apDiv4 {
+    display: block;
+    background: #ffb900;
+    position: fixed;
+    bottom: 0px;
+    width: 50%;
+    right: 0;
+    box-shadow: 0 -2px 20px rgb(0 0 0 / 35%);
+    z-index: 10;
+    text-align: center;
+    padding: 2px 9px;
+    right: 23px;
+  }
+}
+
+#apDiv5 {
+    display: none;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+#apDiv5 {
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    width: 50%;
+/*    z-index: 10001;*/
+/*    right: 0%;*/
+     box-shadow: 0 -2px 20px rgb(0 0 0 / 35%); 
+    z-index: 10;
+    text-align: center;
+}
+}
+
+
+.apDiv5-call {
+  display: block;
+/*    background: #d8125a;*/
+    padding: 3px 9px;
+    min-width: 50%;
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+.apDiv5-call {
+   /* background: #222;*/
+   background: #ffb900;
+    min-width: 50%;
+    padding: 3px 9px;
+    font-size: 14.5px;
+    text-align: center;
+    color: #000;
+  }
+}
+
+.ParaHigh{
+  width: 60%;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px){
+.ParaHigh {
+    width: 100%;
+  }
 }
