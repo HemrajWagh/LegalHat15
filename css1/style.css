@@ -735,6 +735,7 @@ color: #ffb900;;
   padding-top: 50px;
   padding-bottom: 20px;
   border-radius: 70px 70px 0px 0px;
+  background-size: cover;
 }
 #gtco-footer h4 {
   font-family: "Lato-Medium";
@@ -768,7 +769,7 @@ color: #ffb900;;
 }
 #gtco-footer .company-nav, #gtco-footer .services-nav {
   font-family: "OpenSans-Regular";
-  font-size: 20px;
+/*  font-size: 20px;*/
 }
 #gtco-footer .company-nav a, #gtco-footer .services-nav a {
   color: #fff;
