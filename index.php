@@ -649,19 +649,10 @@
 
 
 
-
-
-
-
-
-
-
-
-
 <div class="container-fluid gtco-testimonials">
     <div class="container">
 
-        <h2>What our customers say about us.</h2>
+        <h2 class="text-center"> <span class="textHead"></span>What our customers say about us.</h2>
         <div class="owl-carousel owl-carousel1 owl-theme">
             <div>
                 <div class="card text-center">
@@ -738,7 +729,7 @@
                                        </div>
                                    </div>
                                </div>   
-                               3            <div>
+                               <div>
                                 <div class="card text-center">
                                     <!-- <img class="card-img-top" src="images1/customer3.jpg" alt=""> -->
                                     <div class="card-body">
@@ -760,11 +751,7 @@
 
                    <div class="container-fluid gtco-features-list">
                           <div class="container">
-                              <h2 style="text-align: center;font-family: Lato-Medium;
-                              font-weight: 900!important;
-                              position: relative;
-                              margin-bottom: 30px;
-                              text-transform: uppercase;text-shadow: 0px 3px 12px #c3c3c3;">WHY CHOOSE US</h2>
+                              <h2 class="text-center"><span class="textHead "></span>Why Choose Us</h2>
 
                               <div class="row">
                                   <div class="media col-md-6 col-lg-4">
@@ -816,16 +803,14 @@
 
 
 
-                      <br><br><br>
-
-                <section id="parallex2" style="background-image: url(images1/bk2.jpg); box-shadow: 0 10px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 5%);height: 250px;">
+            <br><br>
+            <section id="parallex2" style="background-image: url(images1/bk2.jpg); box-shadow: 0 10px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 5%);height: 250px;">
                   <div class="container" style="display: flex;" id="paraFlex" >
                     <div class="col-lg-6 col-sm-6"><img src="images1/man.png"></div>
                     <div class="col-lg-6 col-sm-6" style="display: flex; justify-content: center; align-items: center;margin-top:-100px ;"> <a href="" class="btn btn-lg shadowbtn "style="  border-left:4px solid #ffb900;text-shadow: 0px 3px 12px #c3c3c3;">BROWSE OUR WORK</a></div>
                   </div>
-                </section>  
-                <br><br>
-
+            </section>  
+            <br><br>
 
                 <div class="container-fluid gtco-logo-area">
                     <div class="container">
@@ -1038,11 +1023,7 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="section-title text-center wow zoomIn">
-                                            <h2 style="text-align: center;font-family: Lato-Medium;
-                                            font-weight: 900!important;
-                                            position: relative;
-                                            margin-bottom: 30px;
-                                            text-shadow: 0px 3px 12px #c3c3c3;">Frequently Asked Questions</h2>
+                                            <h2 class="text-center"><span class="textHead">Frequently Asked Questions</span></h2>
                                             <span></span>
                                             <p>If you have any doubts regarding Trademark then this article based on FAQs on Trademark Registration in India will clear all your doubts.</p>
                                         </div>

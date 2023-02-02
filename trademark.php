@@ -895,7 +895,7 @@ text-shadow: 0px 3px 12px #c3c3c3; border-left: 5px solid #ffb900;">
                             <div class="col-lg-6 col-sm-6" style="display: flex; justify-content: center; align-items: center;margin-top:-100px ;"> <a href="" class="btn btn-lg shadowbtn "style="  border-left:4px solid #ffb900;text-shadow: 0px 3px 12px #c3c3c3;">BROWSE OUR WORK</a></div>
                           </div>
                         </section>  
-                        <br><br><br><br>
+                        <br><br>
 
                         <section id="about" class="about roomy-100" >    
 

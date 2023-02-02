@@ -1004,8 +1004,9 @@ color: #ffb900;;
     @media(max-width:768px){
 
      .navbar-collapse{
-
+        width: 78%;
        background: #FECE1A;
+       margin-bottom: 20px;
      }   
    }
    .dropdown-menu{
@@ -1031,10 +1032,6 @@ color: #ffb900;;
     transform: translate(20px,20px);
     transition: all .2s ease-out;
 }
-
-
-
-
 
        .menu div {
         padding: 15px 20px 15px 40px;
@@ -2104,6 +2101,14 @@ style="position: sticky; top: 100px;"
         border: none;
         z-index: 0;
     }
+
+    @media(max-width:480px){
+       .process-model {
+           margin: 0px -59px 26px;
+           left: 60px;
+       } 
+    }
+
     .process-model li::after {
         background: #e5e5e5 none repeat scroll 0 0;
         bottom: 0;
@@ -2242,6 +2247,8 @@ style="position: sticky; top: 100px;"
 
 .main_history.main_history{
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media ( max-width :480px){
@@ -2529,13 +2536,19 @@ input[type="radio"]{
       } 
 
 
-.textHead{
-text-align: cente ; 
-padding-left: 10px;
+.textHead {
+ text-align: cente ; 
+ padding-left: 10px;
  font-family: Lato-Medium;
  font-weight: 900!important;
  text-shadow: 0px 3px 12px #c3c3c3; 
  border-left: 5px solid #ffb900;                   
+}
+
+@media( max-width: 480px){
+  .textHead{
+    text-align:center;
+  }
 }
 
 
@@ -2768,4 +2781,54 @@ z-index: 9;
 .ParaHigh {
     width: 100%;
   }
+}
+
+
+
+.Associate{
+  text-align: center;
+  font-size: 1.5rem;
+  /*justify-content: center;
+  align-items: center;*/
+}
+
+.single_history_img .container{
+      display: flex;
+      flex-wrap: wrap;
+      align-content: flex-end;
+      justify-content: center;
+  }
+}
+
+.clientsFlex
+{
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+@media(min-width: 320px) and (max-width: 480px){
+
+ /*h2 .Associate{
+    font-size: 1.5rem;
+  }*/
+  .single_history_img .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+  }
+
+  .clientsFlex
+  {
+    padding-top: 30px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+  }
+
+  .section-title{
+    padding-top: 20px;
+  }
+
 }
