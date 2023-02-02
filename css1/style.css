@@ -2568,10 +2568,12 @@ padding-left: 10px;
         justify-content:center; 
         align-items: center;
         flex-wrap: wrap;
+        flex-direction: column-reverse;
+        margin-bottom: 20px;
     } 
 
     .flow{
-      padding-bottom: 25px;
+      margin-bottom: 25px;
     } 
 }
 
@@ -2769,4 +2771,9 @@ z-index: 9;
 .ParaHigh {
     width: 100%;
   }
+}
+
+
+.single_history_content{
+  padding-top: 25px;
 }

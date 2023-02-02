@@ -67,7 +67,7 @@
   </div>
 
   <div class="container">
-    <div class="row">
+    <!-- <div class="row"> -->
       <div class="main_history fadeInUp" style="display:flex;">
         <div class="col-lg-6 col-sm-6"data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine" style="border-right: 1px solid #ffb900;">
 
@@ -121,7 +121,7 @@
                </div>       
              </div>
              <hr style="border-bottom:2px solid #fbb900;">
-           </div>
+           <!-- </div> -->
          </div>
          <br><br>
          <section id="theory" class="about roomy-100" >   
@@ -136,7 +136,7 @@
                     <div class="list"><span class="light"></span><span>Importance Of Trademark</span></div>
                   </a>
                   <a href="#topic3" style="text-decoration: none;">
-                    <div class="list"><span class="light"></span><span>Trademark Registration Procesure</span></div>
+                    <div class="list"><span class="light"></span><span>Trademark Registration Procedure</span></div>
                   </a>
                   <a href="#topic4" style="text-decoration: none;">
                     <div class="list"><span class="light"></span><span>Requirements for filing Application</span></div>
@@ -161,7 +161,7 @@
 
                 </div>
                 <div id="topic3">
-                  <h4> <span class="textHead"></span>Trademark Registration Procesure</h4>
+                  <h4> <span class="textHead"></span>Trademark Registration Procedure</h4>
 
                   <p>The procedure for applying for Trademark Reglstration is as follows :</p>
 
@@ -201,7 +201,7 @@
 
                 </div>
               </div>
-              <div class="col-lg-3" data-aos="fade-left"data-aos-offset="350"data-aos-easing="ease-in-sine">
+              <div class="col-lg-3 col-sm-6" data-aos="fade-left"data-aos-offset="350"data-aos-easing="ease-in-sine">
                 <div class="container "style="position: sticky; top: 100px;" >
                   <div class="row">
 
@@ -286,7 +286,7 @@
     <div class="row" >  
       <div class="col-lg-12 col-sm-6"> 
         <div class="">
-          <h2 class="pb-3 pt-2 mb-5 "> <span class="textHead">TRADEMARK REGISTRATION PROCEDURE :</span> </h2>
+          <h4 class="pb-3 pt-2 mb-5 "> <span class="textHead">TRADEMARK REGISTRATION PROCEDURE :</span> </h4>
           <!-- <hr style="background-color:#ffb900 " size="100"> -->
           <!--first section-->
           <div class="row align-items-center how-it-works d-flex">
@@ -826,8 +826,8 @@ text-shadow: 0px 3px 12px #c3c3c3; border-left: 5px solid #ffb900;">
                     <div class="main_history fadeInUp" style="display:flex;">
                       <div class="col-lg-6 col-sm-6"data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
 
-                        <h2 style="text-align: center;justify-content: center;align-items: center;" ><span class="textHead">We Are  <br> Associated With </span> </h2>
-                        <br> 
+                        <h3 style="text-align: center;justify-content: center;align-items: center;" ><span class="textHead">We Are  <br> Associated With </span> </h3>
+                         
                         <div class="single_history_img">
                           <div class="row ">
 
@@ -854,6 +854,7 @@ text-shadow: 0px 3px 12px #c3c3c3; border-left: 5px solid #ffb900;">
 
                         </div>
                       </div>
+                      <br>
                       <div class="col-lg-6 col-sm-6"data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine">
                         <h2 style="text-align: center;justify-content: center;align-items: center;" ><span class="textHead">Our  <br> Associated Partners </span> </h2> 
                         
@@ -903,12 +904,7 @@ text-shadow: 0px 3px 12px #c3c3c3; border-left: 5px solid #ffb900;">
                             <div class="row">
                               <div class="col-lg-12 col-md-12 col-sm-6">
                                 <div class="section-title text-center wow zoomIn">
-                                  <h1 style="    text-align: center;
-                                  font-family: Lato-Medium;
-                                  font-weight: 900!important;
-                                  position: relative;
-                                  margin-bottom: 30px;
-                                  text-shadow: 0px 3px 12px #c3c3c3;">Frequently Asked Questions</h1>
+                                  <h4><span class="textHead"></span> Frequently Asked Questions</h4>
                                   <span></span>
                                   <p>If you have any doubts regarding Trademark then this article based on FAQs on Trademark Registration in India will clear all your doubts.</p>
                                 </div>
@@ -1020,11 +1016,11 @@ text-shadow: 0px 3px 12px #c3c3c3; border-left: 5px solid #ffb900;">
 
                       <?php include 'footer.php' ?>      
 
-                      <div class="scrollup">
+                      <!-- <div class="scrollup">
                         <a href="#">
                           <i class="icon-up-open"></i>
                         </a>
-                      </div>
+                      </div> -->
 
 
 
