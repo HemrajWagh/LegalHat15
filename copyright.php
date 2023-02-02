@@ -50,230 +50,11 @@
       $typeOfSerrvicesErr = $allErrs['services'];
     }?>
 
-    <!DOCTYPE html>
-    <html lang="en">
+ 
 
-    <head>
-      <meta charset=utf-8>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>Legal | Hat</title>
-      <!-- Load Roboto font -->
-      <!-- <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'> -->
-      <!-- Load css styles -->
-      <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-      <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="css1/bootstrap.min.css">
-      <!-- custom CSS -->
-      <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" /> -->
-      <!-- <link rel="stylesheet" type="text/css" href="css/style.css" /> -->
+ <?php include 'header.php';?>
 
-      <link rel="stylesheet" href="./form/style.css">
-
-      <!-- awesone fonts css-->
-      <link href="css1/font-awesome.css" rel="stylesheet" type="text/css">
-      <!-- owl carousel css-->
-      <link rel="stylesheet" href="owl-carousel/assets/owl.carousel.min.css" type="text/css">
-      <!-- Bootstrap CSS -->
-
-      <!-- custom CSS -->
-      <link rel="stylesheet" href="css1/style.css">
-    
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
-
-      <link rel="stylesheet" href="owl-carousel/assets/owl.carousel.min.css" type="text/css">
-      <!-- <link rel="stylesheet" type="text/css" href="css/pluton.css" /> -->
-      <!-- [if IE 7]> -->
-      <!-- <link rel="stylesheet" type="text/css" href="css/pluton-ie7.css" /> -->
-      <!-- <![endif]--> 
-        <link rel="stylesheet" type="text/css" href="css/jquery.cslider.css" />
-        <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
-        <link rel="stylesheet" type="text/css" href="css/animate.css" />
-        <!-- Fav and touch icons -->
-
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-        <link rel="shortcut icon" href="images/ico/favicon.ico">
-
-
-       
-      </head>
-
-      <body>
-
-
-
-        <header id="header" >
-               
-           <div class="container">
-               
-                <nav class="navbar navbar-expand-lg navbar-light ">
-                  <a class="navbar-brand" href="#"><img src="images/logo.png"width="170"height="50" alt=""></a>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-lg-auto">
-                      <li class="nav-item ">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Services
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="#">IPR Services</a>
-                          <!-- <a class="dropdown-item" href="#">Private Limited Company</a> -->
-                          <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="#">Compony Formantion</a>
-                          <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="#">Iso Registration</a>
-                          <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="#">Food License</a>
-                          <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="#">GST registration</a>
-                          <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="#">Make in india Certificattion</a>
-                          <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="#">Other Registraion</a>
-                        </div>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Registration
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="#">Private Limited Company</a>
-                          <!-- <a class="dropdown-item" href="#">Private Limited Company</a> -->
-                          <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="#">LIMITED LIABILITY PARTNERSHIP</a>
-                        </div>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link " href="#">Contact Us</a>
-                      </li>
-                    </ul>
-                    
-                  </div>
-                </nav>
-
-
-           </div>   
-
-          </header>                                 
-
-       
-
-
-          <!-- Start home section -->
-          <div id="home">
-            <!-- Start cSlider -->
-            <div id="da-slider" class="da-slider">
-                <!-- <div class="triangle"></div> -->
-                <!-- mask elemet use for masking background image -->
-                <div class="mask"></div>
-                <!-- All slides centred in container element -->
-                <div class="container">
-                    <!-- Start first slide -->
-                    <div class="da-slide">
-                        <h2 class="fittext2">Trademark</h2>
-                        <!-- <h4>Trademark</h4> -->
-                        <p>A trademark, trade mark, or trade-mark is a distinctive 
-                            sign or indicator used by an individual, business 
-                            organization, or other legal entity to identify that the 
-                            products or services to consumers with which the 
-                            trademark appears originate from a unique source, 
-                            designated for a specific market, and is used to 
-                            distinguish its products or services from those of other 
-                        entities.</p>
-                        <a href="#" class="da-link button">Read more</a>
-                        <div class="da-img">
-                         <!-- <a href="https://icons8.com/illustrations/author/JTmm71Rqvb2T">Dani Grapevine</a> from <a href="https://icons8.com/illustrations">Ouch!</a> -->
-                         <img src="images/3d.png" alt="image01" width="320">
-                     </div>
-                 </div> 
-                 <!-- End first slide -->
-                 <!-- Start second slide -->
-                 <div class="da-slide">
-                    <h2>Copyright</h2>
-                    <!-- <h4>Copyright</h4> -->
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <a href="#" class="da-link button">Read more</a>
-                    <div class="da-img">
-                        <img src="images/anime.gif" width="320" alt="image02">
-                    </div>
-                </div>
-                <!-- End second slide -->
-                <!-- Start third slide -->
-                <div class="da-slide">
-                    <h2>Patent Registration</h2>
-                    <!-- <h4>Patent</h4> -->
-                    <p>Patent is a major part of Intellectual Property which grants its' 
-                        inventor, the right of exploiting its object exclusively, during a 
-                    given time period.</p>
-                    <a href="#" class="da-link button">Read more</a>
-                    <div class="da-img">
-                        <img src="images/patent.gif" width="320" alt="image03">
-                    </div>
-                </div>
-                <div class="da-slide">
-                    <h2>Company Formation</h2>
-                    <!-- <h4>Company Formation</h4> -->
-                    <p>Company formation is the term for the process of incorporation 
-                        of a business. It is also sometimes referred to as 
-                        company registration. Under company law and most 
-                        international law a company or corporation is considered to be 
-                        an entity that is separate from the people who own or operate 
-                    the company.</p>
-                    <a href="#" class="da-link button">Read more</a>
-                    <div class="da-img">
-                        <img src="images/Compani.png" width="320" alt="image03">
-                    </div>
-                </div>
-                <div class="da-slide">
-                    <h2>ISO</h2>
-                    <!-- <h4>ISO</h4> -->
-                    <p>ISO's work makes a positive difference to the world we live in. 
-                        ISO standards add value to all types of business operations. 
-                        They contribute to making the development, manufacturing 
-                        and supply of products and services more efficient, safer 
-                        and cleaner. They make trade between countries easier and 
-                        fairer. ISO standards also serve to safeguard consumers and 
-                        users of products and services in general - as well as making 
-                    their lives simpler.</p>
-                    <a href="#" class="da-link button">Read more</a>
-                    <div class="da-img">
-                        <img src="images/iso.png" width="320" alt="image03">
-                    </div>
-                </div>
-                <div class="da-slide">
-                    <h2>Website Design</h2>
-                    <!-- <h4>Website Design</h4> -->
-                    <p>A Web service is a method of communication between two 
-                        electronic devices over the Web. It includes website 
-                        development and various online services required for 
-                    set up of a enterpreneurship.</p>
-                    <a href="#" class="da-link button">Read more</a>
-                    <div class="da-img">
-                        <img src="images/Web.png" width="320" alt="image03">
-                    </div>
-                </div>
-                <!-- Start third slide -->
-                <!-- Start cSlide navigation arrows -->
-                <div class="da-arrows">
-                    <span class="da-arrows-prev"></span>
-                    <span class="da-arrows-next"></span>
-                </div>
-                <!-- End cSlide navigation arrows -->
-            </div>
-        </div>
-    </div>
-    <!-- End home section -->
-    <!-- Service section start -->
+ <!-- ============Content========= -->  
 
  <div class="container">                  
  <nav aria-label="breadcrumb">
@@ -283,14 +64,99 @@
      <li class="breadcrumb-item active" aria-current="page">Copyright Registration</li>
    </ol>
  </nav>
-</div>   
+</div> 
 
+<div class="container">
+<div class="row">
+    <div class="main_history fadeInUp" style="display:flex; padding-bottom: 20px;">
+            <div class="col-lg-6 col-sm-6"data-aos="fade-right" data-aos-offset="150"data-aos-easing="ease-in-sine" style="border-right: 1px solid #ffb900;">
+              <h2 class="Associate" ><span class="textHead">We Are Associated With</span> </h2>
+                <div class="single_history_img">     
+                  <div class="container">
+                        <!-- <div class="row "> -->
+                                <div class="col-3">
+                                  <img src="images1/tiaup/axis.jpeg" style="border-radius: 10px;"   alt="Logo 1" width="70%" class="shadowbtn">
+                                </div>
+                                <div class="col-3">
+                                  <img src="images1/tiaup/just.jpeg" style="border-radius: 10px; " alt="Logo 2" width="70%" class="shadowbtn">
+                                </div>
+                                
+                                <div class="col-3">
+                                  <img src="images1/tiaup/paytm.jpeg" style="border-radius: 10px; " alt="Logo 5" width="70%" class="shadowbtn">
+                                </div>
+                                <div class="col-3">
+                                  <img src="images1/tiaup/sulekha.jpeg"style="border-radius: 10px; " alt="Logo 4" width="70%" class="shadowbtn">
+                                </div>
+                                <div class="col-3">
+                                  <img src="images1/tiaup/kotak.jpeg"style="border-radius: 10px; " alt="Logo 4" width="70%" class="shadowbtn">
+                                </div>              
+                          <!-- </div> -->
+                    </div>               
+                </div>
+            </div>
 
-<br><br><br>
+            <div class="col-lg-6 col-sm-6"data-aos="fade-left" data-aos-offset="150"data-aos-easing="ease-in-sine" style="border-left: 1px solid #ffb900;">
+                <h2 class="Associate"><span class="textHead">Our Associated Partners </span> </h2> 
+                
+                <div class="single_history_img">
+                    <!-- <div class="row "> -->
+                   
+                            <div class="container" style="display: flex;">
+                                <div class="col-3" style="display: flex; justify-content: center;align-items: center;" >
+                                  <img src="images1/Associate/logo1.jpeg" style="border-radius: 10px;"   alt="Logo 1" width="70%" class="shadowbtn">
+                                </div>
+                                <div class="col-3"style="display: flex; justify-content: center;align-items: center;">
+                                  <img src="images1/Associate/logo2.jpeg" style="border-radius: 10px; " alt="Logo 2" width="100%" class="shadowbtn">
+                                </div>
+                                
+                                <div class="col-3"style="display: flex; justify-content: center;align-items: center;">
+                                  <img src="images1/Associate/logo3.jpeg" style="border-radius: 10px; " alt="Logo 5" width="70%" class="shadowbtn">
+                                </div>
+                                <div class="col-3"style="display: flex; justify-content: center;align-items: center;">
+                                  <img src="images1/Associate/logo4.jpeg"style="border-radius: 10px; " alt="Logo 4" width="70%" class="shadowbtn">
+                                </div>
+                               <!--  <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                  <img src="images1/tiaup/png.jpeg"style="border-radius: 5px; " alt="Logo 4" width="100%" class="shadowbtn">
+                                </div>
+                                -->
+                              </div>
+                      <!-- </div> -->
+                                
+                </div>
+            </div>       
+    </div>
+      <!-- <hr style="border-bottom:2px solid #fbb900;"> -->
+  </div>
+</div>
+
+ <!-- div class="container" style="display: flex;">
+<div class="row ">
+     <div class="col-2" style="display: flex; justify-content: center;align-items: center;" >
+       <img src="images1/logo/active.jpeg" style="border-radius: 5px;"   alt="Logo 1" width="60%" class="shadowbtn">
+     </div>
+     <div class="col-2"style="display: flex; justify-content: center;align-items: center;">
+       <img src="images1/logo/bhumi.jpeg" style="border-radius: 5px; " alt="Logo 2" width="60%" class="shadowbtn">
+     </div>
+     <div class="col-2"style="display: flex; justify-content: center;align-items: center;">
+       <img src="images1/logo/dudhraja.jpeg" style="border-radius: 5px; " alt="Logo 3" width="60%" class="shadowbtn">
+     </div>
+     <div class="col-2"style="display: flex; justify-content: center;align-items: center;">
+       <img src="images1/logo/meatbox.jpeg" style="border-radius: 5px; " alt="Logo 5" width="60%" class="shadowbtn">
+     </div>
+     <div class="col-2"style="display: flex; justify-content: center;align-items: center;">
+       <img src="images1/logo/logica.jpeg"style="border-radius: 5px; " alt="Logo 4" width="60%" class="shadowbtn">
+     </div>
+     <div class="col-2"style="display: flex; justify-content: center;align-items: center;">
+       <img src="images1/logo/logica.jpeg"style="border-radius: 5px; " alt="Logo 4" width="60%" class="shadowbtn">
+     </div>
+    
+   </div>
+ </div> -->
+
 <section id="theory" class="about roomy-100" > 
-  <div class="row content">   
    <div class="container" style="display: flex;" >    
-    <div class="col-lg-3 col-sm-6" data-aos="fade-right"data-aos-offset="350"data-aos-easing="ease-in-sine"> 
+  <div class="row content">   
+    <div class="col-lg-3 col-sm-6" data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine"> 
       <div class="menu" id="menu"style="position: sticky; top: 60px;" >
         <a href="#topic1" style="text-decoration: none;" >
           <div class="list"><span class="light"></span><span>Copyright Registration</span></div>
@@ -304,9 +170,9 @@
 
       </div> 
     </div>
-    <div class="col-lg-6" data-aos="fade-up"data-aos-duration="2000" data-aos-offset="350"data-aos-easing="ease-in-sine">
+    <div class="col-lg-6" data-aos="fade-up"data-aos-duration="700" data-aos-offset="300"data-aos-easing="ease-in-sine">
       <div id="topic1">
-        <h4>What is Copyright Registration ? </h4>
+        <h4> <span class="textHead"></span> What is Copyright Registration ? </h4>
         <p>Copyright is a legal concept, enacted by most governments, giving
           the creator of an original work exclusive rights to it, usually for a
         limited time.</p>
@@ -321,7 +187,7 @@
 
       </div>
       <div id="topic2">
-        <h4> Types of Copyright </h4>
+        <h4> <span class="textHead"></span> Types of Copyright </h4>
         <ul>
           <p>
             ● Artistic Work (Manufacturing and Service Industry logos / labels /
@@ -356,7 +222,7 @@
         </ul>
       </div>
       <div id="topic3">
-        <h4>Importance and Advantages of Copyright</h4>
+        <h4><span class="textHead"></span>Importance and Advantages of Copyright</h4>
         <p>Copyright is a major part of Intellectual property where one can
           claim exclusive rights over the created identity which may be in any
         above mentioned form.</p>
@@ -409,7 +275,7 @@
         </ul>
       </div>
     </div>
-    <div class="col-lg-3" data-aos="fade-left"data-aos-offset="350"data-aos-easing="ease-in-sine">
+    <div class="col-lg-3" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine">
      <div class="container "style="position: sticky; top: 100px;" >
       <div class="row">
 
@@ -493,10 +359,10 @@
         <section class="design-process-section" id="process-tab">
          <div class="container" >
           <div class="col-lg-6 col-sm-6"  data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine"style="display: flex;">
-              <img width="100%" src="images1/StepDr870700.jpg" style="display: flex; justify-content: center;align-items: center;">     
+              <img width="100%" src="images1/StepsProcedure.jpg" style="display: flex; justify-content: center;align-items: center;">     
           </div>         
           <div class="col-lg-6 col-sm-6" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine"> 
-            <h3 class="txtshadow num" >Procedure</h3>
+            <h3 class="num" style="text-align: center;" ><span class="textHead" >Procedure</span></h3>
             <ul class="nav nav-tabs process-model more-icon-preocess" role="tablist">
              <li role="presentation" class="active"><a href="#discover" aria-controls="discover" role="tab" data-toggle="tab" data-target="#discove"><i class="fa fa-search" aria-hidden="true"></i>
                <p>Application </p>
@@ -520,25 +386,26 @@
            <div role="tabpanel" class="tab-pane  show active" id="discove">
              <div class="design-process-content">
                <h3 class="semi-bold">Application</h3>
-               <p>Preparation of Application for Design Registration and submission along with the necessary documents Attending to the proceedings and obtaining Provisional Papers after necessary follow up Publication in official journal</p>
+               <p>An application for registration is to be made in a prescribed form as per the Copyright Act/ Rules.</p>
              </div>
            </div>
            <div role="tabpanel" class="tab-pane" id="Strateg">
              <div class="design-process-content">
                <h3 class="semi-bold">Opposition</h3>
-               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
+               <p>No action is taken by the copyright office for 30 days thereafter and it waits for the objections if any to be received. In case the objections are received, both the parties that is the person who has raised objections and the applicant are sent a letter and a reply is received. A hearing takes place before the Registrar and the application is accepted or rejected.</p>
              </div>
            </div>
            <div role="tabpanel" class="tab-pane" id="optimizatio">
              <div class="design-process-content">
                <h3 class="semi-bold">Acceptance</h3>
-               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>
+               <p>Thereafter, the application may be accepted or rejected. If accepted, the Copyright office approves the registration and shall send extract from the Register to the Applicant.</p>
              </div>
            </div>
            <div role="tabpanel" class="tab-pane" id="conten">
              <div class="design-process-content">
                <h3 class="semi-bold">Registration Certificate</h3>
-               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincid unt ut laoreet dolore magna aliquam erat volutpat</p>              
+               <p>In case the discrepancies are not replied to, the application is rejected and the rejection letter is sent to the Applicant.
+</p>              
              </div>
            </div>
  <!-- <div role="tabpanel" class="tab-pane" id="reportin">
@@ -552,29 +419,60 @@
 </div>
 </section>
 
-<br><br>   
+   
 
+<section id="about" class="about roomy-100">
 
-<div class="row">
-    <div class="container" style="display: flex; " >
-        <!-- <div class="col-lg-6 col-sm-6"></div> -->
-        <div class="col-lg-6 col-sm-6">
-            <h3 style="text-align: center;">Procedure for registration of a logo / monogram </h3>
-            <img src="images1/patentProcess.png" alt="">
+  <div class="container ">
+    <div class="row Acc">
+
+            <div class="col-lg-6 col-sm-6" data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
+                      
+                <ul class="accordian">
+                          <h2 style="text-align: center;" ><span class="textHead">Requirements for filing Application</span> </h2>
+                    <li>
+                        <input type="radio" name="accordian" id="first" checked>
+                        <label for="first">Informational Requirements : </label>
+
+                        <div class="content">
+                            
+                              <p>The name, address and nationality of the applicant.</p>
+                              <p>Residential address of the applicant.</p>
+                              <p>Name, address and nationality of the author; if the author is deceased, the date of his decease.</p>
+                              <p>Title, language and brief description of the work.</p>
+                            
+                        </div>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="accordian" id="second">
+                        <label for="second">Documentary Requirements : </label>
+                        <div class="content">
+                          <p>In case of a partnership concern: Copy of partnership deed</p>
+                          <p>In case of a company: copy of memorandum and articles and certificate of incorporation duly attested as true copy</p>
+                          <p>In case of a trust or an NGO: copy of trust deed with names and addresses of trustees</p>
+                          <p>In case registration of Computer Software/ Literally Material / Musical Work then required the five copies of the work./ in case Artistic work then 10 color printouts of the logo.</p>
+                          <!-- <p>Required logo / writing style of trademark in soft copy to be mailed to info@trademark.in and to the concerned advocate/executive in our firm</p> -->
+      
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+
+            <div class="col-lg-6 col-sm-6" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine">
+                <img src="images1/StepsCheck.jpg" alt="">
+            </div>
         </div>
-        <div class="col-lg-6 col-sm-6">
-            <h3 style="text-align: center;">Procedure for registration for service
-            Industries : </h3>
-            <img src="images1/patentProcess.png" alt="">
-         </div>
     </div>
-</div>                                                                   
+</section>
+                                                                
 
 <section  class=""    id="parallex2" style="background-image: url(images1/bk2.jpg); box-shadow: 0 10px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 5%);"  >
 
          <section class="info">
             <div class="container">
-                <h2 class="txtshadow num" style="color: #ffb900;text-align: center;" >Awards & Achievement</h2>
+                <h2 class="" style="color: #ffb900;text-align: center;" > <span class="textHead">Awards & Achievement</span></h2>
             </div>
            <!-- <h1>Awards &mdash; Achievments </h1> -->
          </section>
@@ -652,7 +550,7 @@
         <div class="col-lg-12" style="display:flex; flex-direction: column; align-items: center;justify-content: center; ">
           <!-- <h1>What We Do?</h1> -->
           <!-- Section's title goes here -->
-          <h5 class="txtshadow num" style="color: #ffb900;text-align: center;">DIFFERENT TYPES OF TRADEMARKS THAT CAN BE REGISTERED IN INDIA</h5>
+          <h5 class="" style="color: #ffb900;text-align: center;"><span class="textHead"> DIFFERENT TYPES OF TRADEMARKS THAT CAN BE REGISTERED IN INDIA</span></h5>
           <hr class="new1">
           <!--Simple description for section goes here. -->
         </div> 
@@ -775,22 +673,176 @@
                    </div>
 </section>
 
-<br><br>
-    <div class="row"style="background-image: url(images1/bkwhite.jpg);">
+
+<br><br><br>
+
+
+  <div class="container">
+    <div class="row">
+        <div class="main_history fadeInUp" style="display:flex;">
+                <div class="col-lg-6 col-sm-6"data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
+                    <div class="single_history_img">
+                                <div class="container" style="display: flex;">
+                        <div class="row ">
+                                    <div class="col" style="display: flex; justify-content: center;align-items: center;" >
+                                      <img src="images1/logo/active.jpeg" style="border-radius: 5px;"   alt="Logo 1" width="100%" class="shadowbtn">
+                                    </div>
+                                    <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                      <img src="images1/logo/bhumi.jpeg" style="border-radius: 5px; " alt="Logo 2" width="100%" class="shadowbtn">
+                                    </div>
+                                    
+                                    <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                      <img src="images1/logo/meatbox.jpeg" style="border-radius: 5px; " alt="Logo 5" width="100%" class="shadowbtn">
+                                    </div>
+                                    <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                      <img src="images1/logo/logica.jpeg"style="border-radius: 5px; " alt="Logo 4" width="100%" class="shadowbtn">
+                                    </div>
+                                    <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                      <img src="images1/logo/png.jpeg"style="border-radius: 5px; " alt="Logo 4" width="100%" class="shadowbtn">
+                                    </div>
+                                   
+                                  </div>
+                          </div>
+                          <br>
+                                 <div class="container" style="display: flex;">
+                         <div class="row ">
+                                     <div class="col" style="display: flex; justify-content: center;align-items: center;" >
+                                       <img src="images1/logo/mamaLogo.png" style="border-radius: 5px;"   alt="Logo 1" width="100%" class="shadowbtn">
+                                     </div>
+                                     <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                       <img src="images1/logo/kiranaLogo.png" style="border-radius: 5px; " alt="Logo 2" width="100%" class="shadowbtn">
+                                     </div>
+                                     <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                       <img src="images1/logo/vrukshaLogo.png" style="border-radius: 5px; " alt="Logo 3" width="100%" class="shadowbtn">
+                                     </div>
+                                     <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                       <img src="images1/logo/twotech.jpeg" style="border-radius: 5px; " alt="Logo 5" width="100%" class="shadowbtn">
+                                     </div>
+                                   
+                                   </div>
+                            </div>
+                            <br>
+                              <div class="container" style="display: flex;">
+                           <div class="row ">
+                                       <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                          <img src="images1/logo/dudhraja.jpeg" style="border-radius: 5px; " alt="Logo 3" width="35%" class="shadowbtn">
+                                        </div>
+                                        <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                       <img src="images1/logo/spicelogo.png" style="border-radius: 5px; " alt="Logo 2" width="45%" class="shadowbtn">
+                                     </div>
+                                      
+                                       
+                                       <!-- <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                         <img src="images1/logo/soar.jpeg"style="border-radius: 5px; " alt="Logo 4" width="100%" class="shadowbtn">
+                                       </div> -->
+                                       
+                            </div>
+                           </div>                
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-sm-6 clientsFlex"  data-aos="fade-left" data-aos-offset="300"data-aos-easing="ease-in-sine">
+                    <div class="single_history_content" >
+                        <div class="head_title"style="margin-right:0px; ">
+                            <h2 style="margin-left: 20px; text-align: center;" class="textHead"> "CLIENTS FIRST , ALWAYS" </h2>
+                        </div>
+                        <!-- <p>A trademark is typically a name, word, phrase, logo, symbol, design, image, or a combination of these elements.</p>
+
+<p>There is also a range of non-conventional trademarks comprising marks which do not fall into these standard categories, such as those based on Color, smell, or sound. </p> -->
+                            <!-- <a href="" class="btn btn-lg shadowbtn txtshadow"style="margin-right:0px; border-left:4px solid #ffb900;">BROWSE OUR WORK</a> -->
+                    </div>
+                </div>
+        </div>
+      </div>
+    </div>          
+    <br><br>
+
+        <div class="container">
+        <div class="row">
+            <div class="main_history fadeInUp" style="display:flex;">
+                    <div class="col-lg-6 col-sm-6" data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine"> 
+                     
+                      <h2 class="Associate" ><span class="textHead">We Are  <br> Associated With </span> </h2>
+                      
+                        <div class="single_history_img">
+                            <div class="row ">
+                              
+                                    <div class="container" style="display: flex;">
+                                        <div class="col" style="display: flex; justify-content: center;align-items: center;" >
+                                          <img src="images1/tiaup/axis.jpeg" style="border-radius: 5px;"   alt="Logo 1" width="100%" class="shadowbtn">
+                                        </div>
+                                        <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                          <img src="images1/tiaup/just.jpeg" style="border-radius: 5px; " alt="Logo 2" width="100%" class="shadowbtn">
+                                        </div>
+                                        
+                                        <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                          <img src="images1/tiaup/paytm.jpeg" style="border-radius: 5px; " alt="Logo 5" width="100%" class="shadowbtn">
+                                        </div>
+                                        <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                          <img src="images1/tiaup/sulekha.jpeg"style="border-radius: 5px; " alt="Logo 4" width="100%" class="shadowbtn">
+                                        </div>
+                                        <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                          <img src="images1/tiaup/kotak.jpeg"style="border-radius: 5px; " alt="Logo 4" width="100%" class="shadowbtn">
+                                        </div>
+                                       
+                                      </div>
+                              </div>
+                                        
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-6" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine">
+                        <h2 class="Associate"><span class="textHead">Our  <br> Associated Partners </span> </h2> 
+                        <div class="single_history_img">
+                          <div class="container" style="display: flex;">
+                            <div class="row ">
+                           
+                                        <div class="col" style="display: flex; justify-content: center;align-items: center;" >
+                                          <img src="images1/Associate/logo1.jpeg" style="border-radius: 5px;"   alt="Logo 1" width="80%" class="shadowbtn">
+                                        </div>
+                                        <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                          <img src="images1/Associate/logo2.jpeg" style="border-radius: 5px; " alt="Logo 2" width="80%" class="shadowbtn">
+                                        </div>
+                                        
+                                        <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                          <img src="images1/Associate/logo3.jpeg" style="border-radius: 5px; " alt="Logo 5" width="80%" class="shadowbtn">
+                                        </div>
+                                        <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                          <img src="images1/Associate/logo4.jpeg"style="border-radius: 5px; " alt="Logo 4" width="80%" class="shadowbtn">
+                                        </div>
+                                       <!--  <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                                          <img src="images1/tiaup/png.jpeg"style="border-radius: 5px; " alt="Logo 4" width="100%" class="shadowbtn">
+                                        </div>
+                                        -->
+                                  </div>
+                              </div>
+                                        
+                        </div>
+                    </div>       
+            </div>
+          </div>
+        </div>
+
+        <br><br>
+        <section id="parallex2" style="background-image: url(images1/bk2.jpg); box-shadow: 0 10px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 5%);height: 250px;">
+          <div class="container Acc">
+            <div class="col-lg-6 col-sm-6 "><img class="ParaHigh" src="images1/man.png" ></div>
+            <div class="col-lg-6 col-sm-6" style="display: flex; justify-content: center; align-items: center;margin-top:-100px ;"> <a href="" class="btn btn-lg shadowbtn "style="  border-left:4px solid #ffb900;text-shadow: 0px 3px 12px #c3c3c3;">BROWSE OUR WORK</a></div>
+          </div>
+        </section>  
+        <br><br>                              
+
     <div class="container">
-      <div class="row">
-          <div class="col-md-12">
+    <div class="row"style="background-image: url(images1/bkwhite.jpg);">
+      <!-- <div class="row"> -->
+          <div class="col-lg-12 col-md-12 col-sm-12">
               <div class="section-title text-center wow zoomIn">
-                  <h2 style="text-align: center;font-family: Lato-Medium;
-                  font-weight: 900!important;
-                  position: relative;
-                  margin-bottom: 30px;
-                  text-shadow: 0px 3px 12px #c3c3c3;">Frequently Asked Questions</h2>
-                  <span></span>
+                  <h2><span class="textHead">Frequently Asked Questions</span></h2> 
                   <p>If you have any doubts regarding Trademark then this article based on FAQs on Trademark Registration in India will clear all your doubts.</p>
               </div>
           </div>
-      </div>
+      <!-- </div> -->
       <div class="row">               
           <div class="col-md-12">
               <div class="panel-group accordion" id="accordion" role="tablist" aria-multiselectable="true">
@@ -890,442 +942,4 @@ Any other work of artistic craftsmanship.</ul>
   
 
 
-    <footer class="container-fluid" id="gtco-footer">
-       <div class="container">
-           <div class="row">
-               <div class="col-lg-6" id="contact">
-                   <h4> Contact Us </h4>
-                   <input type="text" class="form-control" placeholder="Full Name">
-                   <input type="email" class="form-control" placeholder="Email Address">
-                   <textarea class="form-control" placeholder="Message"></textarea>
-                   <a href="#" class="submit-button">READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-               </div>
-               <div class="col-lg-6">
-                   <div class="row">
-                       <div class="col-6">
-                           <h4>Company</h4>
-                           <ul class="nav flex-column company-nav">
-                               <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                               <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-                               <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                               <li class="nav-item"><a class="nav-link" href="#">News</a></li>
-                               <li class="nav-item"><a class="nav-link" href="#">FAQ's</a></li>
-                               <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                           </ul>
-                           <h4 class="mt-5">Fllow Us</h4>
-                           <ul class="nav follow-us-nav">
-                               <li class="nav-item"><a class="nav-link pl-0" href="#"><i class="fa fa-facebook"
-                                 aria-hidden="true"></i></a></li>
-                                 <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-twitter"
-                                  aria-hidden="true"></i></a></li>
-                                  <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-google"
-                                      aria-hidden="true"></i></a></li>
-                                      <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-linkedin"
-                                          aria-hidden="true"></i></a></li>
-                                      </ul>
-                                  </div>
-                                  <div class="col-6">
-                                   <h4>Services</h4>
-                                   <ul class="nav flex-column services-nav">
-                                       <li class="nav-item"><a class="nav-link" href="#">Trademark Registration</a></li>
-                                       <li class="nav-item"><a class="nav-link" href="#">Copyright Registration</a></li>
-                                       <li class="nav-item"><a class="nav-link" href="#">Design Registration</a></li>
-                                       <li class="nav-item"><a class="nav-link" href="#">Patent Registration</a></li>
-                                       <li class="nav-item"><a class="nav-link" href="#">ISO Registration</a></li>
-                                       <li class="nav-item"><a class="nav-link" href="#">Formation OF Company</a></li>
-                                       <li class="nav-item"><a class="nav-link" href="#">Web Servieces</a></li>
-                                       <li class="nav-item"><a class="nav-link" href="#">Branding Services</a></li>
-                                       <li class="nav-item"><a class="nav-link" href="#">Other Registration Services</a></li>
-                                   </ul>
-                               </div>
-                               <div class="col-12">
-                                   <p>&copy; 2023. All Rights Reserved.</p>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </footer>
-
-
-
-                           <!--  <div id="contact" class="contact">
-                                <div class="section secondary-section">
-                                    <div class="container">
-                                        <div class="title">
-                                            <h1>Contact Us</h1>
-                                            <p>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</p>
-                                        </div>
-                                    </div>
-                                    <div class="map-wrapper">
-                                        <div class="map-canvas" id="map-canvas">Loading map...</div>
-                                        <div class="container">
-                                            <div class="row-fluid">
-                                                <div class="span5 contact-form centered">
-                                                    <h3>Say Hello</h3>
-                                                    <div id="successSend" class="alert alert-success invisible">
-                                                        <strong>Well done!</strong>Your message has been sent.</div>
-                                                        <div id="errorSend" class="alert alert-error invisible">There was an error.</div>
-                                                        <form id="contact-form" action="php/mail.php">
-                                                            <div class="control-group">
-                                                                <div class="controls">
-                                                                    <input class="span12" type="text" id="name" name="name" placeholder="* Your name..." />
-                                                                    <div class="error left-align" id="err-name">Please enter name.</div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="control-group">
-                                                                <div class="controls">
-                                                                    <input class="span12" type="email" name="email" id="email" placeholder="* Your email..." />
-                                                                    <div class="error left-align" id="err-email">Please enter valid email adress.</div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="control-group">
-                                                                <div class="controls">
-                                                                    <textarea class="span12" name="comment" id="comment" placeholder="* Comments..."></textarea>
-                                                                    <div class="error left-align" id="err-comment">Please enter your comment.</div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="control-group">
-                                                                <div class="controls">
-                                                                    <button id="send-mail" class="message-btn">Send message</button>
-                                                                </div>
-                                                            </div>
-                                                        </form>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="container">
-                                            <div class="span9 center contact-info">
-                                                <p>123 Fifth Avenue, 12th,Belgrade,SRB 11000</p>
-                                                <p class="info-mail">ourstudio@somemail.com</p>
-                                                <p>+11 234 567 890</p>
-                                                <p>+11 286 543 850</p>
-                                                <div class="title">
-                                                    <h3>We Are Social</h3>
-                                                </div>
-                                            </div>
-                                            <div class="row-fluid centered">
-                                                <ul class="social">
-                                                    <li>
-                                                        <a href="">
-                                                            <span class="icon-facebook-circled"></span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="">
-                                                            <span class="icon-twitter-circled"></span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="">
-                                                            <span class="icon-linkedin-circled"></span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="">
-                                                            <span class="icon-pinterest-circled"></span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="">
-                                                            <span class="icon-dribbble-circled"></span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="">
-                                                            <span class="icon-gplus-circled"></span>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> -->
-                                <!-- Contact section edn -->
-                                <!-- Footer section start -->
-                                <!-- <div class="footer">
-                                    <pShared by <i class="fa fa-love"></i><a href="#">hemraj</a>
-                                    </p>
-                                </div> -->
-                                <!-- Footer section end -->
-                                <!-- ScrollUp button start -->
-                                <div class="scrollup">
-                                    <a href="#">
-                                        <i class="icon-up-open"></i>
-                                    </a>
-                                </div>
-
-                                                                   <!-- ScrollUp button end -->
-                                                                   <!-- Include javascript -->
-                                       <script src="js/jquery.js"></script>
-                                       <script type="text/javascript" src="js/jquery.mixitup.js"></script>
-                                       <script type="text/javascript" src="js/bootstrap.js"></script>
-                                       <script type="text/javascript" src="js/modernizr.custom.js"></script>
-                                       <script type="text/javascript" src="js/jquery.bxslider.js"></script>
-                                       <script type="text/javascript" src="js/jquery.cslider.js"></script>
-                                       <script type="text/javascript" src="js/jquery.placeholder.js"></script>
-                                       <script type="text/javascript" src="js/jquery.inview.js"></script>
-                                       <!-- Load google maps api and call initializeMap function defined in app.js -->
-                                       <script async="" defer="" type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=falsscript>
-                                                                   <!-- css3-mediaqueries.js for IE8 or older -->
-                                       <!-- [if lt IE 9] -->
-                                       <script src="js/respond.min.js"></script>
-                                       <!-- [endif]-->
-                                          <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> -->
-
-                                          <script type="text/javascript" src="js/app.js"></script>
-
-
-                                          <script type="text/javascript">
-                                              (function($) {
-                                                  'use strict';
-
-                                                  jQuery(document).on('ready', function(){
-
-                                                      $('a.page-scroll').on('click', function(e){
-                                                          var anchor = $(this);
-                                                          $('html, body').stop().animate({
-                                                              scrollTop: $(anchor.attr('href')).offset().top - 50
-                                                          }, 1500);
-                                                          e.preventDefault();
-                                                      });     
-
-                                                  });                       
-                                              })(jQuery);
-                                          </script>
-
-                                          <script type="text/javascript">
-                                          // Acc
-                                            $(document).on("click", ".naccs .menu div", function() {
-                                               var numberIndex = $(this).index();
-
-                                               if (!$(this).is("active")) {
-                                                   $(".naccs .menu div").removeClass("active");
-                                                   $(".naccs ul li").removeClass("active");
-
-                                                   $(this).addClass("active");
-                                                   $(".naccs ul").find("li:eq(" + numberIndex + ")").addClass("active");
-
-                                                   var listItemHeight = $(".naccs ul")
-                                                   .find("li:eq(" + numberIndex + ")")
-                                                   .innerHeight();
-                                                   $(".naccs ul").height(listItemHeight + "px");
-                                               }
-                                           });
-                                       </script> 
-
-
-                                       <script type="text/javascript">
-                                           class FibonacciSphere {
-                                               #points;
-
-                                               get points() {
-                                                   return this.#points;
-                                               }
-
-                                               constructor(N) {
-                                                   this.#points = [];
-
-                                                   const goldenAngle = Math.PI * (3 - Math.sqrt(5));
-
-                                                   for (let i = 0; i < N; i++) {
-                                                       const y = 1 - (i / (N - 1)) * 2;
-                                                       const radius = Math.sqrt(1 - y ** 2);
-                                                       const a = goldenAngle * i;
-                                                       const x = Math.cos(a) * radius;
-                                                       const z = Math.sin(a) * radius;
-
-                                                       this.#points.push([x, y, z]);
-                                                   }
-                                               }
-                                           }
-
-
-                                           class TagsCloud {
-                                               #root;
-                                               #size;
-                                               #sphere;
-                                               #tags;
-                                               #rotationAxis;
-                                               #rotationAngle;
-                                               #rotationSpeed;
-                                               #frameRequestId;
-
-                                               constructor(root) {
-                                                   this.#root = root;
-                                                   this.#size = this.#root.offsetWidth;
-                                                   this.#tags = root.querySelectorAll('.tag');
-                                                   this.#sphere = new FibonacciSphere(this.#tags.length);
-                                                   this.#rotationAxis = [1, 0, 0];
-                                                   this.#rotationAngle = 0;
-                                                   this.#rotationSpeed = 0;
-
-                                                   this.#updatePositions();
-                                                   this.#initEventListeners();
-                                                   this.#root.classList.add('-loaded');
-                                               }
-
-                                               #initEventListeners() {
-                                                   window.addEventListener('resize', this.#updatePositions.bind(this));
-                                                   document.addEventListener('mousemove', this.#onMouseMove.bind(this));
-                                               }
-
-                                               #updatePositions() {
-                                                   const sin = Math.sin(this.#rotationAngle);
-                                                   const cos = Math.cos(this.#rotationAngle);
-                                                   const ux = this.#rotationAxis[0];
-                                                   const uy = this.#rotationAxis[1];
-                                                   const uz = this.#rotationAxis[2];
-
-                                                   const rotationMatrix = [
-                                                       [
-                                                           cos + (ux ** 2) * (1 - cos),
-                                                           ux * uy * (1 - cos) - uz * sin,
-                                                           ux * uz * (1 - cos) + uy * sin,
-                                                           ],
-                                                       [
-                                                           uy * ux * (1 - cos) + uz * sin,
-                                                           cos + (uy ** 2) * (1 - cos),
-                                                           uy * uz * (1 - cos) - ux * sin,
-                                                           ],
-                                                       [
-                                                           uz * ux * (1 - cos) - uy * sin,
-                                                           uz * uy * (1 - cos) + ux * sin,
-                                                           cos + (uz ** 2) * (1 - cos)
-                                                           ]
-                                                       ];
-
-                                                   const N = this.#tags.length;
-
-                                                   for (let i = 0; i < N; i++) {
-                                                       const x = this.#sphere.points[i][0];
-                                                       const y = this.#sphere.points[i][1];
-                                                       const z = this.#sphere.points[i][2];
-
-                                                       const transformedX =
-                                                       rotationMatrix[0][0] * x
-                                                       + rotationMatrix[0][1] * y
-                                                       + rotationMatrix[0][2] * z;
-                                                       const transformedY =
-                                                       rotationMatrix[1][0] * x
-                                                       + rotationMatrix[1][1] * y
-                                                       + rotationMatrix[1][2] * z;
-                                                       const transformedZ =
-                                                       rotationMatrix[2][0] * x
-                                                       + rotationMatrix[2][1] * y
-                                                       + rotationMatrix[2][2] * z;
-
-                                                       const translateX = this.#size * transformedX / 2;
-                                                       const translateY = this.#size * transformedY / 2;
-                                                       const scale = (transformedZ + 2) / 3;
-                                                       const transform =
-                                                       `translateX(${translateX}px) translateY(${translateY}px) scale(${scale})`;
-                                                       const opacity = (transformedZ + 1.5) / 2.5;
-
-                                                       this.#tags[i].style.transform = transform;
-                                                       this.#tags[i].style.opacity = opacity;
-                                                   }
-                                               }
-
-                                               #onMouseMove(e) {
-                                                   const rootRect = this.#root.getBoundingClientRect();
-                                                   const deltaX = e.clientX - (rootRect.left + this.#root.offsetWidth / 2);
-                                                   const deltaY = e.clientY - (rootRect.top + this.#root.offsetHeight / 2);
-                                                   const a = Math.atan2(deltaX, deltaY) - Math.PI / 2;
-                                                   const axis = [Math.sin(a), Math.cos(a), 0];
-                                                   const delta = Math.sqrt(deltaX ** 2 + deltaY ** 2);
-                                                   const speed = delta / Math.max(window.innerHeight, window.innerWidth) / 10;
-
-                                                   this.#rotationAxis = axis;
-                                                   this.#rotationSpeed = speed;
-                                               }
-
-                                               #update() {
-                                                   this.#rotationAngle += this.#rotationSpeed;
-
-                                                   this.#updatePositions();
-                                               }
-
-                                               start() {
-                                                   this.#update();
-
-                                                   this.#frameRequestId = requestAnimationFrame(this.start.bind(this));
-                                               }
-
-                                               stop() {
-                                                   cancelAnimationFrame(this.#frameRequestId);
-                                               }
-                                           }
-
-
-                                           function main() {
-                                               {
-                                                   const root = document.querySelector('.tags-cloud');
-                                                   const cloud = new TagsCloud(root);
-
-                                                   cloud.start();
-                                               }
-
-                                               {
-                                                   const cursor = document.getElementById('cursor');
-                                                   const isActivated = false;
-
-                                                   document.addEventListener('mousemove', (e) => {
-                                                       if (!isActivated) {
-                                                           cursor.classList.add('-activated');
-                                                       }
-
-                                                       cursor.style.transform =
-                                                       `translateX(${e.clientX}px) translateY(${e.clientY}px)`;
-                                                   });
-                                               }
-                                           }
-
-
-                                           document.addEventListener('DOMContentLoaded', () => {
-                                               main();
-                                           });
-
-                                       </script>    
-
-                                       <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
-                                       <!-- <script src="assets/js/jquery-1.9.1.min.js"></script> -->
-                                       <script type="text/javascript">
-                                         $(document).ready(function(){
-                                            $('.list').click(function(){
-                                             const value = $(this).attr('data-filter');
-                                             if(value == 'all'){
-                                                 $('.itemBox').show('1000');
-                                             }
-                                             else{
-                                                 $('.itemBox').not('.'+value).hide('1000');
-                                                 $('.itemBox').filter('.'+value).show('1000');
-                                             }
-                                         }); 
-
-                                            $('.list').click(function(){
-                                               $(this).addClass('active').siblings().removeClass('active');
-                                           });
-                                        });
-                                    </script>
-
-                                    <script src="js1/bootstrap.min.js"></script>
-                                    <script src="./form/script.js"></script>
-
-                                    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-                                    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-                                    <script>
-                                      AOS.init();
-                                    </script>
-                                </body> 
-                                <?php 
-                                unset($_SESSION['errors']);
-                                unset($_SESSION['notmatched']);
-                                unset($_SESSION['postval']);
-                                unset($_SESSION['typeofflat1']);
-                                unset($_SESSION['approxbudget1']);
-                                session_destroy();
-
-                                ?>
-                                </html>
+<?php include 'footer.php' ?>
