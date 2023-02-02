@@ -358,7 +358,11 @@ if(isset($allErrs['services'])){
                      <section class="design-process-section" id="process-tab">
                       <div class="container" >
                        <div class="col-lg-6 col-sm-6"  data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
+<<<<<<< HEAD
                          <img width="100%" src="images1/stepOPC.png">     
+=======
+                         <img width="100%" src="images1/StepsFood.jpg">     
+>>>>>>> 61e07c1f58219a44c4c5737c59ac1e88817838af
                        </div>         
                        <div class="col-lg-6 col-sm-6" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine"> 
                          <h3 class="textHead num" >PROCESS OF REGISTRATION OF ONE PERSON COMPANY :</h3>
@@ -502,6 +506,7 @@ if(isset($allErrs['services'])){
 
          <br><br>
 
+<<<<<<< HEAD
          <section  class=""    id="parallex2" style="background-image: url(images1/bk2.jpg); box-shadow: 0 10px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 5%);"  >
 
           <section class="info">
@@ -518,6 +523,99 @@ if(isset($allErrs['services'])){
               <div style="display: flex;">
                 <!-- <div class="tags"> -->
                  <img src="images1/Awards/IndianLaw.jpeg" style="border-radius: 0px 20px;" alt="">
+=======
+                       <!-- <section id="about" class="about roomy-100" >   
+                           <div class="row">
+                             <div class="container content1">
+                               <div class="col-lg-6 col-sm-6" data-aos="fade-right"data-aos-offset="350"data-aos-easing="ease-in-sine" >
+                                 <h3 style="text-align: center;">Patent Registratoin Steps</h3>
+                                 <img src="images1/PatentSteps870_440.png" alt="">
+                               </div>
+                               <div class="col-lg-6 col-sm-6" data-aos="fade-left"data-aos-offset="350"data-aos-easing="ease-in-sine">
+                                 <h3 style="text-align: center;">Patent Registratoin Process</h3>
+                                 <img src="images1/patentPrcesure.png" alt="">
+                               </div>
+                             </div>
+                           </div> 
+                         </section> -->
+
+
+
+                       <!-- <div class="row">
+                           <div class="container" style="display: flex;"      >
+                               <div class="col-lg-6 ">
+                                   <ul class="accordian">
+                                       <li>
+                                           <input type="radio" name="accordian" id="first" checked>
+                                           <label for="first">Products</label>
+                                           <div class="content">
+                                               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore nam provident fuga.
+                                               </p>
+                                           </div>
+                                       </li>
+
+                                       <li>
+                                           <input type="radio" name="accordian" id="second">
+                                           <label for="second">Products</label>
+                                           <div class="content">
+                                               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore nam provident fuga.
+                                               </p>
+                                           </div>
+                                       </li>
+                                       <li>
+                                           <input type="radio" name="accordian" id="third">
+                                           <label for="third">Products</label>
+                                           <div class="content">
+                                               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore nam provident fuga.
+                                               </p>
+                                           </div>
+                                       </li>
+                                   </ul>
+                               </div>
+                               <div class="col-lg-6 col-sm-12 "   >
+                                       <img src="images1/trademark-doc.webp "width="500"   alt="">
+                               </div>
+                           </div>
+                         </div> -->
+                         <!-- <div class="row"> -->
+                           <div class="container" style="display:flex;justify-content: center;align-items: center; ">
+                             <div class="col-sm-6 " data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
+                               <div class="single_history_content">
+                                 <div class="head_title"style="margin-right:0px; border-left:4px solid #ffb900;font-family: Lato-Medium;
+                                 /*                      font-weight: 900!important;*/
+                                 text-shadow: 0px 3px 12px #c3c3c3; border-left: 5px solid #ffb900;">
+                                 <h2 style="margin-left: 20px;" >Flowchart of <br> Trademark Registraion</h2>
+                               </div>
+                               <!-- <p>A trademark is typically a name, word, phrase, logo, symbol, design, image, or a combination of these elements.</p> -->
+
+                               <p>Conduct a trademark search to ensure that the proposed mark is not already in use by another party. File a trademark application with the appropriate government agency. Wait for the application to be reviewed and approved by an examining attorney. </p>
+                               <p>If the application is approved, the mark is published in the Official Gazette, allowing other parties to file oppositions or request extensions of time to oppose. </p>
+                               <p>If no opposition is filed or if the opposition is unsuccessful, the mark is registered and a certificate of registration is issued. </p>
+                               <a href="" class="btn btn-lg shadowbtn txtshadow"style="margin-right:0px; border-left:4px solid #ffb900;text-shadow: 0px 3px 12px #c3c3c3;">BROWSE OUR WORK</a>
+                             </div>
+                           </div>
+                           <div class="col-lg-6"><img src="images1/Flowcchart(TM).png" alt="" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine"></div>
+                         </div>
+                       </div>
+                       <br><br> <br><br>
+
+                       <section  class=""    id="parallex2" style="background-image: url(images1/bk2.jpg); box-shadow: 0 10px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 5%);"  >
+
+                        <section class="info">
+                         <div class="container">
+                           <h2 class="txtshadow num" style="color: #ffb900;text-align: center;" >Awards & Achievement</h2>
+                         </div>
+                         <!-- <h1>Awards &mdash; Achievments </h1> -->
+                       </section>
+                       <br>
+                       <section class="cards-wrapper">
+                        <div class="cardA-grid-space">
+                          <!-- <div class="num">LEGAL TEAM</div> -->
+                          <a class="cardA" href="#" style="background-image: url(images1/Awards/IndianLaw.jpeg)">
+                            <div style="display: flex;">
+                              <!-- <div class="tags"> -->
+                               <img src="images1/Awards/IndianLaw.jpeg" style="border-radius: 0px 20px;" alt="">
+>>>>>>> 61e07c1f58219a44c4c5737c59ac1e88817838af
                                       <!-- <h4 class="tag">Adv. Abbas All Qazi B.Sc.</h4>
                                         <p >A versatile lawyer by profession with more than 25 years of experience In Civil, Criminal and Intellectual property matters. At Flywings he heads the legal department.</p>
                                          <h4>Adv. P. S Joshi (B.Com) LL.M. A</h4>
@@ -997,4 +1095,8 @@ if(isset($allErrs['services'])){
 
 
 
+<<<<<<< HEAD
                                              <?php include 'footer.php' ?>                          
+=======
+ <?php include 'footer.php' ?>                          
+>>>>>>> 61e07c1f58219a44c4c5737c59ac1e88817838af

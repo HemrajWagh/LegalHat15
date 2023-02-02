@@ -188,7 +188,11 @@
       <div class="container">
 
        <div class="row" >
+<<<<<<< HEAD
         <img src="images1/3banner.png" alt="" style="position: relative;  display: block; margin:;top:90px">
+=======
+        <img src="images1/3banner.png" alt="" style="position: relative;  display: block; margin:;top:100px">
+>>>>>>> 61e07c1f58219a44c4c5737c59ac1e88817838af
         <div class="col-lg-12 col-sm-6" >
          <!-- <div id='cursor'></div> -->
          <div class="canvas" style="display: block; margin:0 auto; margin-top: -400px; "  width="100" height="100">

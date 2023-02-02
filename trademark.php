@@ -67,6 +67,7 @@
   </div>
 
   <div class="container">
+<<<<<<< HEAD
     <div class="row">
       <div class="main_history fadeInUp" style="display:flex;">
         <div class="col-lg-6 col-sm-6"data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine" style="border-right: 1px solid #ffb900;">
@@ -174,6 +175,115 @@
                   <p>4. Publications and Registration :- The mark is then published in the trademark jourmal and a certificate of registration is issued.</p>
 
 
+=======
+    <!-- <div class="row"> -->
+      <div class="main_history fadeInUp" style="display:flex;">
+        <div class="col-lg-6 col-sm-6"data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine" style="border-right: 1px solid #ffb900;">
+
+          <h2 style="text-align: center;justify-content: center;align-items: center;" ><span class="textHead">We Are Associated With </span> </h2>
+          <div class="single_history_img"> 
+            <div class="container" style="display: flex;">
+              <div class="col" style="display: flex; justify-content: center;align-items: center;" >
+                <img src="images1/tiaup/axis.jpeg" style="border-radius: 10px;"   alt="Logo 1" width="100%" class="shadowbtn">
+              </div>
+              <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                <img src="images1/tiaup/just.jpeg" style="border-radius: 10px; " alt="Logo 2" width="100%" class="shadowbtn">
+              </div>
+
+              <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                <img src="images1/tiaup/paytm.jpeg" style="border-radius: 10px; " alt="Logo 5" width="100%" class="shadowbtn">
+              </div>
+              <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                <img src="images1/tiaup/sulekha.jpeg"style="border-radius: 10px; " alt="Logo 4" width="100%" class="shadowbtn">
+              </div>
+              <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                <img src="images1/tiaup/kotak.jpeg"style="border-radius: 10px; " alt="Logo 4" width="100%" class="shadowbtn">
+              </div>                         
+            </div>                 
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6"data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine" style="border-left: 1px solid #ffb900;">
+          <h2 style="text-align: center;justify-content: center;align-items: center;" ><span class="textHead">Our Associated Partners </span> </h2> 
+
+          <div class="single_history_img">
+
+           <div class="container" style="display: flex;">
+             <div class="col" style="display: flex; justify-content: center;align-items: center;" >
+               <img src="images1/Associate/logo1.jpeg" style="border-radius: 10px;"   alt="Logo 1" width="70%" class="shadowbtn">
+             </div>
+             <div class="col"style="display: flex; justify-content: center;align-items: center;">
+               <img src="images1/Associate/logo2.jpeg" style="border-radius: 10px; " alt="Logo 2" width="100%" class="shadowbtn">
+             </div>
+
+             <div class="col"style="display: flex; justify-content: center;align-items: center;">
+               <img src="images1/Associate/logo3.jpeg" style="border-radius: 10px; " alt="Logo 5" width="70%" class="shadowbtn">
+             </div>
+             <div class="col"style="display: flex; justify-content: center;align-items: center;">
+               <img src="images1/Associate/logo4.jpeg"style="border-radius: 10px; " alt="Logo 4" width="70%" class="shadowbtn">
+             </div>
+                      <!--  <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                         <img src="images1/tiaup/png.jpeg"style="border-radius: 5px; " alt="Logo 4" width="100%" class="shadowbtn">
+                       </div>
+                     -->
+                   </div>
+                 </div>
+               </div>       
+             </div>
+             <hr style="border-bottom:2px solid #fbb900;">
+           <!-- </div> -->
+         </div>
+         <br><br>
+         <section id="theory" class="about roomy-100" >   
+           <div class="container">    
+            <div class="row content">   
+              <div class="col-lg-3 col-sm-6" data-aos="fade-right"data-aos-offset="350"data-aos-easing="ease-in-sine" > 
+                <div class="menu" id="menu" style="position: sticky; top: 100px;" >
+                  <a href="#topic1" style="text-decoration: none;" >
+                    <div class="list"><span class="light"></span><span> Trademark Registration </span></div>
+                  </a>
+                  <a href="#topic2" style="text-decoration: none;">
+                    <div class="list"><span class="light"></span><span>Importance Of Trademark</span></div>
+                  </a>
+                  <a href="#topic3" style="text-decoration: none;">
+                    <div class="list"><span class="light"></span><span>Trademark Registration Procedure</span></div>
+                  </a>
+                  <a href="#topic4" style="text-decoration: none;">
+                    <div class="list"><span class="light"></span><span>Requirements for filing Application</span></div>
+                  </a>
+
+                </div> 
+              </div>
+              <div class="col-lg-6" style="position: sticky; top: 100px;"   data-aos="fade-up"data-aos-duration="700" data-aos-offset="350"data-aos-easing="ease-in-sine">
+
+                <div id="topic1">
+                  <h4> <span class="textHead"></span> What is Trademark Registration ? </h4>
+                  <p>A trademark, trade mark, or trade-mark is a disunclive sign or indicator used by an individual business brganizallon, or otlher legal entity to identify that the products or services o consumers wilh whieh the lrademark appears originate from a unique source, designated for a speciic markel end is used to distinguish its products or services from those of other enlities.</p>
+                  <p>A trademark is typically a name, word, phrase, logo, symbol, design, image, or a combination of these elements.  </p>
+                  <p>There is also a range of non-conventional trademarks comprising marks which do not fall into these standard categories, such as those based on Color, smell, or sound.</p>
+
+                </div>
+                <div id="topic2">
+                  <h4> <span class="textHead"></span> Importance Of Trademark </h4>
+                  <p>Trademark is denoted as yourintellectual property as it adds fo your brand identity as its quife mandatory to have the Trademark Registration to create own brand identity in the market and to stop others who are misusing and creating confusion in the market by infringing your brand name. </p>
+                  <p>Your reputation is represented by your trade mark. Others may seek to use/copy your trade mark or something akin to your trade mark for their own use and thus take advantage of the reputation eamed by youin the market.</p>
+                  <p>Registration of your trade mark is the surest and quickest means of avoiding these circumstances. Furthermore, registration establishes yOur exclusive nights to use that trade mark for your goods or services.</p>
+
+                </div>
+                <div id="topic3">
+                  <h4> <span class="textHead"></span>Trademark Registration Procedure</h4>
+
+                  <p>The procedure for applying for Trademark Reglstration is as follows :</p>
+
+                  <p> 1. Search :-  A search is conducted at the Trade Mark Registry, Govt. Office to As certain whether the trademark to be applied for ls register-able or hot. </p>
+
+                  <p>2. Application For Registration :- An application needs to be file prepare the complete applicalion doc and file the same. On submission, application number is received which is made availlable to you along with copy ofapplication.</p>
+
+                  <p>3. Official Objections, If Any :- We need to reply to official objections raised under various sections of the Act.</p>
+
+                  <p>4. Publications and Registration :- The mark is then published in the trademark jourmal and a certificate of registration is issued.</p>
+
+
+>>>>>>> 61e07c1f58219a44c4c5737c59ac1e88817838af
                 </div>
                 <div id="topic4">
                   <h4> <span class="textHead"></span>Requirements for filing Application</h4>
@@ -201,7 +311,11 @@
 
                 </div>
               </div>
+<<<<<<< HEAD
               <div class="col-lg-3" data-aos="fade-left"data-aos-offset="350"data-aos-easing="ease-in-sine">
+=======
+              <div class="col-lg-3 col-sm-6" data-aos="fade-left"data-aos-offset="350"data-aos-easing="ease-in-sine">
+>>>>>>> 61e07c1f58219a44c4c5737c59ac1e88817838af
                 <div class="container "style="position: sticky; top: 100px;" >
                   <div class="row">
 
@@ -286,7 +400,11 @@
     <div class="row" >  
       <div class="col-lg-12 col-sm-6"> 
         <div class="">
+<<<<<<< HEAD
           <h2 class="pb-3 pt-2 mb-5 "> <span class="textHead">TRADEMARK REGISTRATION PROCEDURE :</span> </h2>
+=======
+          <h4 class="pb-3 pt-2 mb-5 "> <span class="textHead">TRADEMARK REGISTRATION PROCEDURE :</span> </h4>
+>>>>>>> 61e07c1f58219a44c4c5737c59ac1e88817838af
           <!-- <hr style="background-color:#ffb900 " size="100"> -->
           <!--first section-->
           <div class="row align-items-center how-it-works d-flex">
@@ -826,8 +944,13 @@ text-shadow: 0px 3px 12px #c3c3c3; border-left: 5px solid #ffb900;">
                     <div class="main_history fadeInUp" style="display:flex;">
                       <div class="col-lg-6 col-sm-6"data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
 
+<<<<<<< HEAD
                         <h2 style="text-align: center;justify-content: center;align-items: center;" ><span class="textHead">We Are  <br> Associated With </span> </h2>
                         <br> 
+=======
+                        <h3 style="text-align: center;justify-content: center;align-items: center;" ><span class="textHead">We Are  <br> Associated With </span> </h3>
+                         
+>>>>>>> 61e07c1f58219a44c4c5737c59ac1e88817838af
                         <div class="single_history_img">
                           <div class="row ">
 
@@ -854,6 +977,10 @@ text-shadow: 0px 3px 12px #c3c3c3; border-left: 5px solid #ffb900;">
 
                         </div>
                       </div>
+<<<<<<< HEAD
+=======
+                      <br>
+>>>>>>> 61e07c1f58219a44c4c5737c59ac1e88817838af
                       <div class="col-lg-6 col-sm-6"data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine">
                         <h2 style="text-align: center;justify-content: center;align-items: center;" ><span class="textHead">Our  <br> Associated Partners </span> </h2> 
                         
@@ -903,12 +1030,16 @@ text-shadow: 0px 3px 12px #c3c3c3; border-left: 5px solid #ffb900;">
                             <div class="row">
                               <div class="col-lg-12 col-md-12 col-sm-6">
                                 <div class="section-title text-center wow zoomIn">
+<<<<<<< HEAD
                                   <h1 style="    text-align: center;
                                   font-family: Lato-Medium;
                                   font-weight: 900!important;
                                   position: relative;
                                   margin-bottom: 30px;
                                   text-shadow: 0px 3px 12px #c3c3c3;">Frequently Asked Questions</h1>
+=======
+                                  <h4><span class="textHead"></span> Frequently Asked Questions</h4>
+>>>>>>> 61e07c1f58219a44c4c5737c59ac1e88817838af
                                   <span></span>
                                   <p>If you have any doubts regarding Trademark then this article based on FAQs on Trademark Registration in India will clear all your doubts.</p>
                                 </div>
@@ -1020,11 +1151,19 @@ text-shadow: 0px 3px 12px #c3c3c3; border-left: 5px solid #ffb900;">
 
                       <?php include 'footer.php' ?>      
 
+<<<<<<< HEAD
                       <div class="scrollup">
                         <a href="#">
                           <i class="icon-up-open"></i>
                         </a>
                       </div>
+=======
+                      <!-- <div class="scrollup">
+                        <a href="#">
+                          <i class="icon-up-open"></i>
+                        </a>
+                      </div> -->
+>>>>>>> 61e07c1f58219a44c4c5737c59ac1e88817838af
 
 
 
