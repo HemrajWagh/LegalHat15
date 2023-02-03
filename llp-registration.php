@@ -373,7 +373,7 @@
          <section class="design-process-section" id="process-tab">
                <div class="container" >
                 <div class="col-lg-6 col-sm-6"  data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine"style="display: flex;">
-                    <img width="100%" src="images1/stepLLP.png" style="display: flex; justify-content: center;align-items: center;">     
+                    <img width="100%" src="images1/StepDr870700.jpg" style="display: flex; justify-content: center;align-items: center;">     
                 </div>         
                 <div class="col-lg-6 col-sm-6" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine"> 
                   <h3 class="textHead" >Procedure</h3>

@@ -735,7 +735,6 @@ color: #ffb900;;
   padding-top: 50px;
   padding-bottom: 20px;
   border-radius: 70px 70px 0px 0px;
-  background-size: cover;
 }
 #gtco-footer h4 {
   font-family: "Lato-Medium";
@@ -2581,19 +2580,10 @@ input[type="radio"]{
         justify-content:center; 
         align-items: center;
         flex-wrap: wrap;
-<<<<<<< HEAD
     } 
 
     .flow{
       padding-bottom: 25px;
-=======
-        flex-direction: column-reverse;
-        margin-bottom: 20px;
-    } 
-
-    .flow{
-      margin-bottom: 25px;
->>>>>>> 61e07c1f58219a44c4c5737c59ac1e88817838af
     } 
 }
 
@@ -2794,13 +2784,6 @@ z-index: 9;
 }
 
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-.single_history_content{
-  padding-top: 25px;
-=======
->>>>>>> 61e07c1f58219a44c4c5737c59ac1e88817838af
 
 .Associate{
   text-align: center;
@@ -2848,8 +2831,4 @@ z-index: 9;
     padding-top: 20px;
   }
 
-<<<<<<< HEAD
-=======
->>>>>>> 77424874e36be26ae13f5aabcecba0f6e25cdf1f
->>>>>>> 61e07c1f58219a44c4c5737c59ac1e88817838af
 }

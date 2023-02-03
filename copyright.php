@@ -68,21 +68,6 @@
 
 <div class="container">
 <div class="row">
-<<<<<<< HEAD
-=======
-
-    <div class="main_history fadeInUp" style="display:flex;">
-            <div class="col-lg-6 col-sm-6"data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine" style="border-right: 1px solid #ffb900;">
-             
-              <h2 style="text-align: center;justify-content: center;align-items: center;"><span class="textHead">We Are Associated With </span> </h2>
-                <div class="single_history_img">
-                      
-                  <div class="container" style="display: flex;">
-                        <div class="row ">
-                                <div class="col" style="display: flex; justify-content: center;align-items: center;" >
-                                  <img src="images1/tiaup/axis.jpeg" style="border-radius: 10px;"   alt="Logo 1" width="100%" class="shadowbtn">
-
->>>>>>> 61e07c1f58219a44c4c5737c59ac1e88817838af
     <div class="main_history fadeInUp" style="display:flex; padding-bottom: 20px;">
             <div class="col-lg-6 col-sm-6"data-aos="fade-right" data-aos-offset="150"data-aos-easing="ease-in-sine" style="border-right: 1px solid #ffb900;">
               <h2 class="Associate" ><span class="textHead">We Are Associated With</span> </h2>
@@ -91,10 +76,6 @@
                         <!-- <div class="row "> -->
                                 <div class="col-3">
                                   <img src="images1/tiaup/axis.jpeg" style="border-radius: 10px;"   alt="Logo 1" width="70%" class="shadowbtn">
-<<<<<<< HEAD
-=======
-
->>>>>>> 61e07c1f58219a44c4c5737c59ac1e88817838af
                                 </div>
                                 <div class="col-3">
                                   <img src="images1/tiaup/just.jpeg" style="border-radius: 10px; " alt="Logo 2" width="70%" class="shadowbtn">
@@ -782,18 +763,8 @@
             <div class="main_history fadeInUp" style="display:flex;">
                     <div class="col-lg-6 col-sm-6" data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine"> 
                      
-<<<<<<< HEAD
                       <h2 class="Associate" ><span class="textHead">We Are  <br> Associated With </span> </h2>
                       
-=======
-<<<<<<< HEAD
-                      <h2><span class="textHead">We Are  <br> Associated With </span> </h2>
-                      <br> 
-=======
-                      <h2 class="Associate" ><span class="textHead">We Are  <br> Associated With </span> </h2>
-                      
->>>>>>> 77424874e36be26ae13f5aabcecba0f6e25cdf1f
->>>>>>> 61e07c1f58219a44c4c5737c59ac1e88817838af
                         <div class="single_history_img">
                             <div class="row ">
                               

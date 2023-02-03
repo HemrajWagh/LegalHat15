@@ -358,11 +358,7 @@ if(isset($allErrs['services'])){
                      <section class="design-process-section" id="process-tab">
                       <div class="container" >
                        <div class="col-lg-6 col-sm-6"  data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
-<<<<<<< HEAD
-                         <img width="100%" src="images1/stepOPC.png">     
-=======
                          <img width="100%" src="images1/StepsFood.jpg">     
->>>>>>> 61e07c1f58219a44c4c5737c59ac1e88817838af
                        </div>         
                        <div class="col-lg-6 col-sm-6" data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine"> 
                          <h3 class="textHead num" >PROCESS OF REGISTRATION OF ONE PERSON COMPANY :</h3>
@@ -506,24 +502,6 @@ if(isset($allErrs['services'])){
 
          <br><br>
 
-<<<<<<< HEAD
-         <section  class=""    id="parallex2" style="background-image: url(images1/bk2.jpg); box-shadow: 0 10px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 5%);"  >
-
-          <section class="info">
-           <div class="container">
-             <h2 class="txtshadow num" style="color: #ffb900;text-align: center;" >Awards & Achievement</h2>
-           </div>
-           <!-- <h1>Awards &mdash; Achievments </h1> -->
-         </section>
-         <br>
-         <section class="cards-wrapper">
-          <div class="cardA-grid-space">
-            <!-- <div class="num">LEGAL TEAM</div> -->
-            <a class="cardA" href="#" style="background-image: url(images1/Awards/IndianLaw.jpeg)">
-              <div style="display: flex;">
-                <!-- <div class="tags"> -->
-                 <img src="images1/Awards/IndianLaw.jpeg" style="border-radius: 0px 20px;" alt="">
-=======
                        <!-- <section id="about" class="about roomy-100" >   
                            <div class="row">
                              <div class="container content1">
@@ -615,7 +593,6 @@ if(isset($allErrs['services'])){
                             <div style="display: flex;">
                               <!-- <div class="tags"> -->
                                <img src="images1/Awards/IndianLaw.jpeg" style="border-radius: 0px 20px;" alt="">
->>>>>>> 61e07c1f58219a44c4c5737c59ac1e88817838af
                                       <!-- <h4 class="tag">Adv. Abbas All Qazi B.Sc.</h4>
                                         <p >A versatile lawyer by profession with more than 25 years of experience In Civil, Criminal and Intellectual property matters. At Flywings he heads the legal department.</p>
                                          <h4>Adv. P. S Joshi (B.Com) LL.M. A</h4>
@@ -1095,8 +1072,4 @@ if(isset($allErrs['services'])){
 
 
 
-<<<<<<< HEAD
-                                             <?php include 'footer.php' ?>                          
-=======
  <?php include 'footer.php' ?>                          
->>>>>>> 61e07c1f58219a44c4c5737c59ac1e88817838af
