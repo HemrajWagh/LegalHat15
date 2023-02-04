@@ -1,4 +1,4 @@
-   <footer class="container-fluid" id="gtco-footer">
+   <footer class="container-fluid" id="gtco-footer" style="background-image:url(images1/bk1.jpg); ">
      <div class="container">
          <div class="row">
              <div class="col-lg-6" id="contact">

@@ -204,7 +204,7 @@ p {
   background-image:-webkit-linear-gradient(0deg, rgba(252,200,19,1) 0%, rgba(255,231,93,1) 100%);
   background-image: -ms-linear-gradient(0deg, rgba(252,200,19,1) 0%, rgba(255,231,93,1) 100%);
   font-size: 18px;
-  font-family: "OpenSans-Semibold";
+/*  font-family: "OpenSans-Semibold";*/
   color: #fff;
   border-radius: 50px;
   padding: 5px 30px;
@@ -223,6 +223,7 @@ p {
   text-align: center;
   padding-top: 5px;
   margin-left: 15px;
+  display: cover;
 }
 
 .gtco-feature h2, .gtco-features h2 {

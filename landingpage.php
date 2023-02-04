@@ -251,7 +251,7 @@
       <div id="myCanvasContainer" class="container">
 
        <div class="row"class="float-bob-x" style="background-image:url(images1/pattern5.png); " >
-        <img  src="images1/3banner.png" class="float-bob-y" alt="" style="position: relative;  display: block; margin:;top:100px;height:100%; width: 100%;">
+        <img  src="images1/4banner.png" class="float-bob-y" alt="" style="position: relative;  display: block; margin:;top:100px;height:100%; width: 100%;">
         <div class="col-lg-12 col-sm-6" >
          <!-- <div id='cursor'></div> -->
          <div class="canvas" style="display: block; margin:0 auto; margin-top: -400px; "  width="100" height="100">
@@ -694,7 +694,8 @@
                                <div class="col-lg-6 col-sm-6 "data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine" style=" display: flex; align-items: center; justify-content: center;">
                                 <div class="single_history_content" >
                                   <div class="head_title"style="margin-right:0px; ">
-                                    <h2 style="margin-left: 20px; " class="textHead"> "CLIENTS FIRST , ALWAYS" </h2>
+                                    <img src="images1/800Diff.png" alt="">
+                                    <!-- <h2 style="margin-left: 20px; " class="textHead"> "CLIENTS FIRST , ALWAYS" </h2> -->
                                   </div>
                         <!-- <p>A trademark is typically a name, word, phrase, logo, symbol, design, image, or a combination of these elements.</p>
 
