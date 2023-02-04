@@ -1,4 +1,4 @@
-  <?php
+ <?php
   session_start();
   $allErrs = $nameErr = $emailErr = $contactnoErr = $cityErr = $typeOfSerrvicesErr = $allpostval = $allapproxbudget1 = $alltypeOfServices =  "" ;
 
@@ -77,7 +77,7 @@
     <!-- Bootstrap CSS -->
 
     <!-- custom CSS -->
-    <link rel="stylesheet" href="css1/style.css">
+    <link rel="stylesheet" href="css1/style.css" type="text/css" >
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
 
@@ -103,72 +103,85 @@
 
 
 
-      <header id="header" >
+     <header id="header" >
 
        <div class="container">
 
-        <nav class="navbar navbar-expand-lg navbar-light ">
-          <a class="navbar-brand" href="http://127.0.0.1/LegalHat15/"><img src="images/logo.png"width="170"height="50" alt=""></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="http://127.0.0.1/LegalHat15/"><img src="images/logo.png"width="170"height="50" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-lg-auto">
-              <li class="nav-item ">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul class="navbar-nav ml-lg-auto">
+                <li class="nav-item ">
+                  <a class="nav-link" href="http://127.0.0.1/LegalHat15/">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                  <a class="nav-link" href="#">About Us</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Services
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Services
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">IPR Services</a>
-                  <!-- <a class="dropdown-item" href="#">Private Limited Company</a> -->
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Compony Formantion</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Iso Registration</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Food License</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">GST registration</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Make in india Certificattion</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Other Registraion</a>
+                <div class="dropdown-menu dropright" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">IPR Services</a>
+                  <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/trademark.php">Trademark Registration</a>
+                    <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/copyright.php">Copyright Registration</a>
+                    <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/design-registration.php">Design Registration</a>
+                    <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/patent.php">Patent Registration</a>
                 </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Registration
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Private Limited Company</a>
-                  <!-- <a class="dropdown-item" href="#">Private Limited Company</a> -->
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">LIMITED LIABILITY PARTNERSHIP</a>
+
+                <div class="dropdown-divider"></div>
+                <!-- <a class="dropdown-item" href="#">Compony Formation</a> -->
+                <a class="dropdown-item dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Compony Formation</a>
+                <div class="dropdown-menu dropdown1 dropdown-menu-right">
+                    <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/private-limited.php">PVT Limited</a>
+                    <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/llp-registration.php">LLP</a>
+                    <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/opc.php">OPC</a>
                 </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="#">Contact Us</a>
-              </li>
-            </ul>
 
-          </div>
-        </nav>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/iso.php">Iso Registration</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/fssai-registration.php">Food License</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/gst.php">GST registration</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/">Make in india Certificattion</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/">Other Registraion</a>
+
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Web Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Private Limited Company</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">LIMITED LIABILITY PARTNERSHIP</a>
+        </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " href="#">Contact Us</a>
+    </li>
+    </ul>
+
+    </div>
+    </nav>
 
 
-      </div>   
+    </div>   
 
     </header>
 
 
+      <!-- <div ></div> -->
     <div class="container txtshadow hero" style=""  >
-      <div ></div>
       <div class="col-lg-6 col-sm-12 float-bob" style="background-image: url(images1/pic1.webp);z-index: 99; " ><img class="float-bob" src="images1/man.png"></div>
       <div class="col-lg-6 col-sm-12">
         <h1 class="head">" Empower Your Vision With <br> Our Solutions. "</h1>
@@ -598,7 +611,6 @@
                                     <h2 style="margin-left: 20px; " class="textHead"> "CLIENTS FIRST , ALWAYS" </h2>
                                   </div>
                         <!-- <p>A trademark is typically a name, word, phrase, logo, symbol, design, image, or a combination of these elements.</p>
-
                           <p>There is also a range of non-conventional trademarks comprising marks which do not fall into these standard categories, such as those based on Color, smell, or sound. </p> -->
                           <!-- <a href="" class="btn btn-lg shadowbtn txtshadow"style="margin-right:0px; border-left:4px solid #ffb900;">BROWSE OUR WORK</a> -->
                         </div>
