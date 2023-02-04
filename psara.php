@@ -192,57 +192,57 @@ if(isset($allErrs['services'])){
                        <li style="list-style-type:upper-roman">Pan of Company</li>
                        <p>Liasoning to be done on time to time basis. (Out of pocket exp at actual)</p>
                        
+                     </div>
+
                    </div>
+                   <div class="col-lg-3" data-aos="fade-left"data-aos-offset="350"data-aos-easing="ease-in-sine">
+                     <div class="container "style="position: sticky; top: 100px;" >
+                       <div class="row">
 
-                 </div>
-                 <div class="col-lg-3" data-aos="fade-left"data-aos-offset="350"data-aos-easing="ease-in-sine">
-                   <div class="container "style="position: sticky; top: 100px;" >
-                     <div class="row">
+                         <form method="post" action="send.php" class="form-horizontal" role="form" id="LeadsForm" >
+                           <!-- <i class="fas fa-paper-plane"></i> -->
+                           <!-- <span class="text-success"style="display: flex;justify-content: center;"><?php if($_SESSION['success']){echo $_SESSION['success'];} ?></span> -->
+                           <div class="input-group">
+                             <!-- <label>Full Name</label> -->
+                             <input type="text" name="name" placeholder="Enter your name"  id="contact_name" onkeyup="validatName()" >
+                             <span id="name_error"><?php echo $nameErr; ?></span>
+                           </div>
 
-                       <form method="post" action="send.php" class="form-horizontal" role="form" id="LeadsForm" >
-                         <!-- <i class="fas fa-paper-plane"></i> -->
-                         <!-- <span class="text-success"style="display: flex;justify-content: center;"><?php if($_SESSION['success']){echo $_SESSION['success'];} ?></span> -->
-                         <div class="input-group">
-                           <!-- <label>Full Name</label> -->
-                           <input type="text" name="name" placeholder="Enter your name"  id="contact_name" onkeyup="validatName()" >
-                           <span id="name_error"><?php echo $nameErr; ?></span>
-                         </div>
+                           <div class="input-group">
+                             <!-- <label>Phone No.</label> -->
+                             <input type="tel" name="contactno" placeholder="123 456 7890" id="contact_phone" onkeyup="validatPhone()" >
+                             <span id="phone_error"class="text-danger"><?php echo $contactnoErr; ?></span>
+                           </div>
 
-                         <div class="input-group">
-                           <!-- <label>Phone No.</label> -->
-                           <input type="tel" name="contactno" placeholder="123 456 7890" id="contact_phone" onkeyup="validatPhone()" >
-                           <span id="phone_error"class="text-danger"><?php echo $contactnoErr; ?></span>
-                         </div>
+                           <div class="input-group">
+                             <!-- <label>Email Id</label> -->
+                             <input type="email" name="email" placeholder="Enter Email" id="contact_email" onkeyup="validatEmail()" >
+                             <span id="email_error"class="text-danger"><?php echo $emailErr; ?></span>
+                           </div>   
+                           <br>
+                           <div class="input-group" style="max-width:88% ;">
+                            <!-- <label class="">Services </label> -->
+                            <!-- <div class="col-lg-12"> -->
+                              <select  name="services[]" class="form-control">
+                                <option value="">--Please choose an option--</option>
+                                <option value="Trademark" <?php if(in_array('Trademark',$alltypeOfServices)) {  echo "selected";}else{echo "";}  ?>>Trademark</option>
+                                <option value="Copyright" <?php if(in_array('Copyright',$alltypeOfServices)) {  echo "selected";}else{echo "";}  ?>>Copyright</option>
+                                <option value="Patent" <?php if(in_array('Patent',$alltypeOfServices)) {  echo "selected";}else{echo "";}  ?>>Patent</option>
+                                <option value="Company Formation" <?php if(in_array('Company Formation',$alltypeOfServices)) {  echo "selected";}else{echo "";}  ?>>Company Formation</option>
+                                <option value="ISO" <?php if(in_array('ISO',$alltypeOfServices)) {  echo "selected";}else{echo "";}  ?>>ISO</option>
+                                <option value="Website Design" <?php if(in_array('Website Design',$alltypeOfServices)) {  echo "selected";}else{echo "";}  ?>>Website Design</option>
 
-                         <div class="input-group">
-                           <!-- <label>Email Id</label> -->
-                           <input type="email" name="email" placeholder="Enter Email" id="contact_email" onkeyup="validatEmail()" >
-                           <span id="email_error"class="text-danger"><?php echo $emailErr; ?></span>
-                         </div>   
-                         <br>
-                         <div class="input-group" style="max-width:88% ;">
-                          <!-- <label class="">Services </label> -->
-                          <!-- <div class="col-lg-12"> -->
-                            <select  name="services[]" class="form-control">
-                              <option value="">--Please choose an option--</option>
-                              <option value="Trademark" <?php if(in_array('Trademark',$alltypeOfServices)) {  echo "selected";}else{echo "";}  ?>>Trademark</option>
-                              <option value="Copyright" <?php if(in_array('Copyright',$alltypeOfServices)) {  echo "selected";}else{echo "";}  ?>>Copyright</option>
-                              <option value="Patent" <?php if(in_array('Patent',$alltypeOfServices)) {  echo "selected";}else{echo "";}  ?>>Patent</option>
-                              <option value="Company Formation" <?php if(in_array('Company Formation',$alltypeOfServices)) {  echo "selected";}else{echo "";}  ?>>Company Formation</option>
-                              <option value="ISO" <?php if(in_array('ISO',$alltypeOfServices)) {  echo "selected";}else{echo "";}  ?>>ISO</option>
-                              <option value="Website Design" <?php if(in_array('Website Design',$alltypeOfServices)) {  echo "selected";}else{echo "";}  ?>>Website Design</option>
+                              </select>
+                              <span class="text-danger"><?php echo $typeOfSerrvicesErr; ?></span>
+                              <!-- </div> -->
+                            </div>
+                            <!-- <br> -->
 
-                            </select>
-                            <span class="text-danger"><?php echo $typeOfSerrvicesErr; ?></span>
-                            <!-- </div> -->
-                          </div>
-                          <!-- <br> -->
-
-                          <div class="input-group">
-                           <!-- <label>City</label> -->
-                           <input type="text" name="city" placeholder="Enter City name"  id="contact_name" onkeyup="validatCity()" >
-                           <span id="city_error"class="text-danger"><?php echo $cityErr; ?></span>
-                         </div>   
+                            <div class="input-group">
+                             <!-- <label>City</label> -->
+                             <input type="text" name="city" placeholder="Enter City name"  id="contact_name" onkeyup="validatCity()" >
+                             <span id="city_error"class="text-danger"><?php echo $cityErr; ?></span>
+                           </div>   
 
                                <!-- <div class="input-group">
                                  <label>Your Message</label>

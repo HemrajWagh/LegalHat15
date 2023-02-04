@@ -49,6 +49,9 @@
 </head>
 <body>
 
+    
+    
+        
 
  <header id="header" >
 
@@ -73,7 +76,7 @@
                 Services
             </a>
             <div class="dropdown-menu dropright" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">IPR Services</a>
+              <a class="dropdown-item dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" data-target="T1" aria-haspopup="true" aria-expanded="false">IPR Services</a>
               <div class="dropdown-menu dropdown-menu-right">
                 <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/trademark.php">Trademark Registration</a>
                 <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/copyright.php">Copyright Registration</a>
@@ -83,8 +86,8 @@
 
             <div class="dropdown-divider"></div>
             <!-- <a class="dropdown-item" href="#">Compony Formation</a> -->
-            <a class="dropdown-item dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Compony Formation</a>
-            <div class="dropdown-menu dropdown1 dropdown-menu-right">
+            <a class="dropdown-item dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" data-target="T2" aria-haspopup="true" aria-expanded="false">Compony Formation</a>
+            <div class="dropdown-menu dropdown dropdown-menu-right" id="DataTarget">
                 <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/private-limited.php">PVT Limited</a>
                 <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/llp-registration.php">LLP</a>
                 <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/opc.php">OPC</a>
@@ -97,9 +100,16 @@
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/gst.php">GST registration</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/">Make in india Certificattion</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/">Other Registraion</a>
+          <!--   <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/">Make in india Certificattion</a>
+            <div class="dropdown-divider"></div> -->
+            <!-- <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/">Other Registraion</a> -->
+            <a class="dropdown-item dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" data-target="T3" aria-haspopup="true" aria-expanded="false">Other Registraion</a>
+            <div class="dropdown-menu dropdown" id="T3">
+                <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/trademark.php">Make in india Certificattion</a>
+                <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/copyright.php">Shop Act</a>
+                <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/design-registration.php">PSARA Registration</a>
+                <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/patent.php">Agreements</a>
+            </div>
 
         </div>
     </li>
