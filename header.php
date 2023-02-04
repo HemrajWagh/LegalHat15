@@ -49,9 +49,9 @@
 </head>
 <body>
 
-    
-    
-    
+
+
+
 
    <header id="header" >
 
@@ -77,7 +77,7 @@
             </a>
             <div class="dropdown-menu dropright" aria-labelledby="navbarDropdown">
               <a class="dropdown-item dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" data-target="T1" aria-haspopup="true" aria-expanded="false">IPR Services</a>
-              <div class="dropdown-menu dropright" aria-labelledby="navbarDropdown1">
+              <!-- <div class="dropdown-menu dropright" aria-labelledby="navbarDropdown1"> -->
                 <a class="dropdown-item dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">IPR Services</a>
                 <div class="dropdown-menu dropdown-menu-right">
                     <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/trademark.php">Trademark Registration</a>
@@ -90,20 +90,19 @@
                 <!-- <a class="dropdown-item" href="#">Compony Formation</a> -->
                 <a class="dropdown-item dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" data-target="T2" aria-haspopup="true" aria-expanded="false">Compony Formation</a>
                 <div class="dropdown-menu dropdown dropdown-menu-right" id="DataTarget">
-            <!-- <div class="dropdown-divider"></div>
-            <a class=" dropdown-item dropdown-toggle " href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" data-target="test"     aria-haspopup="true" aria-expanded="false">Compony Formation</a>
-            <div class="dropdown-menu "  id="test">
->>>>>>> 5257c43978e595508452e67e8c564a7ddfd82ec3
-                <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/private-limited.php">PVT Limited</a>
-                <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/llp-registration.php">LLP</a>
-                <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/opc.php">OPC</a>
-            </div> -->
+                <div class="dropdown-divider"></div>
+                <!-- <a class=" dropdown-item dropdown-toggle " href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" data-target="test"     aria-haspopup="true" aria-expanded="false">Compony Formation</a> -->
+                 <div class="dropdown-menu "  id="test">
+                    <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/private-limited.php">PVT Limited</a>
+                    <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/llp-registration.php">LLP</a>
+                    <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/opc.php">OPC</a>
+                 </div> 
 
               <!-- <a  role="button" class=" dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Compony Formation
             </a> -->
             <!-- <div class="dropdown-item dropright"> -->
-                <div class="dropdown">
+               <!--  <div class="dropdown">
                   <a class=" dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Dropdown link
                 </a>
@@ -112,8 +111,8 @@
                     <a class="dropdown-item" href="#">Action</a>
                     <a class="dropdown-item" href="#">Another action</a>
                     <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-                <div class="dropdown-divider"></div>
+                </div> -->
+                <!-- <div class="dropdown-divider"></div>
                 <div class="dropdown">
                     <a class=" dropdown-item dropdown-toggle " href="#" id="dropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Compony Formation</a>
                     <div class="dropdown-menu " aria-labelledby="dropdownMenuLink">
@@ -121,7 +120,7 @@
                       <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/llp-registration.php">LLP</a>
                       <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/opc.php">OPC</a>
                   </div>
-              </div>
+                </div> -->
               <!-- </div> -->
 
               <div class="dropdown-divider"></div>

@@ -746,8 +746,56 @@
                            </div>
                        </div>
                    </div>
+                   <br><br>
+                   <section id="testim" class="testim action roomy-40" style="background: -webkit-linear-gradient(0deg, rgba(252,200,19,1) 0%, rgba(255,231,93,1) 100%);">
+                           <div class="testim-cover">
+                               <div class="wrap">
+
+                                   <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+                                   <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
+                                   <ul id="testim-dots" class="dots">
+                                       <li class="dot active">
+                                       </li>
+                                       <li class="dot"></li>
+                                       <li class="dot"></li>
+                                       <li class="dot"></li>
+                                   </ul>
+                                   <div class="head_title text-center fix">
+                                               <h2 class="text-uppercase" style="color: #fff;">Our Team</h2>
+                                           </div>
+
+                                   <div id="testim-content" class="cont">
+                                       
+                                       <div class="active">
+                                           <div class="img"><img src="images1/iso.png" alt=""></div>
+                                           <h2>Mr. Chetan Gajera <span>( Mystic B-2005 ) </span></h2>
+                                           <p>I bought the house in the year 2020. Before lockdown and lockdown also I got support through email and phone from CRM and sales team. The team is very courteous, polite and very helpful thoroughly explained each and everything and made sure everything is done on time in terms of documentation, Legal and other formalities special thanks to Mr.Anjani, Swapnil Galpalli and Diwakar Sir from CRM team and Swapnil and Ginder from the sales team.</p>                    
+                                       </div>
 
 
+                                       <div>
+                                           <div class="img"><img src="images1/iso.png" alt=""></div>
+                                           <h2>Mr. Ankush kochhar <span> ( Mystic A 1406 ) </span></h2>
+                                           <p>Overall experience was ok. Megapolis staff is humble, helpful and cooperative that is good part. Apartment is in good condition at the time of possession. Overall experience good from MEGAPOLIS team/staff.</p>                    
+                                       </div>
+
+                                       <div>
+                                           <div class="img"><img src="images1/iso.png" alt=""></div>
+                                           <h2>Naga Kaushik <span>( Mystic B 2004 )</span> </h2>
+                                           <p>Overall experience with MEGAPOLIS has been excellent. The staff standing from sales, CRM support team, maintenance and other support staff have been really good in addressing our questions/doubts and have been very Approachaful for any queries/support. Overall experience on a scale of 10 is 10/10 🙂 Thanks.</p>                    
+                                       </div>
+
+                                       <div>
+                                           <div class="img"><img src="images1/iso.png" alt=""></div>
+                                           <h2>Mr. Atul shrikant Jawale <span>( Mystic D-1206 ) </span></h2>
+                                           <p>Overall Experience is good. All the staff was very attentive and helpful. Very Professional approach. The apartment was really well at the time of possession.  Thank you. </p>                    
+                                       </div>
+
+                                   </div>
+
+                               </div>
+                           </div>
+                       </section>
 
                    <div class="container-fluid gtco-features-list">
                           <div class="container">
@@ -1126,5 +1174,191 @@
                                 </div> 
                             </div>                                                                               
                         </div><!--- END COL -->     
-                    </div><!--- END ROW -->        
+                    </div><!--- END ROW -->   
+
+
+
+                            <div id="myModals" class="modal fade" role="dialog">
+                      <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title pop_align">Get in touch with us </h4><br>
+                        <h6 style="text-align:center;">Please fill up following details</h6>
+                          </div>
+                        <div class="modal-body">
+                         <form action="thank-you.php" method="post" id="contact-popup">
+                                 <input name="firstname" type="text" id="firstname" class="hide-robot">
+                             <!-- <input type="hidden" id="booknow" name="booknow" value="booknow"> -->
+                              <input name="firstname" type="text" id="firstname" class="hide-robot">
+                                    <div class="form-group">
+                                        <div class="input-group"> 
+                                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                            <input class="form-control" name="name" id="fnames" placeholder="Name" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group"> 
+                                            <span class="input-group-addon"><i class="far fa-envelope"></i></span>
+                                            <input type="email" class="form-control" name="email" id="emails" placeholder="Email" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group"> 
+                                            <span class="input-group-addon"><i class="fas fa-phone-square-alt" ></i></span>
+                                            <input type="text" class="form-control" name="mobile" id="mobiles" pattern="\d*" minlength="10" placeholder="Mobile" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="input-group"> 
+                                        
+                                            <div id="RecaptchaField1"></div>
+
+                                        </div>
+                                        </div>
+                                    </div>
+
+                                    
+                                  <div class="pop_align">
+                                     <div class="form-group">
+                                        <input type="submit" name="save" class="btn btn-orange"  value="Submit" style="margin: auto;display: block;">
+                                     </div>
+                                </div>
+                              <div class="success_message1 pop_align"></div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- END Popup -->
+
+                    <div id="myModalsbook" class="modal fade" role="dialog">
+                      <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title pop_align">Online Booking </h4><br>
+                        <h6 style="text-align:center;">Book Your Dream Home Online</h6>
+                          </div>
+                        <div class="modal-body">
+                         <form action="thank-you.php" method="post" id="contact-book">
+
+                             <input type="hidden" id="booknow" name="booknow" value="booknow">
+                                    <div class="form-group">
+                                        <div class="input-group"> 
+                                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                            <input class="form-control" name="name" id="fnames" placeholder="Name" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group"> 
+                                            <span class="input-group-addon"><i class="far fa-envelope"></i></span>
+                                            <input type="email" class="form-control" name="email" id="emails" placeholder="Email" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group"> 
+                                            <span class="input-group-addon"><i class="fas fa-phone-square-alt" ></i></span>
+                                            <input type="text" class="form-control" name="mobile" id="mobiles" pattern="\d*" minlength="10" placeholder="Mobile" required>
+                                        </div>
+                                    </div>
+
+                                   <div class="form-group">
+                                    <div class="input-group">
+
+                                         <div id="RecaptchaField2"></div>
+                                                   </div>
+                                    </div> 
+
+                                    
+                                  <div class="pop_align">
+                                     <div class="form-group">
+                                        <input type="submit" name="save" class="btn btn-orange"  value="Submit" style="margin: auto;display: block;">
+                                     </div>
+                                </div>
+                              <div class="success_message1 pop_align"></div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- END Popup -->
+                    <style type="text/css">
+                        #contact .form-group{float: none;}
+                    .hide-robot{display: none;}
+                    .capbox, .capbox3 {
+                        background-color: #98c7efb3;
+                        border: #98c7efb3 0px solid;
+                        border-width: 0px 12px 0px 0px;
+                        display: inline-block;
+                        *display: inline; zoom: 1; /* FOR IE7-8 */
+                        padding: 8px 40px 8px 8px;
+                        width:100%;
+                        }
+                        .capbox1{background-color: #98c7efb3;
+                        border: #98c7efb3 0px solid;
+                        border-width: 0px 12px 0px 0px;
+                        display: inline-block;
+                        *display: inline; zoom: 1; /* FOR IE7-8 */
+                        padding: 8px 40px 8px 8px;width: 45%}
+
+                    .capbox-inner, .capbox-inner1, .capbox-inner3 {
+                        font: bold 11px arial, sans-serif;
+                        color: #000000;
+                        background-color: #98c7efb3;
+                        margin: 5px auto 0px auto;
+                        padding: 3px;
+                        -moz-border-radius: 4px;
+                        -webkit-border-radius: 4px;
+                        border-radius: 4px;
+                        }
+
+                    #CaptchaDiv, #CaptchaDiv1, #CaptchaDiv3 {
+                        font: bold 17px verdana, arial, sans-serif;
+                        font-style: italic;
+                        color: #000000;
+                        background-color: #FFFFFF;
+                        padding: 4px;
+                        -moz-border-radius: 4px;
+                        -webkit-border-radius: 4px;
+                        border-radius: 4px;
+                        }
+
+                    #CaptchaInput, #CaptchaInput1, #CaptchaInput3 { margin: 1px 0px 1px 0px; width: 135px; }
+                    #con-form {
+                        width: 100%;
+                        height: 100%;
+                        opacity: .95;
+                        top: 0;
+                        left: 0;
+                        display: none;
+                        position: fixed;
+                        background-color: #313131;
+                        overflow: auto;
+                        z-index: 9999;
+                    }
+
+
+                    .modal-backdrop{display: none;}
+                    .modal-dialog{width: 480px; margin: 100px auto; }
+                    .modal-header{background: #fff;}
+
+                    @media screen and (max-width:767px){
+                    .modal-dialog {width: 100%; margin: 5px;}
+                      }
+                    </style>
+
+
+                    //Function To Display Popup
+                        function div_show() {
+                        document.getElementById('con-form').style.display = "block";
+                        }
+                    //Function to Hide Popup
+                        function div_hide(){
+                          document.getElementById('con-form').style.display = "none";
+                        }
+
 <?php include 'footer.php';?>                          

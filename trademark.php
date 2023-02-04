@@ -55,6 +55,77 @@
 
   <!-- ============Content========= -->
 
+   <div class="modal fade" id="myModaloffer" role="dialog">
+      
+      <div class="modal-dialog">
+
+        
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+              <div class="modal-body">
+            <img src="assets/images/Smart-Home-Diwali-Offer_facebook_1080x1080.jpg">
+
+          </div>
+         
+        </div>
+      </div>
+  </div>
+
+  <div class="modal" tabindex="-1" role="dialog" id="myModaloffer">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Modal body text goes here.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    $(window).on('load',function(){
+      $('#myModaloffer').modal('show');
+    });
+
+    $("button[data-dismiss=modal]").click(function () {
+      $(".modal.in").removeClass("in").addClass("fade").hide();
+      $(".modal-backdrop").remove();
+    });
+  </script>  
+
+  <style type="text/css">#con-form {
+    width: 100%;
+    height: 100%;
+    opacity: .95;
+    top: 0;
+    left: 0;
+    display: none;
+    position: fixed;
+    background-color: #313131;
+    overflow: auto;
+    z-index: 9999;
+}
+
+
+.modal-backdrop{display: none;}
+.modal-dialog{width: 480px; margin: 100px auto; }
+.modal-header{background: #fff;}
+
+@media screen and (max-width:767px){
+.modal-dialog {width: 100%; margin: 5px;}
+  }
+</style>
 
   <div class="container">                  
     <nav aria-label="breadcrumb">
@@ -65,6 +136,56 @@
       </ol>
     </nav>
   </div>
+
+  <section id="testim" class="testim action roomy-40">
+          <div class="testim-cover">
+              <div class="wrap">
+
+                  <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+                  <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
+                  <ul id="testim-dots" class="dots">
+                      <li class="dot active">
+                      </li>
+                      <li class="dot"></li>
+                      <li class="dot"></li>
+                      <li class="dot"></li>
+                  </ul>
+                  <div class="head_title text-center fix">
+                              <h2 class="text-uppercase" style="color: #fff;">Testimonials</h2>
+                          </div>
+
+                  <div id="testim-content" class="cont">
+                      
+                      <div class="active">
+                          <div class="img"><img src="images1/iso.png" alt=""></div>
+                          <h2>Mr. Chetan Gajera <span>( Mystic B-2005 ) </span></h2>
+                          <p>I bought the house in the year 2020. Before lockdown and lockdown also I got support through email and phone from CRM and sales team. The team is very courteous, polite and very helpful thoroughly explained each and everything and made sure everything is done on time in terms of documentation, Legal and other formalities special thanks to Mr.Anjani, Swapnil Galpalli and Diwakar Sir from CRM team and Swapnil and Ginder from the sales team.</p>                    
+                      </div>
+
+
+                      <div>
+                          <div class="img"><img src="images1/iso.png" alt=""></div>
+                          <h2>Mr. Ankush kochhar <span> ( Mystic A 1406 ) </span></h2>
+                          <p>Overall experience was ok. Megapolis staff is humble, helpful and cooperative that is good part. Apartment is in good condition at the time of possession. Overall experience good from MEGAPOLIS team/staff.</p>                    
+                      </div>
+
+                      <div>
+                          <div class="img"><img src="images1/iso.png" alt=""></div>
+                          <h2>Naga Kaushik <span>( Mystic B 2004 )</span> </h2>
+                          <p>Overall experience with MEGAPOLIS has been excellent. The staff standing from sales, CRM support team, maintenance and other support staff have been really good in addressing our questions/doubts and have been very Approachaful for any queries/support. Overall experience on a scale of 10 is 10/10 🙂 Thanks.</p>                    
+                      </div>
+
+                      <div>
+                          <div class="img"><img src="images1/iso.png" alt=""></div>
+                          <h2>Mr. Atul shrikant Jawale <span>( Mystic D-1206 ) </span></h2>
+                          <p>Overall Experience is good. All the staff was very attentive and helpful. Very Professional approach. The apartment was really well at the time of possession.  Thank you. </p>                    
+                      </div>
+
+                  </div>
+
+              </div>
+          </div>
+      </section>
 
   <div class="container">
     <div class="row">
