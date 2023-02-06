@@ -50,9 +50,12 @@
 <body>
 
 
- <header id="header" >
 
-   <div class="container">
+
+
+   <header id="header" >
+
+     <div class="container">
 
       <nav class="navbar navbar-expand-lg navbar-light ">
         <a class="navbar-brand" href="http://127.0.0.1/LegalHat15/"><img src="images/logo.png"width="170"height="50" alt=""></a>
@@ -72,65 +75,97 @@
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Services
             </a>
-            <div class="dropdown-menu dropright" aria-labelledby="navbarDropdown1">
-<a class="dropdown-item dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">IPR Services</a>
-              <div class="dropdown-menu dropdown-menu-right">
-                <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/trademark.php">Trademark Registration</a>
-                <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/copyright.php">Copyright Registration</a>
-                <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/design-registration.php">Design Registration</a>
-                <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/patent.php">Patent Registration</a>
-            </div>
+            <div class="dropdown-menu dropright" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" data-target="T1" aria-haspopup="true" aria-expanded="false">IPR Services</a>
+              <!-- <div class="dropdown-menu dropright" aria-labelledby="navbarDropdown1"> -->
+                <!-- <a class="dropdown-item dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">IPR Services</a> -->
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/trademark.php">Trademark Registration</a>
+                    <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/copyright.php">Copyright Registration</a>
+                    <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/design-registration.php">Design Registration</a>
+                    <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/patent.php">Patent Registration</a>
+                </div>
 
-            <!-- <div class="dropdown-divider"></div>
-            <a class=" dropdown-item dropdown-toggle " href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" data-target="test"     aria-haspopup="true" aria-expanded="false">Compony Formation</a>
-            <div class="dropdown-menu "  id="test">
-                <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/private-limited.php">PVT Limited</a>
-                <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/llp-registration.php">LLP</a>
-                <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/opc.php">OPC</a>
-            </div> -->
-
+                <div class="dropdown-divider"></div>
+                <!-- <a class="dropdown-item" href="#">Compony Formation</a> -->
+                <a class="dropdown-item dropdown-toggle " href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" data-target="navbarDropdown2" aria-haspopup="true" aria-expanded="false">Compony Formation</a>
+                <div class="dropdown-menu dropdown dropdown-menu-right" id="DataTarget" aria-labelledby="navbarDropdown2">
+                <!-- <div class="dropdown-divider"></div> -->
+                <!-- <a class=" dropdown-item dropdown-toggle " href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" data-target="test"     aria-haspopup="true" aria-expanded="false">Compony Formation</a> -->
+                 <div class="dropdown-menu "   >
+                    <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/private-limited.php">PVT Limited</a>
+                    <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/llp-registration.php">LLP</a>
+                    <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/opc.php">OPC</a>
+                 </div> 
+             </div>
               <!-- <a  role="button" class=" dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Compony Formation
-              </a> -->
+            </a> -->
             <!-- <div class="dropdown-item dropright"> -->
-                <div class="dropdown">
+               <!--  <div class="dropdown">
                   <a class=" dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Dropdown link
-                  </a>
+                </a>
 
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                     <a class="dropdown-item" href="#">Action</a>
                     <a class="dropdown-item" href="#">Another action</a>
                     <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-            <div class="dropdown-divider"></div>
+                </div> -->
+                <!-- <div class="dropdown-divider"></div>
                 <div class="dropdown">
-<a class=" dropdown-item dropdown-toggle " href="#" id="dropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Compony Formation</a>
-              <div class="dropdown-menu " aria-labelledby="dropdownMenuLink">
-                              <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/private-limited.php">PVT Limited</a>
-                              <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/llp-registration.php">LLP</a>
-                              <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/opc.php">OPC</a>
-                          </div>
-                </div>
-            <!-- </div> -->
+                    <a class=" dropdown-item dropdown-toggle " href="#" id="dropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Compony Formation</a>
+                    <div class="dropdown-menu " aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/private-limited.php">PVT Limited</a>
+                      <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/llp-registration.php">LLP</a>
+                      <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/opc.php">OPC</a>
+                  </div>
+                </div> -->
+              <!-- </div> -->
 
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/iso.php">Iso Registration</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/fssai-registration.php">Food License</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/gst.php">GST registration</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/">Make in india Certificattion</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/">Other Registraion</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/iso.php">Iso Registration</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/fssai-registration.php">Food License</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/gst.php">GST registration</a>
+              <div class="dropdown-divider"></div>
+          <!--   <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/">Make in india Certificattion</a>
+            <div class="dropdown-divider"></div> -->
+            <!-- <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/">Other Registraion</a> -->
+            <div class="dropdown">
+                
+            <a class="dropdown-item  dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" data-target="T3" aria-haspopup="true" aria-expanded="false">Other Registraion</a>
+            <div class="dropdown-menu" id="T3" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/trademark.php">Make in india Certificattion</a>
+                <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/copyright.php">Shop Act</a>
+                <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/design-registration.php">PSARA Registration</a>
+                <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/patent.php">Agreements</a>
+            </div>
+            </div>
 
         </div>
     </li>
     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <!-- <button class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown button
+          </button> -->
+            <a class="" href="#" id="dropdownMenuButton" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Web Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
+    </li>
+    
+        <div class="nav-item dropdown">
+      <a class="nav-item dropdown-toggle" href="#" id="navbarDrop" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Web Services
     </a>
+    <li class="nav-item dropdown">
     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
         <a class="dropdown-item" href="#">Private Limited Company</a>
         <div class="dropdown-divider"></div>
@@ -176,13 +211,13 @@
 
                 <a href="#" class="da-link button">Read more</a>
                 <div class="da-img">
-                   <!-- <a href="https://icons8.com/illustrations/author/JTmm71Rqvb2T">Dani Grapevine</a> from <a href="https://icons8.com/illustrations">Ouch!</a> -->
-                   <img class="txtshadow" src="images/3d.png" alt="image01" width="320">
-               </div>
-           </div> 
-           <!-- End first slide -->
-           <!-- Start second slide -->
-           <div class="da-slide">
+                 <!-- <a href="https://icons8.com/illustrations/author/JTmm71Rqvb2T">Dani Grapevine</a> from <a href="https://icons8.com/illustrations">Ouch!</a> -->
+                 <img class="txtshadow" src="images/3d.png" alt="image01" width="320">
+             </div>
+         </div> 
+         <!-- End first slide -->
+         <!-- Start second slide -->
+         <div class="da-slide">
             <h2>Copyright</h2>
             <!-- <h4>Copyright</h4> -->
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>

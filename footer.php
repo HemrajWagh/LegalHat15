@@ -74,7 +74,8 @@
             <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">Small modal</button> -->
 
 
-            <img data-toggle="modal" data-target=".bd-example-modal-sm" src="images1/fotterbtn.svg" class="website_floting">
+            <!-- <img data-toggle="modal" data-target=".bd-example-modal-sm" div_show() src="images1/fotterbtn.svg" class="website_floting"> -->
+            <img onclick="div_show()"   src="images1/fotterbtn.svg" class="website_floting">
 
 
 
@@ -123,7 +124,7 @@
          <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" style="margin-left: 0px;left: 75%;top:25%;width: 370px;height: 355px;padding-left: 0px; ">
            <!-- <div class="modal-dialog modal-sm"> -->
              <!-- <div class="modal-co    ntent"> -->
-               <div class="container " >
+               <div class="container "id="LeadsForm" >
                    <div class="row">
 
                        <form method="post" action="send.php" class="form-horizontal" role="form" id="LeadsForm" >
@@ -522,6 +523,134 @@ $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
 <script>
    AOS.init();
 </script>
+
+<script type="text/javascript">
+//Function To Display Popup
+    function div_show() {
+        <?php echo "tst" ?>     
+    // document.getElementById('LeadsForm').style.display = "block";
+    }
+//Function to Hide Popup
+    function div_hide(){
+      document.getElementById('LeadsForm').style.display = "none";
+    }
+</script>
+      
+    
+
+<script type="text/javascript">
+  // vars testimonials
+  'use strict'
+  var testim = document.getElementById("testim"),
+          testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").children),
+      testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
+      testimLeftArrow = document.getElementById("left-arrow"),
+      testimRightArrow = document.getElementById("right-arrow"),
+      testimSpeed = 4500,
+      currentSlide = 0,
+      currentActive = 0,
+      testimTimer,
+          touchStartPos,
+          touchEndPos,
+          touchPosDiff,
+          ignoreTouch = 30;
+  ;
+
+  window.onload = function() {
+
+      // Testim Script
+      function playSlide(slide) {
+          for (var k = 0; k < testimDots.length; k++) {
+              testimContent[k].classList.remove("active");
+              testimContent[k].classList.remove("inactive");
+              testimDots[k].classList.remove("active");
+          }
+
+          if (slide < 0) {
+              slide = currentSlide = testimContent.length-1;
+          }
+
+          if (slide > testimContent.length - 1) {
+              slide = currentSlide = 0;
+          }
+
+          if (currentActive != currentSlide) {
+              testimContent[currentActive].classList.add("inactive");            
+          }
+          testimContent[slide].classList.add("active");
+          testimDots[slide].classList.add("active");
+
+          currentActive = currentSlide;
+      
+          clearTimeout(testimTimer);
+          testimTimer = setTimeout(function() {
+              playSlide(currentSlide += 1);
+          }, testimSpeed)
+      }
+
+      testimLeftArrow.addEventListener("click", function() {
+          playSlide(currentSlide -= 1);
+      })
+
+      testimRightArrow.addEventListener("click", function() {
+          playSlide(currentSlide += 1);
+      })    
+
+      for (var l = 0; l < testimDots.length; l++) {
+          testimDots[l].addEventListener("click", function() {
+              playSlide(currentSlide = testimDots.indexOf(this));
+          })
+      }
+
+      playSlide(currentSlide);
+
+      // keyboard shortcuts
+      document.addEventListener("keyup", function(e) {
+          switch (e.keyCode) {
+              case 37:
+                  testimLeftArrow.click();
+                  break;
+                  
+              case 39:
+                  testimRightArrow.click();
+                  break;
+
+              case 39:
+                  testimRightArrow.click();
+                  break;
+
+              default:
+                  break;
+          }
+      })
+          
+          testim.addEventListener("touchstart", function(e) {
+                  touchStartPos = e.changedTouches[0].clientX;
+          })
+      
+          testim.addEventListener("touchend", function(e) {
+                  touchEndPos = e.changedTouches[0].clientX;
+              
+                  touchPosDiff = touchStartPos - touchEndPos;
+              
+                  console.log(touchPosDiff);
+                  console.log(touchStartPos); 
+                  console.log(touchEndPos);   
+
+              
+                  if (touchPosDiff > 0 + ignoreTouch) {
+                          testimLeftArrow.click();
+                  } else if (touchPosDiff < 0 - ignoreTouch) {
+                          testimRightArrow.click();
+                  } else {
+                      return;
+                  }
+              
+          })
+  }
+</script>
+    
+
 
 </body>
 <?php 
