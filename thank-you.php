@@ -202,12 +202,8 @@
       <div class="container txtshadow hero">
         <div ></div>
         <div class="col-lg-6 col-sm-6 float-bob heroSlide" style="background-image: url(images1/pic1.webp); z-index: 99; " ><img class="float-bob" src="images1/man.png"></div>
-=======
-      <div class="container txtshadow" style="display: flex; justify-content: center;align-items: center; padding-top: 100px; text-align: center;"  >
        
-       
-        <div class="col-lg-6 col-sm-6 float-bob shape1" style="background-image: url(images1/cercle-shape.png); z-index: 99;  background-repeat: no-repeat;" ><img class="float-bob" src="images1/man.png"></div>
->>>>>>> 96dab16a2c0e8b85845737db58c1ff0668f88e7e
+        <!-- <div class="col-lg-6 col-sm-6 float-bob shape1" style="background-image: url(images1/cercle-shape.png); z-index: 99;  background-repeat: no-repeat;" ><img class="float-bob" src="images1/man.png"></div> -->
         <div class="col-lg-6 col-sm-6">
           <h1 class="head" >" Thanks for choosing us."</h1>
           <h4>We appreciate your trust in us !</h4>

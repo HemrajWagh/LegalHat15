@@ -290,7 +290,7 @@
     <br><br>          
          <section id="parallex2"  style="background-image: url(images1/bk2.jpg); box-shadow: 0 10px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 5%);height: 250px;">
                         <div class="container" >
-                          <div class="col-lg-6 float-bob-x " style="background-image:url(images1/pattern5.png);"><img class="float-bob" src="images1/man.png"></div>
+                          <div class="col-lg-6 col-sm-12 float-bob-x " style="background-image:url(images1/pattern5.png);"><img class="float-bob Parawidth" src="images1/man.png"></div>
                           <div class="col-lg-6 col-sm-6 ParaHigh" style="display: flex; justify-content: center; align-items: center;margin-top:-100px ;"> <a href="" class="btn btn-lg shadowbtn "style="  border-left:4px solid #ffb900;text-shadow: 0px 3px 12px #c3c3c3; ">BROWSE OUR WORK</a></div>
                         </div>
          </section>  

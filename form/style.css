@@ -48,6 +48,18 @@ padding: 12px 10px 10px 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.fa-solid fa-graduation-cap{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    font-size: 26px;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 #LeadsForm .input-group{
     width: 100%;
     display: flex;

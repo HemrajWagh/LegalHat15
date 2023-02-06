@@ -38,6 +38,7 @@
     <link rel="stylesheet" type="text/css" href="css/jquery.cslider.css" />
     <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
     <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="css1/animate.css" />
     <!-- Fav and touch icons -->
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> -->
     
@@ -46,7 +47,7 @@
 
     <link rel="shortcut icon" href="images/ico/favicon.ico">
 
-    <style type="text/css">
+    <!-- <style type="text/css">
         .dropright .dropdown-menu {
             top: 0;
             right: auto;
@@ -55,7 +56,7 @@
             margin-left: 0.125rem;
         }
 
-    </style>
+    </style> -->
     <style type="text/css">
        .dropdown-submenu {
            position: relative;
@@ -84,7 +85,7 @@
            border-color: transparent;
            border-style: solid;
            border-width: 5px 0 5px 5px;
-           border-left-color: #ccc;
+           border-left-color: #000;
            margin-top: 5px;
            margin-right: -10px;
        }
@@ -124,12 +125,12 @@
           <a class="nav-link" href="http://127.0.0.1/LegalHat15/">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#testim">About</a>
         </li>
 
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              ServicesDrop
+              Services
             </a>
             <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
                 
@@ -137,10 +138,11 @@
                 <li class="dropdown-submenu">
                   <a  class="dropdown-item" tabindex="-1" href="#">IPR Services</a>
                   <ul class="dropdown-menu">
-                    <li class="dropdown-item"><a tabindex="-1" href="#">Trademark </a></li>
-                    <li class="dropdown-item"><a tabindex="-1" href="#">Copyright </a></li>
-                    <li class="dropdown-item"><a tabindex="-1" href="#">Design </a></li>
-                    <li class="dropdown-item"><a tabindex="-1" href="#">Patent </a></li>
+                    <li class="dropdown-item"><a tabindex="-1" href="http://127.0.0.1/LegalHat15/trademark.php">Trademark Registration </a></li>
+                    <li class="dropdown-item"><a tabindex="-1" href="http://127.0.0.1/LegalHat15/copyright.php">Copyright Registration </a></li>
+                    <li class="dropdown-item"><a tabindex="-1" href="http://127.0.0.1/LegalHat15/design-registration.php">Design Registration </a></li>
+                    <li class="dropdown-item"><a tabindex="-1" href="http://127.0.0.1/LegalHat15/patent.php">Patent Registration </a></li>
+                  <!-- <li class="dropdown-divider"></li> -->
                     <!-- <li class="dropdown-submenu">
                       <a class="dropdown-item" href="#">Even More..</a>
                       <ul class="dropdown-menu">
@@ -157,24 +159,26 @@
                     </li> -->
                   </ul>
                 </li>
+
                 <li class="dropdown-submenu">
                      <a  class="dropdown-item" tabindex="-1" href="#">Compony Formation</a>
+                     <!-- <li class="dropdown-divider"></li> -->
                      <ul class="dropdown-menu">
-                       <li class="dropdown-item"><a tabindex="-1" href="#">PVT Limited </a></li>
-                       <li class="dropdown-item"><a tabindex="-1" href="#">LLP </a></li>
-                       <li class="dropdown-item"><a tabindex="-1" href="#">OPC </a></li>
+                       <li class="dropdown-item"><a tabindex="-1" href="http://127.0.0.1/LegalHat15/private-limited.php">PVT Limited </a></li>
+                       <li class="dropdown-item"><a tabindex="-1" href="http://127.0.0.1/LegalHat15/LLP-registration.php">LLP </a></li>
+                       <li class="dropdown-item"><a tabindex="-1" href="http://127.0.0.1/LegalHat15/opc.php">OPC </a></li>
                      </ul>   
                 </li>    
                 
-                <li class="dropdown-item"><a href="#">Iso Registration</a></li>
-                <li class="dropdown-item"><a href="#">Food License</a></li>
-                <li class="dropdown-item"><a href="#">GST registration</a></li>
-
+                <li class="dropdown-item"><a href="http://127.0.0.1/LegalHat15/iso.php">Iso Registration</a></li>
+                <li class="dropdown-item"><a href="http://127.0.0.1/LegalHat15/fssai-registration.php">Food License</a></li>
+                <li class="dropdown-item"><a href="http://127.0.0.1/LegalHat15/gst.php">GST registration</a></li>
+                <!-- <li class="dropdown-divider"></li> -->
                 <li class="dropdown-submenu">
                   <a  class="dropdown-item" tabindex="-1" href="#">Other Registraion</a>
                   <ul class="dropdown-menu">
-                    <li class="dropdown-item"><a tabindex="-1" href="#">Make in india Certificattion</a></li>
-                    <li class="dropdown-submenu">
+                    <li class="dropdown-item"><a tabindex="-1" href="http://127.0.0.1/LegalHat15/startup.php">Make in india Certificattion</a></li>
+                    <!-- <li class="dropdown-submenu">
                       <a class="dropdown-item" href="#">Even More..</a>
                       <ul class="dropdown-menu">
                           <li class="dropdown-item"><a href="#">3rd level</a></li>
@@ -187,9 +191,10 @@
                           </li>
                             <li class="dropdown-item"><a href="#">3rd level</a></li>
                       </ul>
-                    </li>
-                    <li class="dropdown-item"><a href="#">Second level</a></li>
-                    <li class="dropdown-item"><a href="#">Second level</a></li>
+                    </li> -->
+                    <li class="dropdown-item"><a href="#">Shop Act</a></li>
+                    <li class="dropdown-item"><a href="http://127.0.0.1/LegalHat15/psara.php"> PSARA Registration</a></li>
+                    <li class="dropdown-item"><a href="#"> Agreements</a></li>
                   </ul>
                 </li>
                 
@@ -197,6 +202,51 @@
         </li>
 
         <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Web Services
+            </a>
+            <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                
+                <li class="dropdown-submenu">
+                  <a  class="dropdown-item" tabindex="-1" href="#">Web Development</a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-item"><a tabindex="-1" href="http://127.0.0.1/LegalHat15/web.php">Wordpress Development </a></li>
+                    <li class="dropdown-item"><a tabindex="-1" href="#">Laravel Development </a></li>
+                    <li class="dropdown-item"><a tabindex="-1" href="#">Angular Development </a></li>
+                    <li class="dropdown-item"><a tabindex="-1" href="#">Ecommerce Development </a></li>
+                    <li class="dropdown-item"><a tabindex="-1" href="#">Website Maintainance </a></li>
+                    <!-- <li class="dropdown-submenu">
+                      <a class="dropdown-item" href="#">Even More..</a>
+                      <ul class="dropdown-menu">
+                          <li class="dropdown-item"><a href="#">3rd level</a></li>
+                            <li class="dropdown-submenu"><a class="dropdown-item" href="#">another level</a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item"><a href="#">4th level</a></li>
+                                <li class="dropdown-item"><a href="#">4th level</a></li>
+                                <li class="dropdown-item"><a href="#">4th level</a></li>
+                            </ul>
+                          </li>
+                            <li class="dropdown-item"><a href="#">3rd level</a></li>
+                      </ul>
+                    </li> -->
+                  </ul>
+                </li>
+                <li class="dropdown-item"><a href="#">SEO</a></li>
+                <li class="dropdown-submenu">
+                     <a  class="dropdown-item" tabindex="-1" href="http://127.0.0.1/LegalHat15/web.php">Digital Marketing</a>
+                     <ul class="dropdown-menu">
+                       <li class="dropdown-item"><a tabindex="-1" href="#">Google Adwords</a></li>
+                       <li class="dropdown-item"><a tabindex="-1" href="#">Social Media</a></li>
+                       <!-- <li class="dropdown-item"><a tabindex="-1" href="#"> </a></li> -->
+                     </ul>   
+                </li>    
+              </ul>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+        </li>
+
+        <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Services
           </a>
@@ -238,10 +288,10 @@
                     </div>
             </div>
 
-        </li>
+        </li> -->
 
 
-        <li class="nav-item dropdown">
+        <!-- <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Web Services
                   </a>
@@ -263,7 +313,7 @@
                       <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/design-registration.php">Design Registration</a>
                       <a class="dropdown-item" href="http://127.0.0.1/LegalHat15/patent.php">Patent Registration</a>
                   </div>
-        </li>
+        </li> -->
 
       </ul>
   </nav>  
@@ -297,7 +347,7 @@
                     distinguish its products or services from those of other 
                 entities.</p>
 
-                <a href="#" class="da-link button">Read more</a>
+                <a href="http://127.0.0.1/LegalHat15/trademark.php" class="da-link button">Read more</a>
                 <div class="da-img">
                    <!-- <a href="https://icons8.com/illustrations/author/JTmm71Rqvb2T">Dani Grapevine</a> from <a href="https://icons8.com/illustrations">Ouch!</a> -->
                    <img class="txtshadow" src="images/3d.png" alt="image01" width="320">
@@ -336,7 +386,7 @@
                 international law a company or corporation is considered to be 
                 an entity that is separate from the people who own or operate 
             the company.</p>
-            <a href="#" class="da-link button">Read more</a>
+            <a href="http://127.0.0.1/LegalHat15/llp-registration.php" class="da-link button">Read more</a>
             <div class="da-img">
                 <img src="images/Compani.png" width="320" alt="image03">
             </div>
@@ -352,7 +402,7 @@
                 fairer. ISO standards also serve to safeguard consumers and 
                 users of products and services in general - as well as making 
             their lives simpler.</p>
-            <a href="#" class="da-link button">Read more</a>
+            <a href="http://127.0.0.1/LegalHat15/iso.php" class="da-link button">Read more</a>
             <div class="da-img">
                 <img class="txtshadow" src="images/iso.png" width="320" alt="image03">
             </div>
@@ -364,7 +414,7 @@
                 electronic devices over the Web. It includes website 
                 development and various online services required for 
             set up of a enterpreneurship.</p>
-            <a href="#" class="da-link button">Read more</a>
+            <a href="http://127.0.0.1/LegalHat15/web.php" class="da-link button">Read more</a>
             <div class="da-img">
                 <img class="txtshadow" src="images/Web.png" width="320" alt="image03">
             </div>

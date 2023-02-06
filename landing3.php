@@ -182,84 +182,151 @@
 
       <!-- <div ></div> -->
     <div class="container txtshadow hero" style=""  >
-      <div class="col-lg-6 col-sm-12 float-bob" style="background-image: url(images1/pic1.webp);z-index: 99; " ><img class="float-bob" src="images1/man.png"></div>
-      <div class="col-lg-6 col-sm-12">
-        <h1 class="head">" Empower Your Vision With <br> Our Solutions. "</h1>
-        <h4>We appreciate your trust in us.</h4>
-        <!-- <h2>Our executive will contact you shortly !!!</h2> -->
-          <div  style=""> <a href=" " class="btn btn-lg shadowbtn "style="  border-left:4px solid #ffb900;text-shadow: 0px 3px 12px #c3c3c3; ">BROWSE OUR WORK</a></div>
-        </div>
-      </div>
-    </div>
+      <div class="col-lg-8 col-sm-6 float-bob" style="background-image: url(images1/pic1.webp);z-index: 99;position: sticky; top: 100px; justify-content: center;align-items: center" ><img class="float-bob" src="images1/man.png"></div>
+      <div class="col-lg-4 col-sm-6" >
+         <div class="container "style="position: sticky; top: 100px; justify-content: center;align-items: center; " >
+                  <!-- <div class="row"> -->
 
-<br><br>
-     <div class="container">
-     
-     <div class="main_history fadeInUp" style="">
-      <div class="col-lg-6 col-sm-6" style="border-right: 1px solid #ffb900;">
+                    <form method="post" action="send.php" class="form-horizontal" role="form" id="LeadsForm" style="padding-top: 40px; border-radius: 30px;  " >
+                      <i class="fas fa-solid fa-graduation-cap fa-paper-plane"></i>
+                      <!-- <i class="fas fa-solid-fa-graduation-cap"></i> -->
+                      <!-- <span class="text-success"style="display: flex;justify-content: center;"><?php if($_SESSION['success']){echo $_SESSION['success'];} ?></span> -->
+                      <div class="input-group">
+                        <!-- <label>Full Name</label> -->
+                        <input type="text" name="name" placeholder="Enter your name"  id="contact_name" onkeyup="validatName()" >
+                        <span id="name_error"><?php echo $nameErr; ?></span>
+                      </div>
 
-        <h2 style="text-align: center;justify-content: center;align-items: center;" ><span class="textHead">We Are Associated With </span> </h2>
-        <br> 
-        <div class="single_history_img">
-          <div class="row ">
+                      <div class="input-group">
+                        <!-- <label>Phone No.</label> -->
+                        <input type="tel" name="contactno" placeholder="123 456 7890" id="contact_phone" onkeyup="validatPhone()" >
+                        <span id="phone_error"class="text-danger"><?php echo $contactnoErr; ?></span>
+                      </div>
 
-            <div class="container" style="display: flex;">
-              <div class="col" style="display: flex; justify-content: center;align-items: center;" >
-                <img src="images1/tiaup/axis.jpeg"  style="border-radius: 10px;"   alt="Logo 1" width="100%" class="shadowbtn">
-              </div>
-              <div class="col"style="display: flex; justify-content: center;align-items: center;">
-                <img src="images1/tiaup/just.jpeg" style="border-radius: 10px; " alt="Logo 2" width="100%" class="shadowbtn">
-              </div>
+                      <div class="input-group">
+                        <!-- <label>Email Id</label> -->
+                        <input type="email" name="email" placeholder="Enter Email" id="contact_email" onkeyup="validatEmail()" >
+                        <span id="email_error"class="text-danger"><?php echo $emailErr; ?></span>
+                      </div>   
+                      <br>
+                      <div class="input-group" style="max-width:88% ;">
+                       <!-- <label class="">Services </label> -->
+                       <!-- <div class="col-lg-12"> -->
+                         <select  name="services[]" class="form-control">
+                           <option value="">--Please choose an option--</option>
+                           <option value="Trademark" <?php if(in_array('Trademark',$alltypeOfServices)) {  echo "selected";}else{echo "";}  ?>>Trademark</option>
+                           <option value="Copyright" <?php if(in_array('Copyright',$alltypeOfServices)) {  echo "selected";}else{echo "";}  ?>>Copyright</option>
+                           <option value="Patent" <?php if(in_array('Patent',$alltypeOfServices)) {  echo "selected";}else{echo "";}  ?>>Patent</option>
+                           <option value="Company Formation" <?php if(in_array('Company Formation',$alltypeOfServices)) {  echo "selected";}else{echo "";}  ?>>Company Formation</option>
+                           <option value="ISO" <?php if(in_array('ISO',$alltypeOfServices)) {  echo "selected";}else{echo "";}  ?>>ISO</option>
+                           <option value="Website Design" <?php if(in_array('Website Design',$alltypeOfServices)) {  echo "selected";}else{echo "";}  ?>>Website Design</option>
 
-              <div class="col"style="display: flex; justify-content: center;align-items: center;">
-                <img src="images1/tiaup/paytm.jpeg" style="border-radius: 10px; " alt="Logo 5" width="100%" class="shadowbtn">
-              </div>
-              <div class="col"style="display: flex; justify-content: center;align-items: center;">
-                <img src="images1/tiaup/sulekha.jpeg"style="border-radius: 10px; " alt="Logo 4" width="100%" class="shadowbtn">
-              </div>
-              <div class="col"style="display: flex; justify-content: center;align-items: center;">
-                <img src="images1/tiaup/kotak.jpeg"style="border-radius: 10px; " alt="Logo 4" width="100%" class="shadowbtn">
-              </div>
+                         </select>
+                         <span class="text-danger"><?php echo $typeOfSerrvicesErr; ?></span>
+                         <!-- </div> -->
+                       </div>
+                       <!-- <br> -->
 
+                       <div class="input-group">
+                        <!-- <label>City</label> -->
+                        <input type="text" name="city" placeholder="Enter City name"  id="contact_name" onkeyup="validatCity()" >
+                        <span id="city_error"class="text-danger"><?php echo $cityErr; ?></span>
+                      </div>   
+
+            <!-- <div class="input-group">
+              <label>Your Message</label>
+              <textarea rows="5" placeholder="Enter your message" id="contact_massage" onkeyup="validatMassage()"></textarea>
+              <span id="massage_error"></span>
+            </div> -->
+
+            <div class="input-group">
+              <!-- <label for="location" class="col-sm-3 control-label">Generate OTP:</label> -->
+              <!-- <div class="col-sm-12"> -->
+               <!-- <input type="text" id="otp" name="otp" placeholder="otp" class="form-control"  >
+               <span><strong>Note : </strong> Please Verify Mobile No. To submit the form. <a href="javascript:void(0)" onclick="SendOtp()">Verify</a></span>
+               <span class="text-danger"><?php echo $otpErr; ?></span> -->
+               <!-- <br>
+                 <br> -->
+                 <!-- <div   class="col-sm-12" > -->
+                  <input id="button" type="submit" name="save" class="" value="Submit">
+                  <!-- </div> -->
+
+                </div>
+
+                <!-- <button>Submit</button> -->
+                <span id="submit-error" id="contact_submit" onkeyup="validatSubmit()"></span>
+
+              </form>
             </div>
           </div>
-
-        </div>
       </div>
-      <div class="col-lg-6 col-sm-6" style="border-left: 1px solid #ffb900;">
-        <h2 style="text-align: center;justify-content: center;align-items: center;" ><span class="textHead">Our Associated Partners </span> </h2> 
+     
+<br><br>
+   <div class="container">
+         <div class="row">
+           <div class="main_history fadeInUp" style="display:flex; padding-bottom: 20px;">
+             <div class="col-lg-6 col-sm-6 shi"data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine" style="border-right: 1px solid #ffb900;">
 
-        <div class="single_history_img">
-          <div class="row ">
+               <h2 class="Associate" ><span class="textHead">We Are Associated With</span> </h2>
+               <!-- <br>  -->
+               <div class="single_history_img">     
+                 <div class="container">
 
-            <div class="container" style="display: flex;">
-              <div class="col" style="display: flex; justify-content: center;align-items: center;" >
-                <img src="images1/Associate/logo1.jpeg" style="border-radius: 10px;"   alt="Logo 1" width="70%" class="shadowbtn">
-              </div>
-              <div class="col"style="display: flex; justify-content: center;align-items: center;">
-                <img src="images1/Associate/logo2.jpeg" style="border-radius: 10px; " alt="Logo 2" width="100%" class="shadowbtn">
-              </div>
-
-              <div class="col"style="display: flex; justify-content: center;align-items: center;">
-                <img src="images1/Associate/logo3.jpeg" style="border-radius: 10px; " alt="Logo 5" width="70%" class="shadowbtn">
-              </div>
-              <div class="col"style="display: flex; justify-content: center;align-items: center;">
-                <img src="images1/Associate/logo4.jpeg"style="border-radius: 10px; " alt="Logo 4" width="70%" class="shadowbtn">
-              </div>
-                        <!--  <div class="col"style="display: flex; justify-content: center;align-items: center;">
-                           <img src="images1/tiaup/png.jpeg"style="border-radius: 5px; " alt="Logo 4" width="100%" class="shadowbtn">
-                         </div>
-                       -->
-                     </div>
+                   <div class="col-3">
+                     <img src="images1/tiaup/axis.jpeg" style="border-radius: 10px;"   alt="Logo 1" width="70%" class="shadowbtn">
+                   </div>
+                   <div class="col-3">
+                     <img src="images1/tiaup/just.jpeg" style="border-radius: 10px; " alt="Logo 2" width="70%" class="shadowbtn">
                    </div>
 
+                   <div class="col-3">
+                     <img src="images1/tiaup/paytm.jpeg" style="border-radius: 10px; " alt="Logo 5" width="70%" class="shadowbtn">
+                   </div>
+                   <div class="col-3">
+                     <img src="images1/tiaup/sulekha.jpeg"style="border-radius: 10px; " alt="Logo 4" width="70%" class="shadowbtn">
+                   </div>
+                   <div class="col-3">
+                     <img src="images1/tiaup/kotak.jpeg"style="border-radius: 10px; " alt="Logo 4" width="70%" class="shadowbtn">
+                   </div>
+
+
                  </div>
-               </div>       
+
+               </div>
              </div>
+             <div class="col-lg-6 col-sm-6"data-aos="fade-left"data-aos-offset="300"data-aos-easing="ease-in-sine" style="border-left: 1px solid #ffb900;">
+               <h2 class="Associate" ><span class="textHead">Our Associated Partners </span> </h2> 
+
+               <div class="single_history_img">
+                 <!-- <div class="row "> -->
+
+                   <div class="container" style="display: flex;">
+                     <div class="col-3">
+                       <img src="images1/Associate/logo1.jpeg" style="border-radius: 10px;"   alt="Logo 1" width="70%" class="shadowbtn">
+                     </div>
+                     <div class="col-3">
+                       <img src="images1/Associate/logo2.jpeg" style="border-radius: 10px; " alt="Logo 2" width="100%" class="shadowbtn">
+                     </div>
+
+                     <div class="col-3">
+                       <img src="images1/Associate/logo3.jpeg" style="border-radius: 10px; " alt="Logo 5" width="70%" class="shadowbtn">
+                     </div>
+                     <div class="col-3">
+                       <img src="images1/Associate/logo4.jpeg"style="border-radius: 10px; " alt="Logo 4" width="70%" class="shadowbtn">
+                     </div>
+                    <!--  <div class="col"style="display: flex; justify-content: center;align-items: center;">
+                       <img src="images1/tiaup/png.jpeg"style="border-radius: 5px; " alt="Logo 4" width="100%" class="shadowbtn">
+                     </div>
+                   -->
+                 </div>
+                 <!-- </div> -->
+                 
+               </div>
+             </div>       
            </div>
          </div>
+       </div>
 
-        </div>  
  <!-- <div class="container">
   <div class="row">
     
@@ -327,7 +394,7 @@
    </div>   
 
 
-
+<?php include 'content.php' ?>
 
    <br><br>
   <section  class=""    id="parallex2" style="background-image: url(images1/bk2.jpg); box-shadow: 0 10px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 5%);"  >
@@ -622,9 +689,11 @@
                 <br><br><br> <br>
 
               <section id="parallex2"  style="background-image: url(images1/bk2.jpg); box-shadow: 0 10px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 5%);height: 250px;">
-                <div class="container" style="display: flex;">
-                  <div class="col-lg-6 float-bob-x" style="background-image:url(images1/pattern5.png);"><img class="float-bob" src="images1/man.png" width="60%" ></div>
-                  <div class="col-lg-6" style="display: flex; justify-content: center; align-items: center;margin-top:-100px ;"> <a href="" class="btn btn-lg shadowbtn "style="  border-left:4px solid #ffb900;text-shadow: 0px 3px 12px #c3c3c3; ">BROWSE OUR WORK</a></div>
+                <div class="container" >
+                  <div class="col-md-6   " style="background-image:url(images1/pattern5.png);"><img class="float-bob Parawidth" src="images1/man.png">
+                  </div>
+                  <div class="col-md-6 col-sm-6  ParaHigh" > <a href="" class="btn btn-lg shadowbtn " style="  border-left:4px solid #ffb900;text-shadow: 0px 3px 12px #c3c3c3; ">BROWSE OUR WORK</a>
+                  </div>
                 </div>
               </section>  
               <br><br><br><br>

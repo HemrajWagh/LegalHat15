@@ -1005,7 +1005,7 @@ color: #ffb900;;
     @media(max-width:768px){
 
      .navbar-collapse{
-        width: 78%;
+        width: 65%;
        background: #FECE1A;
        margin-bottom: 20px;
      }   
@@ -2755,7 +2755,7 @@ input[type="radio"]{
     } 
 
     .flow{
-      padding-bottom: 25px;
+      padding-top: 25px;
     } 
 }
 
@@ -2859,6 +2859,10 @@ input[type="radio"]{
   padding-bottom: 80px;
 }
 
+.Parawidth{
+    width: 60%;
+}
+
 @media(max-width:480px){
 
   #paraFlex{
@@ -2873,10 +2877,10 @@ input[type="radio"]{
     padding-bottom: 80px;
   }
 
+  .Parawidth{
+      width: 100%
+
 }
-
-
-
 
 
 .whtsapp{
@@ -2887,6 +2891,8 @@ bottom: 4%;
 float: left;
 z-index: 9;
 }
+}
+
 
 @media(max-width: 480px)
 {
