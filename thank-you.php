@@ -105,6 +105,30 @@
           /* border-left: 5px solid #ffb900;}*/
         </style>
 
+
+        <style type="text/css">
+        .shape1{
+          position:absolute;
+          top:20%;
+          z-index:-1;
+          left:30px;
+          -webkit-animation:rotate3d 4s linear infinite; 
+          animation:rotate3d 4s linear infinite;
+          opacity:.4;
+        }
+
+
+        .shape2{
+          position:absolute;z-index:-1;top:60%;left:15%
+        }
+        .shape3{position:absolute;left:25%;bottom:15%;z-index:-1;-webkit-animation:animationFramesOne 15s infinite linear;animation:animationFramesOne 15s infinite linear}
+        .shape4{position:absolute;right:25%;bottom:15%;z-index:-1;-webkit-animation:animationFramesOne 20s infinite linear;animation:animationFramesOne 20s infinite linear}
+        .shape5{position:absolute;right:5%;top:10%;z-index:-1;-webkit-animation:movebounce 5s linear infinite;animation:movebounce 5s linear infinite;opacity:.2}
+        .shape6{position:absolute;z-index:-1;top:40%;right:10%}
+        .shape7{position:absolute;left:25%;top:15%;z-index:-1;-webkit-animation:animationFramesOne 20s infinite linear;animation:animationFramesOne 20s infinite linear}
+        .shape8{position:absolute;z-index:-1;top:15%;right:10%}
+      </style>
+
       </head>
 
       <body>
@@ -174,9 +198,16 @@
       </header>
 
 
+<<<<<<< HEAD
       <div class="container txtshadow hero">
         <div ></div>
         <div class="col-lg-6 col-sm-6 float-bob heroSlide" style="background-image: url(images1/pic1.webp); z-index: 99; " ><img class="float-bob" src="images1/man.png"></div>
+=======
+      <div class="container txtshadow" style="display: flex; justify-content: center;align-items: center; padding-top: 100px; text-align: center;"  >
+       
+       
+        <div class="col-lg-6 col-sm-6 float-bob shape1" style="background-image: url(images1/cercle-shape.png); z-index: 99;  background-repeat: no-repeat;" ><img class="float-bob" src="images1/man.png"></div>
+>>>>>>> 96dab16a2c0e8b85845737db58c1ff0668f88e7e
         <div class="col-lg-6 col-sm-6">
           <h1 class="head" >" Thanks for choosing us."</h1>
           <h4>We appreciate your trust in us !</h4>
